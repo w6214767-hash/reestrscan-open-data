@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlsplit
-from urllib.request import HTTPRedirectHandler, Request, build_opener
+from urllib.request import HTTPRedirectHandler, HTTPSHandler, Request, build_opener
 
 META_URL = "https://torgi.gov.ru/new/opendata/7710568760-notice/meta.json"
 ALLOWED_HOST = "torgi.gov.ru"
@@ -34,6 +34,8 @@ RU_SUB_CA_SHA256 = "6f9d829c8e6712444fce3624658d8788672849c5d5b7b53fd9cf7e83eac4
 _CA_BUNDLE_LOCK = threading.Lock()
 _CA_TEMP_DIRECTORY: tempfile.TemporaryDirectory[str] | None = None
 _CA_BUNDLE_PATH: Path | None = None
+_PINNED_TLS_CONTEXT_LOCK = threading.Lock()
+_PINNED_TLS_CONTEXT: ssl.SSLContext | None = None
 SOURCE_ID = "gis-torgi"
 REGIONS = {"50": ("moskovskaya-oblast", "Московская область"), "77": ("moskva", "Москва")}
 CAD = re.compile(r"\b\d{2}\s*:\s*\d{2}\s*:\s*\d{6,7}\s*:\s*\d+\b")
@@ -205,6 +207,15 @@ def _cached_pinned_ru_ca_bundle(curl: Path, timeout: int) -> Path:
         _CA_BUNDLE_PATH = bundle
         return bundle
 
+
+def _pinned_tls_context(curl: Path, timeout: int) -> ssl.SSLContext:
+    global _PINNED_TLS_CONTEXT
+    with _PINNED_TLS_CONTEXT_LOCK:
+        if _PINNED_TLS_CONTEXT is None:
+            ca_file = _cached_pinned_ru_ca_bundle(curl, timeout)
+            _PINNED_TLS_CONTEXT = ssl.create_default_context(cafile=str(ca_file))
+        return _PINNED_TLS_CONTEXT
+
 def _curl_fetch_command(
     curl: Path,
     url: str,
@@ -248,7 +259,10 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
         command = _curl_fetch_command(curl, url, output, timeout=timeout, max_bytes=max_bytes)
         result = _run_curl(command, timeout)
         if result.returncode == 60:
-            ca_file = _cached_pinned_ru_ca_bundle(curl, timeout)
+            context = _pinned_tls_context(curl, timeout)
+            ca_file = Path(context.get_ca_certs(binary_form=False) and _CA_BUNDLE_PATH or "")
+            if not ca_file.is_file():
+                raise BridgeError("ru_ca_bundle_unavailable")
             command = _curl_fetch_command(
                 curl,
                 url,
@@ -276,7 +290,10 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
 
 def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024) -> Any:
     _approved_url(url)
-    opener = build_opener(SameOriginRedirects())
+    handlers: list[Any] = [SameOriginRedirects()]
+    if _PINNED_TLS_CONTEXT is not None:
+        handlers.append(HTTPSHandler(context=_PINNED_TLS_CONTEXT))
+    opener = build_opener(*handlers)
     request = Request(url, headers={"Accept": "application/json, application/zip", "User-Agent": USER_AGENT})
     try:
         with opener.open(request, timeout=timeout) as response:

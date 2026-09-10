@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import gzip
+import hashlib
 import io
 import json
 import re
@@ -25,6 +26,8 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 META_URL = "https://torgi.gov.ru/new/opendata/7710568760-notice/meta.json"
 ALLOWED_HOST = "torgi.gov.ru"
+RU_ROOT_CA_URL = "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt"
+RU_ROOT_CA_SHA256 = "936a43fea6e8e525bcc0f81acd9c3d21b4fc4b9b68acea7906d698005afc6504"
 SOURCE_ID = "gis-torgi"
 REGIONS = {"50": ("moskovskaya-oblast", "Московская область"), "77": ("moskva", "Москва")}
 CAD = re.compile(r"\b\d{2}\s*:\s*\d{2}\s*:\s*\d{6,7}\s*:\s*\d+\b")
@@ -97,46 +100,114 @@ def _network_error_code(exc: BaseException) -> str:
 
 
 
+def _run_curl(command: list[str], timeout: int) -> subprocess.CompletedProcess[str]:
+    try:
+        return subprocess.run(
+            command,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
+            timeout=timeout + 5,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise BridgeError("upstream_timeout") from exc
+
+
+def _download_pinned_ru_root(curl: Path, destination: Path, timeout: int) -> None:
+    command = [
+        str(curl),
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-redirs",
+        "3",
+        "--proto",
+        "=https",
+        "--proto-redir",
+        "=https",
+        "--connect-timeout",
+        str(min(timeout, 15)),
+        "--max-time",
+        str(timeout),
+        "--max-filesize",
+        str(64 * 1024),
+        "--output",
+        str(destination),
+        RU_ROOT_CA_URL,
+    ]
+    result = _run_curl(command, timeout)
+    if result.returncode:
+        raise BridgeError("ru_root_ca_download_failed")
+    raw = destination.read_bytes()
+    if (
+        len(raw) > 64 * 1024
+        or hashlib.sha256(raw).hexdigest() != RU_ROOT_CA_SHA256
+        or b"-----BEGIN CERTIFICATE-----" not in raw
+        or b"-----END CERTIFICATE-----" not in raw
+    ):
+        raise BridgeError("ru_root_ca_integrity_error")
+
+
+def _curl_fetch_command(
+    curl: Path,
+    url: str,
+    output: Path,
+    *,
+    timeout: int,
+    max_bytes: int,
+    ca_file: Path | None = None,
+) -> list[str]:
+    command = [
+        str(curl),
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--compressed",
+        "--proto",
+        "=https",
+        "--connect-timeout",
+        str(min(timeout, 15)),
+        "--max-time",
+        str(timeout),
+        "--max-filesize",
+        str(max_bytes),
+        "--header",
+        "Accept: application/json, application/zip",
+        "--user-agent",
+        USER_AGENT,
+    ]
+    if ca_file is not None:
+        command.extend(["--cacert", str(ca_file)])
+    command.extend(["--output", str(output), url])
+    return command
+
+
 def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
     curl = Path("/usr/bin/curl")
     if not curl.is_file():
         raise BridgeError("upstream_tls_certificate_error")
     with tempfile.TemporaryDirectory() as directory:
         output = Path(directory) / "response.bin"
-        command = [
-            str(curl),
-            "--fail",
-            "--silent",
-            "--show-error",
-            "--compressed",
-            "--proto",
-            "=https",
-            "--connect-timeout",
-            str(min(timeout, 15)),
-            "--max-time",
-            str(timeout),
-            "--max-filesize",
-            str(max_bytes),
-            "--header",
-            "Accept: application/json, application/zip",
-            "--user-agent",
-            USER_AGENT,
-            "--output",
-            str(output),
-            url,
-        ]
-        try:
-            result = subprocess.run(
-                command,
-                stdin=subprocess.DEVNULL,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.PIPE,
-                text=True,
-                timeout=timeout + 5,
-                check=False,
+        command = _curl_fetch_command(curl, url, output, timeout=timeout, max_bytes=max_bytes)
+        result = _run_curl(command, timeout)
+        if result.returncode == 60:
+            ca_file = Path(directory) / "russian-trusted-root.pem"
+            try:
+                _download_pinned_ru_root(curl, ca_file, timeout)
+            except BridgeError as exc:
+                raise BridgeError("upstream_tls_certificate_error") from exc
+            command = _curl_fetch_command(
+                curl,
+                url,
+                output,
+                timeout=timeout,
+                max_bytes=max_bytes,
+                ca_file=ca_file,
             )
-        except subprocess.TimeoutExpired as exc:
-            raise BridgeError("upstream_timeout") from exc
+            result = _run_curl(command, timeout)
         error_codes = {
             6: "upstream_dns_error",
             7: "upstream_connection_refused",
@@ -152,7 +223,6 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
     if len(raw) > max_bytes:
         raise BridgeError("upstream_response_too_large")
     return _decode_json(raw, url)
-
 
 def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024) -> Any:
     _approved_url(url)

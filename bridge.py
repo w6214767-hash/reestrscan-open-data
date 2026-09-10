@@ -14,6 +14,7 @@ import ssl
 import subprocess
 import sys
 import tempfile
+import threading
 import zipfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -30,6 +31,9 @@ RU_ROOT_CA_URL = "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.c
 RU_ROOT_CA_SHA256 = "936a43fea6e8e525bcc0f81acd9c3d21b4fc4b9b68acea7906d698005afc6504"
 RU_SUB_CA_URL = "http://nuc-cdp.voskhod.ru/cdp/subca_ssl_rsa2024.crt"
 RU_SUB_CA_SHA256 = "6f9d829c8e6712444fce3624658d8788672849c5d5b7b53fd9cf7e83eac4193e"
+_CA_BUNDLE_LOCK = threading.Lock()
+_CA_TEMP_DIRECTORY: tempfile.TemporaryDirectory[str] | None = None
+_CA_BUNDLE_PATH: Path | None = None
 SOURCE_ID = "gis-torgi"
 REGIONS = {"50": ("moskovskaya-oblast", "Московская область"), "77": ("moskva", "Москва")}
 CAD = re.compile(r"\b\d{2}\s*:\s*\d{2}\s*:\s*\d{6,7}\s*:\s*\d+\b")
@@ -185,6 +189,22 @@ def _build_pinned_ru_ca_bundle(curl: Path, directory: Path, timeout: int) -> Pat
     )
     return bundle
 
+
+def _cached_pinned_ru_ca_bundle(curl: Path, timeout: int) -> Path:
+    global _CA_BUNDLE_PATH, _CA_TEMP_DIRECTORY
+    with _CA_BUNDLE_LOCK:
+        if _CA_BUNDLE_PATH is not None and _CA_BUNDLE_PATH.is_file():
+            return _CA_BUNDLE_PATH
+        temp_directory = tempfile.TemporaryDirectory(prefix="reestrscan-ca-")
+        try:
+            bundle = _build_pinned_ru_ca_bundle(curl, Path(temp_directory.name), timeout)
+        except BaseException:
+            temp_directory.cleanup()
+            raise
+        _CA_TEMP_DIRECTORY = temp_directory
+        _CA_BUNDLE_PATH = bundle
+        return bundle
+
 def _curl_fetch_command(
     curl: Path,
     url: str,
@@ -228,7 +248,7 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
         command = _curl_fetch_command(curl, url, output, timeout=timeout, max_bytes=max_bytes)
         result = _run_curl(command, timeout)
         if result.returncode == 60:
-            ca_file = _build_pinned_ru_ca_bundle(curl, Path(directory), timeout)
+            ca_file = _cached_pinned_ru_ca_bundle(curl, timeout)
             command = _curl_fetch_command(
                 curl,
                 url,

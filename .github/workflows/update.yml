@@ -13,27 +13,80 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: gis-torgi-feed
   cancel-in-progress: false
 
 jobs:
-  update:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Test bridge
         run: python -m unittest discover -s tests -v
-      - name: Probe free upstream transports
-        run: python scripts/probe_transport.py
+
+  fetch:
+    if: github.event_name != 'push'
+    needs: test
+    runs-on: [self-hosted, macOS, ARM64, gis-torgi-ru]
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
       - name: Download and normalize official OpenData
-        run: python bridge.py --days 30 --max-details 2500 --workers 8
+        run: python3 bridge.py --days 30 --max-details 2500 --workers 8 --output out/feed-v1.json --status out/status.json
+      - name: Upload candidate feed
+        uses: actions/upload-artifact@v4
+        with:
+          name: gis-torgi-candidate
+          path: out
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    if: github.event_name != 'push'
+    needs: fetch
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          name: gis-torgi-candidate
+          path: incoming
+      - name: Validate isolated candidate
+        run: |
+          python - <<'PY'
+          import json
+          import shutil
+          from pathlib import Path
+          import bridge
+
+          feed = json.loads(Path("incoming/feed-v1.json").read_text(encoding="utf-8"))
+          status = json.loads(Path("incoming/status.json").read_text(encoding="utf-8"))
+          bridge.validate_feed(feed)
+          if not feed["lots"] or status.get("ok") is not True:
+              raise SystemExit("candidate is empty or unsuccessful")
+          Path("public").mkdir(exist_ok=True)
+          shutil.copyfile("incoming/feed-v1.json", "public/feed-v1.json")
+          shutil.copyfile("incoming/status.json", "public/status.json")
+          PY
       - name: Publish changed feed
         run: |
           git add public/feed-v1.json public/status.json

@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - bridge.py
+      - scripts/**
       - tests/**
       - .github/workflows/update.yml
   schedule:
@@ -23,12 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Test bridge
         run: python -m unittest discover -s tests -v
+      - name: Probe free upstream transports
+        run: python scripts/probe_transport.py
       - name: Download and normalize official OpenData
         run: python bridge.py --days 30 --max-details 2500 --workers 8
       - name: Publish changed feed

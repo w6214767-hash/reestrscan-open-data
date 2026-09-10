@@ -10,6 +10,7 @@ import json
 import re
 import socket
 import ssl
+import subprocess
 import sys
 import tempfile
 import zipfile
@@ -95,6 +96,64 @@ def _network_error_code(exc: BaseException) -> str:
     return f"upstream_network_error_{type(reason).__name__.casefold()}"
 
 
+
+def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
+    curl = Path("/usr/bin/curl")
+    if not curl.is_file():
+        raise BridgeError("upstream_tls_certificate_error")
+    with tempfile.TemporaryDirectory() as directory:
+        output = Path(directory) / "response.bin"
+        command = [
+            str(curl),
+            "--fail",
+            "--silent",
+            "--show-error",
+            "--compressed",
+            "--proto",
+            "=https",
+            "--connect-timeout",
+            str(min(timeout, 15)),
+            "--max-time",
+            str(timeout),
+            "--max-filesize",
+            str(max_bytes),
+            "--header",
+            "Accept: application/json, application/zip",
+            "--user-agent",
+            USER_AGENT,
+            "--output",
+            str(output),
+            url,
+        ]
+        try:
+            result = subprocess.run(
+                command,
+                stdin=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.PIPE,
+                text=True,
+                timeout=timeout + 5,
+                check=False,
+            )
+        except subprocess.TimeoutExpired as exc:
+            raise BridgeError("upstream_timeout") from exc
+        error_codes = {
+            6: "upstream_dns_error",
+            7: "upstream_connection_refused",
+            28: "upstream_timeout",
+            35: "upstream_tls_error",
+            56: "upstream_connection_reset",
+            60: "upstream_tls_certificate_error",
+            63: "upstream_response_too_large",
+        }
+        if result.returncode:
+            raise BridgeError(error_codes.get(result.returncode, f"upstream_curl_error_{result.returncode}"))
+        raw = output.read_bytes()
+    if len(raw) > max_bytes:
+        raise BridgeError("upstream_response_too_large")
+    return _decode_json(raw, url)
+
+
 def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024) -> Any:
     _approved_url(url)
     opener = build_opener(SameOriginRedirects())
@@ -105,7 +164,10 @@ def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024
     except HTTPError as exc:
         raise BridgeError(f"upstream_http_{exc.code}") from None
     except (URLError, TimeoutError, OSError) as exc:
-        raise BridgeError(_network_error_code(exc)) from exc
+        code = _network_error_code(exc)
+        if code == "upstream_tls_certificate_error":
+            return _fetch_with_system_curl(url, timeout=timeout, max_bytes=max_bytes)
+        raise BridgeError(code) from exc
     if len(raw) > max_bytes:
         raise BridgeError("upstream_response_too_large")
     return _decode_json(raw, url)

@@ -28,6 +28,8 @@ META_URL = "https://torgi.gov.ru/new/opendata/7710568760-notice/meta.json"
 ALLOWED_HOST = "torgi.gov.ru"
 RU_ROOT_CA_URL = "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt"
 RU_ROOT_CA_SHA256 = "936a43fea6e8e525bcc0f81acd9c3d21b4fc4b9b68acea7906d698005afc6504"
+RU_SUB_CA_URL = "http://nuc-cdp.voskhod.ru/cdp/subca_ssl_rsa2024.crt"
+RU_SUB_CA_SHA256 = "6f9d829c8e6712444fce3624658d8788672849c5d5b7b53fd9cf7e83eac4193e"
 SOURCE_ID = "gis-torgi"
 REGIONS = {"50": ("moskovskaya-oblast", "Московская область"), "77": ("moskva", "Москва")}
 CAD = re.compile(r"\b\d{2}\s*:\s*\d{2}\s*:\s*\d{6,7}\s*:\s*\d+\b")
@@ -115,19 +117,28 @@ def _run_curl(command: list[str], timeout: int) -> subprocess.CompletedProcess[s
         raise BridgeError("upstream_timeout") from exc
 
 
-def _download_pinned_ru_root(curl: Path, destination: Path, timeout: int) -> None:
+def _download_pinned_certificate(
+    curl: Path,
+    destination: Path,
+    *,
+    url: str,
+    sha256: str,
+    timeout: int,
+) -> None:
+    approved = {
+        RU_ROOT_CA_URL: ("https", "ru_root_ca"),
+        RU_SUB_CA_URL: ("http", "ru_sub_ca"),
+    }
+    if url not in approved:
+        raise BridgeError("unapproved_ca_url")
+    scheme, label = approved[url]
     command = [
         str(curl),
         "--fail",
         "--silent",
         "--show-error",
-        "--location",
-        "--max-redirs",
-        "3",
         "--proto",
-        "=https",
-        "--proto-redir",
-        "=https",
+        f"={scheme}",
         "--connect-timeout",
         str(min(timeout, 15)),
         "--max-time",
@@ -136,20 +147,43 @@ def _download_pinned_ru_root(curl: Path, destination: Path, timeout: int) -> Non
         str(64 * 1024),
         "--output",
         str(destination),
-        RU_ROOT_CA_URL,
+        url,
     ]
     result = _run_curl(command, timeout)
     if result.returncode:
-        raise BridgeError("ru_root_ca_download_failed")
+        raise BridgeError(f"{label}_download_failed")
     raw = destination.read_bytes()
     if (
         len(raw) > 64 * 1024
-        or hashlib.sha256(raw).hexdigest() != RU_ROOT_CA_SHA256
+        or hashlib.sha256(raw).hexdigest() != sha256
         or b"-----BEGIN CERTIFICATE-----" not in raw
         or b"-----END CERTIFICATE-----" not in raw
     ):
-        raise BridgeError("ru_root_ca_integrity_error")
+        raise BridgeError(f"{label}_integrity_error")
 
+
+def _build_pinned_ru_ca_bundle(curl: Path, directory: Path, timeout: int) -> Path:
+    root = directory / "russian-trusted-root.pem"
+    intermediate = directory / "russian-trusted-sub-2024.pem"
+    bundle = directory / "russian-trusted-bundle.pem"
+    _download_pinned_certificate(
+        curl,
+        root,
+        url=RU_ROOT_CA_URL,
+        sha256=RU_ROOT_CA_SHA256,
+        timeout=timeout,
+    )
+    _download_pinned_certificate(
+        curl,
+        intermediate,
+        url=RU_SUB_CA_URL,
+        sha256=RU_SUB_CA_SHA256,
+        timeout=timeout,
+    )
+    bundle.write_bytes(
+        root.read_bytes().rstrip() + b"\n" + intermediate.read_bytes().rstrip() + b"\n"
+    )
+    return bundle
 
 def _curl_fetch_command(
     curl: Path,
@@ -194,11 +228,7 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
         command = _curl_fetch_command(curl, url, output, timeout=timeout, max_bytes=max_bytes)
         result = _run_curl(command, timeout)
         if result.returncode == 60:
-            ca_file = Path(directory) / "russian-trusted-root.pem"
-            try:
-                _download_pinned_ru_root(curl, ca_file, timeout)
-            except BridgeError as exc:
-                raise BridgeError("upstream_tls_certificate_error") from exc
+            ca_file = _build_pinned_ru_ca_bundle(curl, Path(directory), timeout)
             command = _curl_fetch_command(
                 curl,
                 url,

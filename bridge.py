@@ -476,8 +476,8 @@ def _source_entries(meta: Any) -> list[dict[str, Any]]:
     output = []
     for item in entries:
         absolute = urljoin(META_URL, str(item["source"]))
-        path = urlsplit(absolute).path.casefold()
-        if any(marker in path for marker in ("meta.json", "structure", "list.json")):
+        filename = Path(urlsplit(absolute).path).name.casefold()
+        if filename in {"meta.json", "list.json"} or filename.startswith("structure-"):
             continue
         try:
             _approved_url(absolute)

@@ -8,6 +8,8 @@ import gzip
 import io
 import json
 import re
+import socket
+import ssl
 import sys
 import tempfile
 import zipfile
@@ -30,7 +32,7 @@ RU = str.maketrans({
     "к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s","т":"t","у":"u","ф":"f",
     "х":"h","ц":"ts","ч":"ch","ш":"sh","щ":"sch","ъ":"","ы":"y","ь":"","э":"e","ю":"yu","я":"ya",
 })
-USER_AGENT = "ReestrScan-OpenData-Bridge/1.0 (+https://github.com/w6214767-hash/reestrscan-open-data)"
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 
 class BridgeError(RuntimeError):
@@ -75,6 +77,24 @@ def _decode_json(raw: bytes, url: str) -> Any:
         raise BridgeError("invalid_upstream_json") from exc
 
 
+
+def _network_error_code(exc: BaseException) -> str:
+    reason = getattr(exc, "reason", exc)
+    if isinstance(reason, ssl.SSLCertVerificationError):
+        return "upstream_tls_certificate_error"
+    if isinstance(reason, ssl.SSLError):
+        return "upstream_tls_error"
+    if isinstance(reason, socket.gaierror):
+        return "upstream_dns_error"
+    if isinstance(reason, (TimeoutError, socket.timeout)):
+        return "upstream_timeout"
+    if isinstance(reason, ConnectionRefusedError):
+        return "upstream_connection_refused"
+    if isinstance(reason, ConnectionResetError):
+        return "upstream_connection_reset"
+    return f"upstream_network_error_{type(reason).__name__.casefold()}"
+
+
 def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024) -> Any:
     _approved_url(url)
     opener = build_opener(SameOriginRedirects())
@@ -85,7 +105,7 @@ def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024
     except HTTPError as exc:
         raise BridgeError(f"upstream_http_{exc.code}") from None
     except (URLError, TimeoutError, OSError) as exc:
-        raise BridgeError("upstream_network_error") from exc
+        raise BridgeError(_network_error_code(exc)) from exc
     if len(raw) > max_bytes:
         raise BridgeError("upstream_response_too_large")
     return _decode_json(raw, url)

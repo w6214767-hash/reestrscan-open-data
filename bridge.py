@@ -259,10 +259,8 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
         command = _curl_fetch_command(curl, url, output, timeout=timeout, max_bytes=max_bytes)
         result = _run_curl(command, timeout)
         if result.returncode == 60:
-            context = _pinned_tls_context(curl, timeout)
-            ca_file = Path(context.get_ca_certs(binary_form=False) and _CA_BUNDLE_PATH or "")
-            if not ca_file.is_file():
-                raise BridgeError("ru_ca_bundle_unavailable")
+            _pinned_tls_context(curl, timeout)
+            ca_file = _cached_pinned_ru_ca_bundle(curl, timeout)
             command = _curl_fetch_command(
                 curl,
                 url,

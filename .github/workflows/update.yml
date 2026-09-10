@@ -1,0 +1,44 @@
+name: Update public GIS Torgi feed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - bridge.py
+      - tests/**
+      - .github/workflows/update.yml
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gis-torgi-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test bridge
+        run: python -m unittest discover -s tests -v
+      - name: Download and normalize official OpenData
+        run: python bridge.py --days 30 --max-details 2500 --workers 8
+      - name: Publish changed feed
+        run: |
+          git add public/feed-v1.json public/status.json
+          if git diff --cached --quiet; then
+            echo "Feed is unchanged"
+            exit 0
+          fi
+          git config user.name "reestrscan-open-data[bot]"
+          git config user.email "reestrscan-open-data[bot]@users.noreply.github.com"
+          git commit -m "data: refresh GIS Torgi feed"
+          git push

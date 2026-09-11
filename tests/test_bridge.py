@@ -90,6 +90,25 @@ class BridgeTests(unittest.TestCase):
         with self.assertRaises(bridge.BridgeError):
             bridge._approved_url("https://example.com/data.json")
 
+    def test_notice_without_price_is_not_a_free_auction(self):
+        row, detail = self.fixture()
+        del detail['exportObject']['structuredObject']['notice']['lots'][0]['priceMin']
+        feed, counts = bridge.build_feed([row], {row['href']: detail})
+        self.assertEqual(feed['lots'], [])
+        self.assertEqual(counts['price_missing'], 1)
+
+    def test_deadline_does_not_change_source_version(self):
+        row, detail = self.fixture()
+        before, _ = bridge.build_feed([row], {row['href']: detail}, current=datetime(2026, 9, 11, tzinfo=timezone.utc))
+        after, _ = bridge.build_feed([row], {row['href']: detail}, current=datetime(2026, 10, 11, tzinfo=timezone.utc))
+        self.assertEqual(before, after)
+
+    def test_modified_date_takes_precedence_over_publication(self):
+        row, detail = self.fixture()
+        row['lastUpdateDate'] = '2026-09-11T11:00:00Z'
+        feed, _ = bridge.build_feed([row], {row['href']: detail})
+        self.assertEqual(feed['lots'][0]['source_updated_at'], '2026-09-11T11:00:00Z')
+
 
 if __name__ == "__main__":
     unittest.main()

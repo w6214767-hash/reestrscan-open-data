@@ -481,9 +481,8 @@ def _status(lot: dict[str, Any], deadline: datetime | None, current: datetime) -
     raw = str(lot.get("lotStatus", "")).upper()
     if any(word in raw for word in ("CANCEL", "ANNUL", "WITHDRAW")):
         return "cancelled"
-    if any(word in raw for word in ("COMPLETE", "RESULT", "CONTRACT", "FINISH")) or (
-        deadline is not None and deadline <= current
-    ):
+    # Expiry is computed by the catalogue; it must not mutate the source version.
+    if any(word in raw for word in ("COMPLETE", "RESULT", "CONTRACT", "FINISH")):
         return "closed"
     if deadline and any(word in raw for word in ("PUBLISH", "BIDD", "APPLICATION", "ACTIVE")):
         return "accepting"
@@ -499,7 +498,7 @@ def _region_code(row: dict[str, Any]) -> str:
 
 
 def _row_date(row: dict[str, Any]) -> datetime:
-    for key in ("publishDate", "lastUpdateDate", "createDate"):
+    for key in ("lastUpdateDate", "updateDate", "publishDate", "createDate"):
         if parsed := _date(row.get(key)):
             return parsed
     return datetime.min.replace(tzinfo=timezone.utc)
@@ -583,7 +582,7 @@ def fetch_details(rows: list[dict[str, Any]], workers: int) -> tuple[dict[str, A
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(load, row): row for row in rows}
-        for future in as_completed(futures):
+        for completed, future in enumerate(as_completed(futures), 1):
             row = futures[future]
             try:
                 reg_num, href, payload = future.result()
@@ -593,7 +592,6 @@ def fetch_details(rows: list[dict[str, Any]], workers: int) -> tuple[dict[str, A
             except BridgeError as exc:
                 failures += 1
                 print(f'detail_failed={exc} failures={failures}', flush=True)
-            completed = len(details) // 3 + failures
             print(f'details_progress={completed}/{len(rows)}', flush=True)
     return details, failures
 
@@ -611,6 +609,7 @@ def build_feed(
         "details_invalid": 0,
         "regions_skipped": 0,
         "lots": 0,
+        "price_missing": 0,
     }
     for row in index_rows:
         reg_num = str(row.get("regNum", "")).strip()
@@ -622,7 +621,9 @@ def build_feed(
         notice = _notice(payload)
         lots = notice.get("lots") if notice else None
         common = notice.get("commonInfo", {}) if notice else {}
-        published = _date(common.get("publishDate")) or _date(row.get("publishDate"))
+        published = max((stamp for node in (common, row)
+                         for key in ('lastUpdateDate', 'updateDate', 'publishDate')
+                         if (stamp := _date(node.get(key)))), default=None)
         if not isinstance(lots, list) or published is None or not reg_num:
             counts["details_invalid"] += 1
             continue
@@ -663,6 +664,16 @@ def build_feed(
                 else f"https://torgi.gov.ru/new/public/notices/view/{reg_num}"
             )
             address = (_text(info.get("estateAddress")) or municipality_name)[:500]
+            price = _decimal(lot.get('priceMin'))
+            if price is None:
+                price = _decimal(lot.get('priceMinVAT'))
+            if price is None:
+                price = _decimal(_characteristic(info, 'StartPrice', 'InitialPrice', 'MinPrice'))
+            # Notices about possible provision of land are not priced auctions.
+            # The v1 catalogue requires a price: do not invent a zero price.
+            if price is None or not price.is_finite() or price <= 0:
+                counts['price_missing'] += 1
+                continue
             output.append({
                 "external_id": external_id,
                 "title": (_text(lot.get("lotName")) or f"Лот {number} · {reg_num}")[:250],
@@ -674,11 +685,7 @@ def build_feed(
                 "category": category,
                 "transaction": transaction,
                 "status": _status(lot, deadline, current),
-                "price_minor": _minor(
-                    lot.get("priceMin")
-                    or lot.get("priceMinVAT")
-                    or _characteristic(info, "StartPrice", "InitialPrice", "MinPrice")
-                ),
+                "price_minor": _minor(price),
                 "deposit_minor": _minor(lot.get("deposit")) if lot.get("deposit") is not None else None,
                 "right_description": right,
                 "procedure": _procedure(notice, lot),

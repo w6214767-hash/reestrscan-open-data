@@ -1,13 +1,14 @@
 {
-  "detail_failures": 9,
-  "details_invalid": 29,
-  "details_missing": 9,
-  "duration_seconds": 119.5,
-  "generated_at": "2026-09-11T06:39:09.144597Z",
+  "detail_failures": 8,
+  "details_invalid": 30,
+  "details_missing": 8,
+  "duration_seconds": 115.7,
+  "generated_at": "2026-09-11T06:45:36.862776Z",
   "index_rows": 4260,
-  "lots": 62,
+  "lots": 55,
   "ok": true,
   "partial": true,
+  "price_missing": 7,
   "regions": [
     "50",
     "77"

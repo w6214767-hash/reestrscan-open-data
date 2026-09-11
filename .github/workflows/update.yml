@@ -34,10 +34,9 @@ jobs:
         run: python -m unittest discover -s tests -v
 
   fetch:
-    if: github.event_name != 'push'
     needs: test
     runs-on: [self-hosted, macOS, ARM64, gis-torgi-ru]
-    timeout-minutes: 45
+    timeout-minutes: 12
     permissions:
       contents: read
     steps:
@@ -45,7 +44,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Download and normalize official OpenData
-        run: python3 bridge.py --days 30 --max-details 2500 --workers 8 --output out/feed-v1.json --status out/status.json
+        run: python3 -u bridge.py --days 3 --max-details 100 --workers 4 --output out/feed-v1.json --status out/status.json
       - name: Upload candidate feed
         uses: actions/upload-artifact@v4
         with:
@@ -55,7 +54,6 @@ jobs:
           retention-days: 1
 
   publish:
-    if: github.event_name != 'push'
     needs: fetch
     runs-on: ubuntu-latest
     timeout-minutes: 10

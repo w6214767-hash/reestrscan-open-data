@@ -15,6 +15,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+import time
 import zipfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -288,6 +289,10 @@ def _fetch_with_system_curl(url: str, *, timeout: int, max_bytes: int) -> Any:
 
 def fetch_json(url: str, *, timeout: int = 30, max_bytes: int = 64 * 1024 * 1024) -> Any:
     _approved_url(url)
+    # curl's --max-time bounds the entire transfer, including slow response bodies.
+    # urllib's socket timeout only bounds individual reads and could stall a job.
+    if Path('/usr/bin/curl').is_file():
+        return _fetch_with_system_curl(url, timeout=timeout, max_bytes=max_bytes)
     handlers: list[Any] = [SameOriginRedirects()]
     if _PINNED_TLS_CONTEXT is not None:
         handlers.append(HTTPSHandler(context=_PINNED_TLS_CONTEXT))
@@ -585,8 +590,11 @@ def fetch_details(rows: list[dict[str, Any]], workers: int) -> tuple[dict[str, A
                 details[reg_num] = payload
                 details[href] = payload
                 details[str(row["href"])] = payload
-            except BridgeError:
+            except BridgeError as exc:
                 failures += 1
+                print(f'detail_failed={exc} failures={failures}', flush=True)
+            completed = len(details) // 3 + failures
+            print(f'details_progress={completed}/{len(rows)}', flush=True)
     return details, failures
 
 
@@ -738,10 +746,18 @@ def atomic_json(path: Path, payload: Any) -> None:
 
 
 def update(days: int, max_details: int, workers: int, output: Path, status_path: Path) -> dict[str, Any]:
+    started = time.monotonic()
+    print('stage=metadata', flush=True)
     meta = fetch_json(META_URL, max_bytes=4 * 1024 * 1024)
     sources = discover_sources(meta, days)
-    payloads = [fetch_json(source) for source in sources]
+    print(f'stage=index files={len(sources)}', flush=True)
+    payloads = []
+    for number, source in enumerate(sources, 1):
+        print(f'index_start={number}/{len(sources)}', flush=True)
+        payloads.append(fetch_json(source))
+        print(f'index_done={number}/{len(sources)} seconds={time.monotonic()-started:.1f}', flush=True)
     rows, index_counts = select_rows(payloads, max_details)
+    print(f'stage=details selected={len(rows)} workers={workers}', flush=True)
     if not rows:
         raise BridgeError("no_target_notices")
     details, detail_failures = fetch_details(rows, workers)
@@ -756,6 +772,8 @@ def update(days: int, max_details: int, workers: int, output: Path, status_path:
         "regions": sorted(REGIONS),
         "source_files": len(sources),
         "detail_failures": detail_failures,
+        "partial": detail_failures > 0 or index_counts['unique_notices'] > len(rows),
+        "duration_seconds": round(time.monotonic() - started, 1),
         **index_counts,
         **mapper_counts,
     }

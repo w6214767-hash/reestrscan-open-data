@@ -787,6 +787,7 @@ def build_feed(
 
     deduplicated = {lot["external_id"]: lot for lot in output}
     feed = {
+        "generated_at": _iso(current),
         "version": 1,
         "normalization_revision": 1,
         "source_id": SOURCE_ID,

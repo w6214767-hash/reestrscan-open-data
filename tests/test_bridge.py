@@ -101,7 +101,8 @@ class BridgeTests(unittest.TestCase):
         row, detail = self.fixture()
         before, _ = bridge.build_feed([row], {row['href']: detail}, current=datetime(2026, 9, 11, tzinfo=timezone.utc))
         after, _ = bridge.build_feed([row], {row['href']: detail}, current=datetime(2026, 10, 11, tzinfo=timezone.utc))
-        self.assertEqual(before, after)
+        self.assertEqual(before["lots"], after["lots"])
+        self.assertNotEqual(before["generated_at"], after["generated_at"])
 
     def test_modified_date_takes_precedence_over_publication(self):
         row, detail = self.fixture()

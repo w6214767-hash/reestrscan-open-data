@@ -1,0 +1,15 @@
+name: Inspect official real estate fields
+on:
+  push:
+    branches: [codex/property-source-inspection]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: [self-hosted, macOS, ARM64, gis-torgi-ru]
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - run: python3 -u inspect_property.py

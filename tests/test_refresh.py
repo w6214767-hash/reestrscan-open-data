@@ -38,9 +38,33 @@ class RefreshTests(unittest.TestCase):
 class CacheTests(unittest.TestCase):
     def test_next_run_advances_past_budget_and_does_not_download_cached_versions(self):
         rows=[{'regNum':str(i),'href':f'https://torgi.gov.ru/{i}','publishDate':'2026-09-01T00:00:00Z'} for i in range(4)]
-        def fetch(selected, workers): return ({r['href']:{'ok':r['regNum']} for r in selected},0)
+        def fetch(selected, workers, **kwargs):
+            for row in selected: kwargs['on_result'](row, {'ok':row['regNum']})
+            return ({r['href']:{'ok':r['regNum']} for r in selected},0)
         with tempfile.TemporaryDirectory() as folder, patch('bridge.fetch_details',side_effect=fetch) as download:
             first,_,_=bridge.cached_details(rows,1,2,Path(folder))
             second,_,_=bridge.cached_details(rows,1,2,Path(folder))
             self.assertEqual(len(first),2); self.assertEqual(len(second),4)
             self.assertTrue(set(r['href'] for r in download.call_args_list[0].args[0]).isdisjoint(r['href'] for r in download.call_args_list[1].args[0]))
+
+    def test_time_budget_defers_downloads_without_claiming_source_failure(self):
+        rows = [{'regNum':'1','href':'https://torgi.gov.ru/1'}]
+        with patch('bridge.fetch_json') as fetch:
+            details, failures = bridge.fetch_details(rows, 1, max_seconds=0)
+        self.assertEqual((details, failures), ({}, 0))
+        fetch.assert_not_called()
+
+    def test_completed_document_survives_interrupted_batch(self):
+        row = {'regNum':'1','href':'https://torgi.gov.ru/1','publishDate':'2026-09-01T00:00:00Z'}
+        def interrupted(rows, workers, **kwargs):
+            kwargs['on_result'](row, {'ok':'saved'})
+            raise RuntimeError('interrupted batch')
+        with tempfile.TemporaryDirectory() as folder:
+            with patch('bridge.fetch_details', side_effect=interrupted):
+                with self.assertRaises(RuntimeError):
+                    bridge.cached_details([row], 1, 1, Path(folder))
+            with patch('bridge.fetch_json') as fetch:
+                details, failures, count = bridge.cached_details([row], 1, 1, Path(folder))
+            self.assertEqual(details[row['href']], {'ok':'saved'})
+            self.assertEqual((failures, count), (0, 0))
+            fetch.assert_not_called()

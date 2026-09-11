@@ -112,3 +112,28 @@ class BridgeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class PropertyTests(unittest.TestCase):
+    def test_structured_property_categories_override_incidental_words(self):
+        self.assertEqual(bridge._category({'lotName':'Машино-место для автомобиля'}, {}), 'parking')
+        self.assertEqual(bridge._category({'lotName':'Право водопользования участком акватории'}, {}), 'other')
+        self.assertEqual(bridge._category({'lotDescription':'Здание на земельном участке'}, {'category':{'name':'Нежилое помещение'}}), 'commercial')
+
+    def test_mixed_land_procedure_is_not_evidence_of_lease_price(self):
+        notice={'commonInfo':{'biddType':{'code':'ZK','name':'Аренда и продажа земельных участков'}}}
+        self.assertEqual(bridge._transaction(notice, {'lotName':'Продажа земельного участка'})[0], 'sale')
+        self.assertEqual(bridge._transaction(notice, {'lotName':'Земельный участок','additionalDetails':[{'value':{'name':'Договор аренды'}}]})[0], 'rent_unspecified')
+        self.assertEqual(bridge._transaction(notice, {'lotDescription':'Ежегодная арендная плата'})[0], 'annual_rent')
+        self.assertEqual(bridge._procedure({'commonInfo':{'biddType':{'code':'229FZ'}}}, {}), 'seized')
+
+    def test_only_document_ids_bound_to_official_attachments_are_exposed(self):
+        payload={'exportObject':{'attachments':[{'contentId':'a','URL':'https://torgi.gov.ru/new/file-store/v1/a'}, {'contentId':'b','URL':'https://evil.example/x'}]}}
+        lot={'docs':[{'id':'a','name':'Извещение.pdf'},{'id':'b','name':'Bad'},{'id':'missing','name':'Missing'}]}
+        self.assertEqual(bridge._documents(payload, {}, lot), [{'title':'Извещение.pdf','url':'https://torgi.gov.ru/new/file-store/v1/a'}])
+
+    def test_notice_and_cancellation_are_both_retained(self):
+        rows=[{'regNum':'N','href':'https://torgi.gov.ru/n','subjectEstateCode':50,'documentType':'notice','publishDate':'2026-09-01'}, {'regNum':'N','href':'https://torgi.gov.ru/c','subjectEstateCode':50,'documentType':'noticeCancel','publishDate':'2026-09-02'}]
+        selected, _=bridge.select_rows([rows],10)
+        self.assertEqual(len(selected),2)
+        events=bridge.cancellation_events(selected, {'https://torgi.gov.ru/c':{'exportObject':{'structuredObject':{'noticeCancel':{'commonInfo':{'noticeNumber':'N','publishDate':'2026-09-02T10:00:00Z'}}}}}})
+        self.assertEqual(events,[{'procedure_id':'N','external_id':None,'source_updated_at':'2026-09-02T10:00:00Z'}])

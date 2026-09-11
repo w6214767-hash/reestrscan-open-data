@@ -466,7 +466,7 @@ def _transaction(notice: dict[str, Any], lot: dict[str, Any]) -> tuple[str, str]
     common = notice.get("commonInfo", {})
     bidd = common.get("biddType", {})
     code = bidd.get("code", "") if isinstance(bidd, dict) else ""
-    details = " ".join(filter(None, (_text(x.get("value")) for x in lot.get("additionalDetails", []) if isinstance(x, dict))))
+    details = " ".join(filter(None, (_text(x.get("value")) for x in _items(lot, "additionalDetails"))))
     text = " ".join(filter(None, [details, _text(lot.get("lotName")), _text(lot.get("lotDescription"))])).casefold()
     if any(x in text for x in ("водопользован", "акватори", "рыболов", "недропользован")):
         return "other_right", "Иное право — условия в извещении"
@@ -489,18 +489,24 @@ def _procedure(notice: dict[str, Any], lot: dict[str, Any]) -> str:
         return "bankruptcy"
     if code == "229FZ" or "арестован" in name:
         return "seized"
-    ownership = lot.get("biddingObjectInfo", {}).get("ownershipForms", {})
+    info = lot.get("biddingObjectInfo")
+    ownership = info.get("ownershipForms", {}) if isinstance(info, dict) else {}
     owner_code = str(ownership.get("code", "")) if isinstance(ownership, dict) else ""
     if code in ("ZK", "178FZ") or owner_code in ("11", "12", "13", "14", "97"):
         return "municipal"
     return "other"
 
 
+def _items(node: dict, key: str) -> list[dict]:
+    value = node.get(key)
+    return [x for x in value if isinstance(x, dict)] if isinstance(value, list) else []
+
+
 def _documents(payload: Any, notice: dict, lot: dict) -> list[dict]:
     export = payload.get("exportObject", {}) if isinstance(payload, dict) else {}
-    links = {str(a.get("contentId")): a.get("URL") for a in export.get("attachments", []) if isinstance(a, dict)}
+    links = {str(a.get("contentId")): a.get("URL") for a in _items(export, "attachments")}
     output, seen = [], set()
-    for doc in lot.get("docs", []) + notice.get("docs", []):
+    for doc in _items(lot, "docs") + _items(notice, "docs"):
         if not isinstance(doc, dict):
             continue
         url = links.get(str(doc.get("id")))
@@ -518,11 +524,11 @@ def _documents(payload: Any, notice: dict, lot: dict) -> list[dict]:
 
 def _attributes(notice: dict, lot: dict, info: dict) -> list[dict]:
     output = []
-    for item in info.get("characteristics", []):
+    for item in _items(info, "characteristics"):
         if item.get("code") in ("PermittedUse", "generalPurpose"):
             value = _text(item.get("characteristicValue"))
             if value: output.append({"title": str(item.get("name", "Характеристика"))[:200], "value": value[:3000]})
-    for item in lot.get("additionalDetails", []) + notice.get("additionalDetails", []):
+    for item in _items(lot, "additionalDetails") + _items(notice, "additionalDetails"):
         if any(x in str(item.get("code", "")) for x in ("contractType", "landRestrictions", "contractYears", "contractMonths", "participantsRequirements")):
             value = _text(item.get("value"))
             if value: output.append({"title": str(item.get("name", "Условие"))[:200], "value": value[:3000]})
@@ -896,10 +902,12 @@ def update(days: int, max_details: int, workers: int, output: Path, status_path:
         raise BridgeError('empty_feed_refused')
     validate_feed(feed)
     cached_count = sum(str(r['href']) in details for r in rows)
+    unsupported = sum(r.get('documentType', 'notice') not in ('notice', 'noticeCancel') for r in rows)
     status = {
         'ok': True, 'generated_at': _iso(datetime.now(timezone.utc)), 'source_id': SOURCE_ID,
         'regions': sorted(REGIONS), 'source_files': len(sources), 'detail_failures': detail_failures,
-        'partial': cached_count < len(rows) or mapper_counts['details_invalid'] > 0,
+        'partial': cached_count < len(rows) or mapper_counts['details_invalid'] > 0 or unsupported > 0,
+        'unsupported_event_documents': unsupported,
         'duration_seconds': round(time.monotonic()-started, 1), **index_counts, **mapper_counts,
         'selected_notices': selected_count, 'cached_documents': cached_count,
         'pending_documents': len(rows)-cached_count, 'cancellation_events': len(events), 'lots': len(feed['lots']),

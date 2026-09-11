@@ -11,6 +11,8 @@ on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
@@ -34,17 +36,28 @@ jobs:
         run: python -m unittest discover -s tests -v
 
   fetch:
+    if: github.event_name != 'pull_request'
     needs: test
     runs-on: [self-hosted, macOS, ARM64, gis-torgi-ru]
-    timeout-minutes: 12
+    timeout-minutes: 25
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+      - uses: actions/cache/restore@v4
+        with:
+          path: .source-cache
+          key: gis-property-v1-${{ github.run_id }}
+          restore-keys: gis-property-v1-
       - name: Download and normalize official OpenData
-        run: python3 -u bridge.py --days 3 --max-details 100 --workers 4 --output out/feed-v1.json --status out/status.json
+        run: python3 -u bridge.py --days 7 --max-details 1200 --workers 8 --cache-dir .source-cache --output out/feed-v1.json --status out/status.json
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .source-cache
+          key: gis-property-v1-${{ github.run_id }}
       - name: Upload candidate feed
         uses: actions/upload-artifact@v4
         with:

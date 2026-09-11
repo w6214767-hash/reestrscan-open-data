@@ -441,40 +441,108 @@ def _municipality(info: dict[str, Any], region_name: str) -> tuple[str, str]:
 
 
 def _category(lot: dict[str, Any], info: dict[str, Any]) -> str:
-    haystack = " ".join(filter(None, [
-        _text(info.get("category")), _text(lot.get("lotName")), _text(lot.get("lotDescription"))
-    ])).casefold()
-    groups = (
-        ("zemlya", ("земел", "участ")),
-        ("kvartiry", ("квартир", "комнат")),
-        ("doma", ("жилой дом", "домовлад", "коттедж")),
-        ("transport", ("автомоб", "транспорт", "машин", "прицеп")),
-        ("equipment", ("оборудован", "станок", "линия")),
-        ("commercial", ("помещен", "здани", "сооружен", "нежил")),
-    )
-    return next((kind for kind, words in groups if any(word in haystack for word in words)), "other")
+    # Structured category takes precedence over incidental words in descriptions.
+    for text in (_text(info.get("category")), _text(lot.get("lotName")), _text(lot.get("lotDescription"))):
+        haystack = (text or "").casefold()
+        if any(x in haystack for x in ("водопользован", "акватори", "рыболов", "недропользован")):
+            return "other"
+        groups = (
+            ("parking", ("машино-мест", "машиномест", "машино мест", "гараж", "парковоч")),
+            ("transport", ("автомобил", "автотранспорт", "прицеп", "автобус")),
+            ("commercial", ("нежил", "коммерческ")),
+            ("kvartiry", ("квартир", "жилые помещения", "комната")),
+            ("doma", ("жилой дом", "жилые дома", "домовлад", "коттедж")),
+            ("zemlya", ("земел", "земли ", "земля")),
+            ("commercial", ("помещен", "здани", "сооружен")),
+            ("equipment", ("оборудован", "станок")),
+        )
+        for kind, words in groups:
+            if any(word in haystack for word in words):
+                return kind
+    return "other"
 
 
 def _transaction(notice: dict[str, Any], lot: dict[str, Any]) -> tuple[str, str]:
     common = notice.get("commonInfo", {})
-    haystack = " ".join(filter(None, [
-        _text(common.get("procedureName")), _text(common.get("biddType")),
-        _text(lot.get("lotName")), _text(lot.get("lotDescription")),
-    ])).casefold()
-    if re.search(r"ежегодн\w*\s+аренд", haystack):
-        return "annual_rent", "Ежегодная арендная плата"
-    if "аренд" in haystack:
-        return "lease_right", "Право заключения договора аренды"
-    return "sale", "Продажа имущества"
+    bidd = common.get("biddType", {})
+    code = bidd.get("code", "") if isinstance(bidd, dict) else ""
+    details = " ".join(filter(None, (_text(x.get("value")) for x in _items(lot, "additionalDetails"))))
+    text = " ".join(filter(None, [details, _text(lot.get("lotName")), _text(lot.get("lotDescription"))])).casefold()
+    if any(x in text for x in ("водопользован", "акватори", "рыболов", "недропользован")):
+        return "other_right", "Иное право — условия в извещении"
+    if re.search(r"(?:ежегодн|годов)\w*\s+аренд|аренд\w*\s+плат\w*\s+за\s+год", text):
+        return "annual_rent", "Годовая арендная плата"
+    if re.search(r"(?:цена|стоимость)\s+права\s+(?:на\s+)?(?:заключени|аренд)", text):
+        return "lease_right", "Плата за право заключения договора аренды"
+    if "аренд" in text:
+        return "rent_unspecified", "Аренда — период начальной платы уточняется в извещении"
+    if code == "178FZ" or any(x in text for x in ("продаж", "купли-продажи", "собственность")):
+        return "sale", "Продажа имущества"
+    return "other_right", "Вид права и основание цены уточняются в извещении"
 
 
 def _procedure(notice: dict[str, Any], lot: dict[str, Any]) -> str:
-    text = (str(notice) + str(lot)).casefold()
-    if "банкрот" in text:
+    bidd = notice.get("commonInfo", {}).get("biddType", {})
+    code = bidd.get("code", "") if isinstance(bidd, dict) else ""
+    name = (_text(bidd) or "").casefold()
+    if "банкрот" in name:
         return "bankruptcy"
-    if "арестован" in text or "исполнительн" in text:
+    if code == "229FZ" or "арестован" in name:
         return "seized"
-    return "municipal"
+    info = lot.get("biddingObjectInfo")
+    ownership = info.get("ownershipForms", {}) if isinstance(info, dict) else {}
+    owner_code = str(ownership.get("code", "")) if isinstance(ownership, dict) else ""
+    if code in ("ZK", "178FZ") or owner_code in ("11", "12", "13", "14", "97"):
+        return "municipal"
+    return "other"
+
+
+def _items(node: dict, key: str) -> list[dict]:
+    value = node.get(key)
+    return [x for x in value if isinstance(x, dict)] if isinstance(value, list) else []
+
+
+def _documents(payload: Any, notice: dict, lot: dict) -> list[dict]:
+    export = payload.get("exportObject", {}) if isinstance(payload, dict) else {}
+    links = {str(a.get("contentId")): a.get("URL") for a in _items(export, "attachments")}
+    output, seen = [], set()
+    for doc in _items(lot, "docs") + _items(notice, "docs"):
+        if not isinstance(doc, dict):
+            continue
+        url = links.get(str(doc.get("id")))
+        title = _text(doc.get("name"))
+        if not url or not title or url in seen:
+            continue
+        try:
+            _approved_url(url)
+        except BridgeError:
+            continue
+        output.append({"title": title[:200], "url": url})
+        seen.add(url)
+    return output[:100]
+
+
+def _attributes(notice: dict, lot: dict, info: dict) -> list[dict]:
+    output = []
+    for item in _items(info, "characteristics"):
+        if item.get("code") in ("PermittedUse", "generalPurpose"):
+            value = _text(item.get("characteristicValue"))
+            if value: output.append({"title": str(item.get("name", "Характеристика"))[:200], "value": value[:3000]})
+    for item in _items(lot, "additionalDetails") + _items(notice, "additionalDetails"):
+        if any(x in str(item.get("code", "")) for x in ("contractType", "landRestrictions", "contractYears", "contractMonths", "participantsRequirements")):
+            value = _text(item.get("value"))
+            if value: output.append({"title": str(item.get("name", "Условие"))[:200], "value": value[:3000]})
+    owner = _text(info.get("ownershipForms"))
+    if owner: output.insert(0, {"title": "Форма собственности", "value": owner[:3000]})
+    return output[:30]
+
+
+def _coordinates(info: dict) -> dict:
+    # Never infer coordinates from cadastral numbers, addresses or unknown CRS.
+    lat, lon = _decimal(info.get("latitude")), _decimal(info.get("longitude"))
+    if lat is not None and lon is not None and lat.is_finite() and lon.is_finite() and -90 <= lat <= 90 and -180 <= lon <= 180:
+        return {"latitude": float(lat), "longitude": float(lon), "location_accuracy": "approximate"}
+    return {"latitude": None, "longitude": None, "location_accuracy": "unknown"}
 
 
 def _status(lot: dict[str, Any], deadline: datetime | None, current: datetime) -> str:
@@ -561,12 +629,13 @@ def select_rows(payloads: list[Any], max_details: int) -> tuple[list[dict[str, A
         reg_num = str(row.get("regNum", "")).strip()
         href = str(row.get("href", "")).strip()
         if reg_num and href:
-            newest[reg_num] = row
+            newest[(reg_num, row.get("documentType", "notice"))] = row
     selected = sorted(newest.values(), key=_row_date, reverse=True)[:max_details]
     return selected, {
         "index_rows": len(rows),
         "target_rows": len(target),
-        "unique_notices": len(newest),
+        "unique_notices": len({str(r["regNum"]) for r in newest.values()}),
+        "unique_documents": len(newest),
         "selected_notices": len(selected),
     }
 
@@ -578,7 +647,7 @@ def fetch_details(rows: list[dict[str, Any]], workers: int) -> tuple[dict[str, A
     def load(row: dict[str, Any]) -> tuple[str, str, Any]:
         href = urljoin(META_URL, str(row["href"]))
         _approved_url(href)
-        return str(row["regNum"]), href, fetch_json(href, max_bytes=16 * 1024 * 1024)
+        return str(row["regNum"]), href, fetch_json(href, timeout=15, max_bytes=16 * 1024 * 1024)
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(load, row): row for row in rows}
@@ -701,17 +770,17 @@ def build_feed(
                     "cadastral_number": ident if ident in cadastral else None,
                     "address": address,
                     "area_m2": _area(info),
-                    "latitude": None,
-                    "longitude": None,
-                    "location_accuracy": "unknown",
+                    **_coordinates(info),
                 } for ident in ids[:100]],
-                "documents": [],
+                "documents": _documents(payload, notice, lot),
+                "attributes": _attributes(notice, lot, info),
             })
             counts["lots"] += 1
 
     deduplicated = {lot["external_id"]: lot for lot in output}
     feed = {
         "version": 1,
+        "normalization_revision": 1,
         "source_id": SOURCE_ID,
         "lots": sorted(deduplicated.values(), key=lambda lot: lot["external_id"]),
     }
@@ -752,37 +821,96 @@ def atomic_json(path: Path, payload: Any) -> None:
     temp.replace(path)
 
 
-def update(days: int, max_details: int, workers: int, output: Path, status_path: Path) -> dict[str, Any]:
+def _cache_key(row: dict) -> str:
+    return hashlib.sha256((str(row["href"]) + "|" + _row_date(row).isoformat()).encode()).hexdigest()
+
+
+def cached_details(rows: list[dict], workers: int, limit: int, cache_dir: Path) -> tuple[dict, int, int]:
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    state_path = cache_dir / 'attempts.json'
+    try: attempts = json.loads(state_path.read_text())
+    except (OSError, ValueError): attempts = {}
+    details, missing = {}, []
+    for row in rows:
+        path = cache_dir / (_cache_key(row) + '.json.gz')
+        try:
+            payload = json.loads(gzip.decompress(path.read_bytes()))
+            details[str(row['href'])] = payload
+        except (OSError, ValueError, EOFError):
+            missing.append(row)
+    # Unseen documents first; failed requests cannot starve the rest of the feed.
+    missing.sort(key=lambda r: (attempts.get(_cache_key(r), 0), r.get('biddTypeCode') != 'ZK', -_row_date(r).timestamp()))
+    selected = missing[:limit]
+    fresh, failures = fetch_details(selected, workers)
+    for row in selected:
+        key = _cache_key(row)
+        attempts[key] = time.time()
+        payload = fresh.get(str(row['href']))
+        if payload is not None:
+            (cache_dir / (key + '.json.gz')).write_bytes(gzip.compress(json.dumps(payload, ensure_ascii=False).encode()))
+            details[str(row['href'])] = payload
+    current_keys = {_cache_key(r) for r in rows}
+    attempts = {k:v for k,v in attempts.items() if k in current_keys}
+    for old in cache_dir.glob('*.json.gz'):
+        if old.name.removesuffix('.json.gz') not in current_keys:
+            old.unlink()
+    atomic_json(state_path, attempts)
+    return details, failures, len(selected)
+
+
+def cancellation_events(rows: list[dict], details: dict) -> list[dict]:
+    events = []
+    for row in sorted(rows, key=_row_date):
+        payload = details.get(str(row['href']), {})
+        structured = payload.get('exportObject', {}).get('structuredObject', {})
+        event = structured.get('noticeCancel')
+        if not isinstance(event, dict):
+            continue
+        common = event.get('commonInfo', {})
+        stamp = _date(common.get('publishDate'))
+        if not stamp:
+            continue
+        reg = str(common.get('noticeNumber', row['regNum']))
+        number = common.get('lotNumber')
+        events.append({'procedure_id': reg, 'external_id': f'{reg}:{number}' if number is not None else None, 'source_updated_at': _iso(stamp)})
+    return events
+
+
+def update(days: int, max_details: int, workers: int, output: Path, status_path: Path, cache_dir: Path | None = None) -> dict[str, Any]:
     started = time.monotonic()
     print('stage=metadata', flush=True)
     meta = fetch_json(META_URL, max_bytes=4 * 1024 * 1024)
     sources = discover_sources(meta, days)
-    print(f'stage=index files={len(sources)}', flush=True)
     payloads = []
     for number, source in enumerate(sources, 1):
         print(f'index_start={number}/{len(sources)}', flush=True)
         payloads.append(fetch_json(source))
-        print(f'index_done={number}/{len(sources)} seconds={time.monotonic()-started:.1f}', flush=True)
-    rows, index_counts = select_rows(payloads, max_details)
-    print(f'stage=details selected={len(rows)} workers={workers}', flush=True)
+    rows, index_counts = select_rows(payloads, 10000)
     if not rows:
-        raise BridgeError("no_target_notices")
-    details, detail_failures = fetch_details(rows, workers)
-    feed, mapper_counts = build_feed(rows, details)
-    if not feed["lots"]:
-        raise BridgeError("empty_feed_refused")
-    generated_at = _iso(datetime.now(timezone.utc))
+        raise BridgeError('no_target_notices')
+    if cache_dir:
+        details, detail_failures, selected_count = cached_details(rows, workers, max_details, cache_dir)
+    else:
+        selected = rows[:max_details]
+        details, detail_failures = fetch_details(selected, workers)
+        selected_count = len(selected)
+    notice_rows = [r for r in rows if r.get('documentType', 'notice') == 'notice']
+    feed, mapper_counts = build_feed(notice_rows, details)
+    events = cancellation_events(rows, details)
+    feed['cancellations'] = events
+    if not feed['lots']:
+        raise BridgeError('empty_feed_refused')
+    validate_feed(feed)
+    cached_count = sum(str(r['href']) in details for r in rows)
+    unsupported = sum(r.get('documentType', 'notice') not in ('notice', 'noticeCancel') for r in rows)
     status = {
-        "ok": True,
-        "generated_at": generated_at,
-        "source_id": SOURCE_ID,
-        "regions": sorted(REGIONS),
-        "source_files": len(sources),
-        "detail_failures": detail_failures,
-        "partial": detail_failures > 0 or index_counts['unique_notices'] > len(rows),
-        "duration_seconds": round(time.monotonic() - started, 1),
-        **index_counts,
-        **mapper_counts,
+        'ok': True, 'generated_at': _iso(datetime.now(timezone.utc)), 'source_id': SOURCE_ID,
+        'regions': sorted(REGIONS), 'source_files': len(sources), 'detail_failures': detail_failures,
+        'partial': cached_count < len(rows) or mapper_counts['details_invalid'] > 0 or unsupported > 0,
+        'unsupported_event_documents': unsupported,
+        'duration_seconds': round(time.monotonic()-started, 1), **index_counts, **mapper_counts,
+        'selected_notices': selected_count, 'cached_documents': cached_count,
+        'pending_documents': len(rows)-cached_count, 'cancellation_events': len(events), 'lots': len(feed['lots']),
     }
     atomic_json(output, feed)
     atomic_json(status_path, status)
@@ -794,13 +922,14 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=30)
     parser.add_argument("--max-details", type=int, default=2500)
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--cache-dir", type=Path)
     parser.add_argument("--output", type=Path, default=Path("public/feed-v1.json"))
     parser.add_argument("--status", type=Path, default=Path("public/status.json"))
     args = parser.parse_args()
     if not 1 <= args.days <= 90 or not 1 <= args.max_details <= 10000 or not 1 <= args.workers <= 16:
         parser.error("arguments outside safe limits")
     try:
-        status = update(args.days, args.max_details, args.workers, args.output, args.status)
+        status = update(args.days, args.max_details, args.workers, args.output, args.status, args.cache_dir)
     except BridgeError as exc:
         print(f"bridge_error={exc}", file=sys.stderr)
         return 2

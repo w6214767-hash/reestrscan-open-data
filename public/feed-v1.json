@@ -331,7 +331,7 @@
       "source_updated_at": "2026-09-10T19:13:38.338000Z"
     }
   ],
-  "generated_at": "2026-09-11T11:19:42.388739Z",
+  "generated_at": "2026-09-11T16:27:50.907518Z",
   "lots": [
     {
       "assets": [
@@ -76874,6 +76874,100 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, г.о. Королёв, г. Королёв Московская область, г. Королев, мкр-н Первомайский, ул. Советская, д.36, пом.IV",
+          "area_m2": 40.3,
+          "cadastral_number": null,
+          "external_id": "21000004710000027911:1:21000004710000027911:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Муниципальная собственность"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "5"
+        },
+        {
+          "title": "Срок действия договора - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-10-12T15:00:00Z",
+      "deposit_minor": 8221200,
+      "description": "Аренда нежилого помещения 40,3 кв.м под свободный вид деятельности, совместимый с нахождением в жилом доме, не противоречащий действующему законодательству Российской Федерации в г.о. Королёв",
+      "documents": [
+        {
+          "title": "Выписка Советская 36.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc58f99446c1a6f8f349f"
+        },
+        {
+          "title": "письмо в РЦТ 2.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc58e2e39753d02a9708e"
+        },
+        {
+          "title": "Тех.паспорт с выделенным помещением.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc583e1d55e1238db28e7"
+        },
+        {
+          "title": "Проект договора аренды Н.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc582dbbcea789bef245e"
+        },
+        {
+          "title": "86-РК.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc58e2e39753d02a97089"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc5822e39753d02a9704a"
+        },
+        {
+          "title": "Инструкция по регистрации физ.лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc580e1d55e1238db28e0"
+        },
+        {
+          "title": "Инструкция по регистрации юр.лицо и ИП.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc58099446c1a6f8f347c"
+        },
+        {
+          "title": "ПАМЯТКА аренда имущества.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc57edbbcea789bef245a"
+        },
+        {
+          "title": "Документация+об+аукционе+№+АЭ-КОР_26-5238.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc57c99446c1a6f8f3473"
+        }
+      ],
+      "external_id": "21000004710000027911:1",
+      "municipality": "g-o-korolev",
+      "municipality_name": "г.о. Королёв",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 41106000,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000027911",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Годовая арендная плата",
+      "source_updated_at": "2026-09-08T13:34:33.167000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027911",
+      "status": "accepting",
+      "title": "Аренда нежилого помещения 40,3 кв.м под свободный вид деятельности, совместимый с нахождением в жилом доме, не противоречащий действующему законодательству Российской Федерации в г.о. Королёв",
+      "transaction": "annual_rent"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Жуковский, г. Жуковский, ул. Чкалова, дом 23 Московская область, г. Жуковский, ул. Чкалова, д. 23, пом. 1",
           "area_m2": 82.5,
           "cadastral_number": null,
@@ -95275,6 +95369,88 @@
           "address": "г. Москва",
           "area_m2": null,
           "cadastral_number": null,
+          "external_id": "21000005000000033468:1:21000005000000033468:1",
+          "kind": "other",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды НТО и некапитальных объектов"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "5"
+        }
+      ],
+      "category": "other",
+      "deadline": "2026-10-09T07:00:00Z",
+      "deposit_minor": 959458,
+      "description": "Нестационарный торговый объект «Павильон» по адресу:  г. Москва, южный подуличный переход, прилегающем к станции метрополитена «Сокол» (Лот 33), специализация Комплексная, общей площадью 11,6 кв.м.",
+      "documents": [
+        {
+          "title": "Нестационарный объект_Павильон.Лотовая документация.17005343.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb65dbbcea789bef2d90"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Проект договора.17005343.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb652e39753d02a97750"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Распоряжение_ приказ.17005343.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb6699446c1a6f8f3c63"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Форма заявки на участие.17005343.doc",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb682e39753d02a97756"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Дополнительные документы.17005343.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb6fe1d55e1238db322f"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Документация.17005343.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb7199446c1a6f8f3c81"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Проект размещения объекта.17005343.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb72dbbcea789bef2da0"
+        },
+        {
+          "title": "Нестационарный объект_Павильон.Фото объекта.17005343.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcb73e1d55e1238db3238"
+        }
+      ],
+      "external_id": "21000005000000033468:1",
+      "municipality": "region-wide",
+      "municipality_name": "Москва",
+      "organizer": "ДЕПАРТАМЕНТ ГОРОДА МОСКВЫ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ",
+      "platform_url": null,
+      "price_minor": 9594580,
+      "procedure": "municipal",
+      "procedure_id": "21000005000000033468",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-08T08:52:46.497000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000033468",
+      "status": "accepting",
+      "title": "Нестационарный торговый объект «Павильон» по адресу:  г. Москва, южный подуличный переход, прилегающем к станции метрополитена «Сокол» (Лот 33), специализация Комплексная, общей площадью 11,6 кв.м.",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва",
+          "area_m2": null,
+          "cadastral_number": null,
           "external_id": "21000005000000033469:1:21000005000000033469:1",
           "kind": "other",
           "latitude": null,
@@ -100037,6 +100213,108 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000033515",
       "status": "accepting",
       "title": "Продажа имущества, находящегося в собственности города Москвы, жилое помещение по адресу:     г. Москва, ул. Кунцевская, д. 1, кв. 384, ком. 2, жилой площадью 18,9 кв. м, с кадастровым номером 77:07:0004007:11629.",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Ново-Переделкино, ул. Чоботовская, дом 2 к. 1",
+          "area_m2": 75.6,
+          "cadastral_number": null,
+          "external_id": "21000005000000033516:1:21000005000000033516:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно информационному сообщению"
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2026-10-27T12:00:00Z",
+      "deposit_minor": 41354000,
+      "description": "Продажа имущества, находящегося в собственности города Москвы, жилое помещение по адресу: г. Москва, ул. Чоботовская, д. 2, корп. 1, кв. 412,  общей площадью  75,6 кв.м,  (этаж № 11), кадастровый номер 77:07:0015005:31034",
+      "documents": [
+        {
+          "title": "Квартира.Иное.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15966da94f77e24441806"
+        },
+        {
+          "title": "Квартира.Лотовая документация.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159673178f630a5c8e7f4"
+        },
+        {
+          "title": "Квартира.Проект договора.17006390.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15968da94f77e2444180a"
+        },
+        {
+          "title": "Квартира.Распоряжение Департамента городского имущества города Москвы.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159693178f630a5c8e7f7"
+        },
+        {
+          "title": "Квартира.Форма заявки на участие.17006390.doc",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159690aa4ab7ad5605ec6"
+        },
+        {
+          "title": "Квартира.Памятка победителя.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa1596a0aa4ab7ad5605ec9"
+        },
+        {
+          "title": "Квартира.Поэтажный план БТИ.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa1596a0aa4ab7ad5605ecd"
+        },
+        {
+          "title": "Квартира.Список помещений объекта по БТИ (экспликация).17006390.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa1596b3178f630a5c8e7fa"
+        },
+        {
+          "title": "Квартира.Выписка ЕГРН.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa1596cd46d51281a64384a"
+        },
+        {
+          "title": "Квартира.Отчет об оценке.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159743178f630a5c8e85a"
+        },
+        {
+          "title": "Квартира.Экспертное заключение СРО.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159770aa4ab7ad5605ee0"
+        },
+        {
+          "title": "Квартира.Выписка из тех паспорта БТИ.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15978da94f77e2444181b"
+        },
+        {
+          "title": "Квартира.Выписка из домовой книги.17006390.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15978d46d51281a643850"
+        },
+        {
+          "title": "Квартира.Фото объекта.17006390.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159833178f630a5c8e8be"
+        }
+      ],
+      "external_id": "21000005000000033516:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-novo-peredelkino",
+      "municipality_name": "вн.тер.г. муниципальный округ Ново-Переделкино",
+      "organizer": "ДЕПАРТАМЕНТ ГОРОДА МОСКВЫ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ",
+      "platform_url": null,
+      "price_minor": 2067700000,
+      "procedure": "municipal",
+      "procedure_id": "21000005000000033516",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-09-09T13:17:34.394000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000033516",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в собственности города Москвы, жилое помещение по адресу: г. Москва, ул. Чоботовская, д. 2, корп. 1, кв. 412,  общей площадью  75,6 кв.м,  (этаж № 11), кадастровый номер 77:07:0015005:31034",
       "transaction": "sale"
     },
     {
@@ -108139,6 +108417,178 @@
       "assets": [
         {
           "address": "г. Москва, вн.тер.г. муниципальный округ Гольяново, ш. Щёлковское, дом 61",
+          "area_m2": 15.0,
+          "cadastral_number": null,
+          "external_id": "21000026330000000689:1:21000026330000000689:1",
+          "kind": "parking",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации об аукционе"
+        }
+      ],
+      "category": "parking",
+      "deadline": "2026-11-12T12:00:00Z",
+      "deposit_minor": 14190000,
+      "description": "Продажа имущества, находящегося в оперативном управлении Государственного бюджетного учреждения города Москвы \"Жилищник района Гольяново\", по адресу: г. Москва, Щёлковское шоссе, дом 61 (подвал 2, помещение I, машино-место 287) площадью 15 кв.м.  Кадастровый № объекта 77:03:0002014:3932",
+      "documents": [
+        {
+          "title": "Машино-место.Проект договора.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc51ce1d55e1238db2833"
+        },
+        {
+          "title": "Машино-место.Лотовая документация.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc627e1d55e1238db2a30"
+        },
+        {
+          "title": "Машино-место.Распоряжение Департамента городского имущества города Москвы.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc628dbbcea789bef2627"
+        },
+        {
+          "title": "Машино-место.Форма заявки на участие.16858994.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc674dbbcea789bef264c"
+        },
+        {
+          "title": "Машино-место.Памятка победителя.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc675dbbcea789bef2650"
+        },
+        {
+          "title": "Машино-место.Поэтажный план БТИ.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/66d080f9323a6d3860d98f14"
+        },
+        {
+          "title": "Машино-место.Список помещений объекта по БТИ (экспликация).16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/66d080fa323a6d3860d98f17"
+        },
+        {
+          "title": "Машино-место.Выписка ЕГРН.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc7a499446c1a6f8f387b"
+        },
+        {
+          "title": "Машино-место.Отчет об оценке.16858994.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc8052e39753d02a97341"
+        },
+        {
+          "title": "Машино-место.Фото объекта.16858994.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fc8792e39753d02a973d5"
+        }
+      ],
+      "external_id": "21000026330000000689:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-golyanovo",
+      "municipality_name": "вн.тер.г. муниципальный округ Гольяново",
+      "organizer": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ \"ЖИЛИЩНИК РАЙОНА ГОЛЬЯНОВО\"",
+      "platform_url": null,
+      "price_minor": 70950000,
+      "procedure": "municipal",
+      "procedure_id": "21000026330000000689",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-09-08T08:44:32.217000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000026330000000689",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в оперативном управлении Государственного бюджетного учреждения города Москвы \"Жилищник района Гольяново\", по адресу: г. Москва, Щёлковское шоссе, дом 61 (подвал 2, помещение I, машино-место 287) площадью 15 кв.м.  Кад",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Гольяново, ш. Щёлковское, дом 61",
+          "area_m2": 15.0,
+          "cadastral_number": null,
+          "external_id": "21000026330000000690:1:21000026330000000690:1",
+          "kind": "parking",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации об аукционе"
+        }
+      ],
+      "category": "parking",
+      "deadline": "2026-11-12T12:00:00Z",
+      "deposit_minor": 14190000,
+      "description": "Продажа имущества, находящегося в оперативном управлении Государственного бюджетного учреждения города Москвы \"Жилищник района Гольяново\", по адресу: г. Москва, Щёлковское шоссе, дом 61 (подвал 2, помещение I, машино-место 286) площадью 15 кв.м. Кадастровый № объекта 77:03:0002014:3931",
+      "documents": [
+        {
+          "title": "Машино-место.Проект договора.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccbae1d55e1238db332b"
+        },
+        {
+          "title": "Машино-место.Форма заявки на участие.16858989.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccbb2e39753d02a97961"
+        },
+        {
+          "title": "Машино-место.Лотовая документация.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccbde1d55e1238db3330"
+        },
+        {
+          "title": "Машино-место.Распоряжение Департамента городского имущества города Москвы.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccbddbbcea789bef2f68"
+        },
+        {
+          "title": "Машино-место.Памятка победителя.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccbe99446c1a6f8f3d5a"
+        },
+        {
+          "title": "Машино-место.Поэтажный план БТИ.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/66d08567323a6d3860d998ea"
+        },
+        {
+          "title": "Машино-место.Список помещений объекта по БТИ (экспликация).16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/66d0856700fc8c52d03e5177"
+        },
+        {
+          "title": "Машино-место.Выписка ЕГРН.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccc12e39753d02a9797c"
+        },
+        {
+          "title": "Машино-место.Отчет об оценке.16858989.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fccc8e1d55e1238db336e"
+        },
+        {
+          "title": "Машино-место.Фото объекта.16858989.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9fcccb99446c1a6f8f3d7a"
+        }
+      ],
+      "external_id": "21000026330000000690:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-golyanovo",
+      "municipality_name": "вн.тер.г. муниципальный округ Гольяново",
+      "organizer": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ \"ЖИЛИЩНИК РАЙОНА ГОЛЬЯНОВО\"",
+      "platform_url": null,
+      "price_minor": 70950000,
+      "procedure": "municipal",
+      "procedure_id": "21000026330000000690",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-09-08T09:22:52.094000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000026330000000690",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в оперативном управлении Государственного бюджетного учреждения города Москвы \"Жилищник района Гольяново\", по адресу: г. Москва, Щёлковское шоссе, дом 61 (подвал 2, помещение I, машино-место 286) площадью 15 кв.м. Када",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Гольяново, ш. Щёлковское, дом 61",
           "area_m2": 14.6,
           "cadastral_number": null,
           "external_id": "21000026330000000691:1:21000026330000000691:1",
@@ -114587,6 +115037,80 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000030950000001743",
       "status": "accepting",
       "title": "Лот № 6: нежилое помещение (наименование: машино-место 110), общая площадь 14,3 кв.м., кадастровый номер 77:06:0001001:1845, местоположение: г. Москва, вн.тер.г. муниципальный округ Гагаринский, улица Косыгина, дом 2, корпус 1, машино-место 110.",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Хамовники, ул. Усачёва, дом 2 стр. 3 кв. 153",
+          "area_m2": 199.0,
+          "cadastral_number": null,
+          "external_id": "21000030950000001744:1:21000030950000001744:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "В соответствии с Информационным сообщением"
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2026-09-16T13:00:00Z",
+      "deposit_minor": 7132260000,
+      "description": "Содержится в Информационном сообщении",
+      "documents": [
+        {
+          "title": "Выписка ЕГРН. 770100050132564.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159e83178f630a5c8e977"
+        },
+        {
+          "title": "Распоряжение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa159e70aa4ab7ad5606025"
+        },
+        {
+          "title": "Информационное сообщение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15a17da94f77e2444194b"
+        },
+        {
+          "title": "Проект ДКП НИ аукцион (более 100 млн. руб.) без ЗУ.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15a17da94f77e2444194c"
+        },
+        {
+          "title": "Форма описи.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15a173178f630a5c8e9e2"
+        },
+        {
+          "title": "Приложение 1_Заявка_эл форма_НИ_Аукцион.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aa15a17da94f77e2444194a"
+        }
+      ],
+      "external_id": "21000030950000001744:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-hamovniki",
+      "municipality_name": "вн.тер.г. муниципальный округ Хамовники",
+      "organizer": "ФЕДЕРАЛЬНОЕ АГЕНТСТВО ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ",
+      "platform_url": null,
+      "price_minor": 35661300000,
+      "procedure": "municipal",
+      "procedure_id": "21000030950000001744",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-09-09T13:09:37.290000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000030950000001744",
+      "status": "accepting",
+      "title": "Аукцион в электронной форме по продаже квартиры с кадастровым номером 77:01:0005013:2564, общей площадью 199 кв.м, расположенной по адресу: г. Москва, вн.тер.г. муниципальный округ Хамовники, ул. Усачева, д. 2, стр. 3, кв. 153",
       "transaction": "sale"
     },
     {

@@ -640,11 +640,14 @@ def select_rows(payloads: list[Any], max_details: int) -> tuple[list[dict[str, A
     }
 
 
-def fetch_details(rows: list[dict[str, Any]], workers: int) -> tuple[dict[str, Any], int]:
+def fetch_details(rows: list[dict[str, Any]], workers: int, *, max_seconds: float | None = None, on_result=None) -> tuple[dict[str, Any], int]:
     details: dict[str, Any] = {}
     failures = 0
+    deadline = time.monotonic() + max_seconds if max_seconds is not None else float("inf")
 
     def load(row: dict[str, Any]) -> tuple[str, str, Any]:
+        if time.monotonic() >= deadline:
+            raise BridgeError("detail_budget_deferred")
         href = urljoin(META_URL, str(row["href"]))
         _approved_url(href)
         return str(row["regNum"]), href, fetch_json(href, timeout=15, max_bytes=16 * 1024 * 1024)
@@ -658,9 +661,14 @@ def fetch_details(rows: list[dict[str, Any]], workers: int) -> tuple[dict[str, A
                 details[reg_num] = payload
                 details[href] = payload
                 details[str(row["href"])] = payload
+                if on_result is not None:
+                    on_result(row, payload)
             except BridgeError as exc:
-                failures += 1
-                print(f'detail_failed={exc} failures={failures}', flush=True)
+                if str(exc) != "detail_budget_deferred":
+                    failures += 1
+                    if on_result is not None:
+                        on_result(row, None)
+                    print(f'detail_failed={exc} failures={failures}', flush=True)
             print(f'details_progress={completed}/{len(rows)}', flush=True)
     return details, failures
 
@@ -841,13 +849,21 @@ def cached_details(rows: list[dict], workers: int, limit: int, cache_dir: Path) 
     # Unseen documents first; failed requests cannot starve the rest of the feed.
     missing.sort(key=lambda r: (attempts.get(_cache_key(r), 0), r.get('biddTypeCode') != 'ZK', -_row_date(r).timestamp()))
     selected = missing[:limit]
-    fresh, failures = fetch_details(selected, workers)
-    for row in selected:
+    def checkpoint(row, payload):
         key = _cache_key(row)
         attempts[key] = time.time()
+        if payload is not None:
+            path = cache_dir / (key + '.json.gz')
+            temporary = path.with_suffix('.tmp')
+            temporary.write_bytes(gzip.compress(json.dumps(payload, ensure_ascii=False).encode()))
+            temporary.replace(path)
+        atomic_json(state_path, attempts)
+
+    # Finish a bounded batch before the runner deadline; persist every response.
+    fresh, failures = fetch_details(selected, workers, max_seconds=600, on_result=checkpoint)
+    for row in selected:
         payload = fresh.get(str(row['href']))
         if payload is not None:
-            (cache_dir / (key + '.json.gz')).write_bytes(gzip.compress(json.dumps(payload, ensure_ascii=False).encode()))
             details[str(row['href'])] = payload
     current_keys = {_cache_key(r) for r in rows}
     attempts = {k:v for k,v in attempts.items() if k in current_keys}

@@ -36,3 +36,5 @@ This project is not affiliated with GIS Torgi. Source records remain authoritati
 `normalization_revision=1` требует совместимого API РеестрСкан из PR «Муниципальные торги недвижимостью Москвы и Подмосковья». Сначала выпускается API, затем этот импортёр. Источники времени не подменяются текущей датой. Отмена публикуется отдельным событием, применимым к ранее сохранённым лотам.
 
 Структурированная категория важнее слов в описании: машино-места — недвижимость, права водопользования — иные права. Вид аренды не определяется из общего названия «Аренда и продажа»: неизвестный период платы отмечается `rent_unspecified`. Документы связываются с официальными вложениями по ID. Координаты не вычисляются из кадастрового номера или адреса.
+
+Each refresh bounds detail downloading to 10 minutes. Responses are checkpointed individually in the source cache, so interrupted batches retain completed documents and later runs continue pending work. The published feed still changes only after candidate validation.

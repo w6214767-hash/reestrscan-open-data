@@ -1,4 +1,21 @@
 {
-  "ok": false,
-  "state": "awaiting-first-successful-refresh"
+  "detail_failures": 9,
+  "details_invalid": 29,
+  "details_missing": 9,
+  "duration_seconds": 119.5,
+  "generated_at": "2026-09-11T06:39:09.144597Z",
+  "index_rows": 4260,
+  "lots": 62,
+  "ok": true,
+  "partial": true,
+  "regions": [
+    "50",
+    "77"
+  ],
+  "regions_skipped": 0,
+  "selected_notices": 100,
+  "source_files": 3,
+  "source_id": "gis-torgi",
+  "target_rows": 860,
+  "unique_notices": 840
 }

@@ -47,6 +47,8 @@ jobs:
         with:
           persist-credentials: false
       - uses: actions/setup-python@v6
+        env:
+          AGENT_TOOLSDIRECTORY: ${{ runner.temp }}/hostedtoolcache
         with:
           python-version: "3.12"
       - uses: actions/cache/restore@v4

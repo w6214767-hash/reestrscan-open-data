@@ -189,9 +189,14 @@
       "external_id": null,
       "procedure_id": "26000013000000000868",
       "source_updated_at": "2026-09-25T18:39:51.767000Z"
+    },
+    {
+      "external_id": "24000035340000000468:5",
+      "procedure_id": "24000035340000000468",
+      "source_updated_at": "2026-09-27T15:43:45.774000Z"
     }
   ],
-  "generated_at": "2026-09-27T16:57:21.684138Z",
+  "generated_at": "2026-09-28T00:59:25.198766Z",
   "lots": [
     {
       "assets": [
@@ -117707,1124 +117712,6 @@
       "assets": [
         {
           "address": "обл. Московская",
-          "area_m2": 1007.0,
-          "cadastral_number": "50:03:0070280:2392",
-          "external_id": "22000030890000001115:1:50:03:0070280:2392",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2753566,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2392 площадь 1007 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02ee8ed7e005a5e7e69d0"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02ee873b1b01331f93f64"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02ee80e54af78f50bfff2"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02ee873b1b01331f93f63"
-        },
-        {
-          "title": "выписка ЕГРН.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02ee8ed7e005a5e7e69d3"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02eee73b1b01331f93fb0"
-        }
-      ],
-      "external_id": "22000030890000001115:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 5507132,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001115",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:08:23.144000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001115",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2392",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 747.0,
-          "cadastral_number": "50:03:0070280:2430",
-          "external_id": "22000030890000001116:1:50:03:0070280:2430",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2044632,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2430 площадь 747 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02fb542b04d7772dc183e"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02fb573b1b01331f93fb4"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02fb542b04d7772dc1841"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02fb542b04d7772dc1844"
-        },
-        {
-          "title": "выписка ЕГРН.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02fb50e54af78f50c002a"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab02fbb0e54af78f50c0070"
-        }
-      ],
-      "external_id": "22000030890000001116:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 4089265,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001116",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:12:01.143000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001116",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2430",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 840.0,
-          "cadastral_number": "50:03:0070280:2439",
-          "external_id": "22000030890000001117:1:50:03:0070280:2439",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2298366,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2439 площадь 840 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0308773b1b01331f93ff6"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0308742b04d7772dc1858"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0308773b1b01331f93ff3"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0308742b04d7772dc1859"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0308742b04d7772dc185c"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0308ced7e005a5e7e6a2e"
-        }
-      ],
-      "external_id": "22000030890000001117:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 4596732,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001117",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:15:19.595000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001117",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2439",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 840.0,
-          "cadastral_number": "50:03:0070280:2537",
-          "external_id": "22000030890000001118:1:50:03:0070280:2537",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2298366,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2537 площадь 840 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03137ed7e005a5e7e6a3d"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0313773b1b01331f9402e"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031370e54af78f50c0089"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0313742b04d7772dc1864"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0313773b1b01331f94031"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0313e0e54af78f50c00e1"
-        }
-      ],
-      "external_id": "22000030890000001118:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 4596732,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001118",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:18:08.602000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001118",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2537",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 840.0,
-          "cadastral_number": "50:03:0070280:2538",
-          "external_id": "22000030890000001119:1:50:03:0070280:2538",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2298366,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2538 площадь 840 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031e5ed7e005a5e7e6a44"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031e5ed7e005a5e7e6a41"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031e573b1b01331f94044"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031e573b1b01331f94041"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031e5ed7e005a5e7e6a47"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab031eb0e54af78f50c0138"
-        }
-      ],
-      "external_id": "22000030890000001119:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 4596732,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001119",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:20:54.355000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001119",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2538",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 1156.0,
-          "cadastral_number": "50:03:0070280:2548",
-          "external_id": "22000030890000001120:1:50:03:0070280:2548",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 3159348,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2548 площадь 1156 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0338eed7e005a5e7e6a8a"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0338eed7e005a5e7e6a8d"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0338e73b1b01331f9406f"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0338e73b1b01331f94072"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0338e0e54af78f50c018a"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0339473b1b01331f940c0"
-        }
-      ],
-      "external_id": "22000030890000001120:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 6318696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001120",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:28:43.429000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001120",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2548",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 818.0,
-          "cadastral_number": "50:03:0070280:2564",
-          "external_id": "22000030890000001121:1:50:03:0070280:2564",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2238355,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2564 площадь 818 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0350b0e54af78f50c01a7"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0350b73b1b01331f941c4"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0350b42b04d7772dc190a"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0350bed7e005a5e7e6aa5"
-        },
-        {
-          "title": "выписка ЕГРН.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0350b73b1b01331f941c7"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035100e54af78f50c0212"
-        }
-      ],
-      "external_id": "22000030890000001121:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 4476710,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001121",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:34:35.823000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001121",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2564",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 992.0,
-          "cadastral_number": "50:03:0070280:2594",
-          "external_id": "22000030890000001122:1:50:03:0070280:2594",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2712698,
-      "description": "Земельный участок с кадастровым номером 50:03:0070280:2594 площадь 992 по адресу Московская область, р-н Клинский, д Третьяково",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035bb0e54af78f50c0219"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035bb0e54af78f50c0218"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035bb42b04d7772dc1910"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035bb42b04d7772dc1911"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035bb42b04d7772dc1914"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab035c342b04d7772dc197d"
-        }
-      ],
-      "external_id": "22000030890000001122:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 5425397,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001122",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:37:14.618000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001122",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0070280:2594",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 1670.0,
-          "cadastral_number": "50:03:0080280:2156",
-          "external_id": "22000030890000001123:1:50:03:0080280:2156",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 5491336,
-      "description": "Земельный участок с кадастровым номером 50:03:0080280:2156 площадь 1670 по адресу Московская область, р-н Клинский, тер городское поселение Высоковск, д Назарьево",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab036d40e54af78f50c0256"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab036d4ed7e005a5e7e6abc"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab036d442b04d7772dc19b4"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab036d4ed7e005a5e7e6abb"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab036d473b1b01331f941f0"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab036da42b04d7772dc19ff"
-        }
-      ],
-      "external_id": "22000030890000001123:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 10982672,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001123",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:41:54.807000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001123",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0080280:2156",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 961.0,
-          "cadastral_number": "50:03:0080280:2161",
-          "external_id": "22000030890000001124:1:50:03:0080280:2161",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 3166831,
-      "description": "Земельный участок с кадастровым номером 50:03:0080280:2161 площадь 961 по адресу Московская область, р-н. Клинский, тер. городское поселение Высоковск, д. Назарьево",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab037c742b04d7772dc1a1e"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab037c742b04d7772dc1a1f"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab037c742b04d7772dc1a22"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab037c70e54af78f50c029c"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab037c7ed7e005a5e7e6ad2"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab037cd0e54af78f50c02e4"
-        }
-      ],
-      "external_id": "22000030890000001124:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 6333663,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001124",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:45:54.973000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001124",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0080280:2161",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 1026.0,
-          "cadastral_number": "50:03:0080280:2162",
-          "external_id": "22000030890000001125:1:50:03:0080280:2162",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 3380260,
-      "description": "Земельный участок с кадастровым номером 50:03:0080280:2162 площадь 1026 по адресу Московская область, р-н. Клинский, тер. городское поселение Высоковск, д. Назарьево",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab038b50e54af78f50c02f1"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab038b573b1b01331f94238"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab038b573b1b01331f94235"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab038b542b04d7772dc1a59"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab038b542b04d7772dc1a5c"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab038bbed7e005a5e7e6b1c"
-        }
-      ],
-      "external_id": "22000030890000001125:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 6760519,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001125",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:53:38.848000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001125",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0080280:2162",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 1026.0,
-          "cadastral_number": "50:03:0080280:2163",
-          "external_id": "22000030890000001126:1:50:03:0080280:2163",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 3380260,
-      "description": "Земельный участок с кадастровым номером 50:03:0080280:2163 площадь 1026 по адресу Московская область, р-н. Клинский, тер. городское поселение Высоковск, д. Назарьево",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03a470e54af78f50c0315"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03a470e54af78f50c0314"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03a4742b04d7772dc1aca"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03a4742b04d7772dc1ac9"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03a4742b04d7772dc1acd"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03a4d0e54af78f50c035e"
-        }
-      ],
-      "external_id": "22000030890000001126:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 6760519,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001126",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:56:50.261000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001126",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0080280:2163",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
-          "area_m2": 858.0,
-          "cadastral_number": "50:03:0080280:2172",
-          "external_id": "22000030890000001127:1:50:03:0080280:2172",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-10-09T15:00:00Z",
-      "deposit_minor": 2828504,
-      "description": "Земельный участок с кадастровым номером 50:03:0080280:2172 площадь 858 по адресу Московская область, р-н. Клинский, тер. городское поселение Высоковск, д. Назарьево",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03aea42b04d7772dc1ad5"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03aea73b1b01331f94256"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03aea42b04d7772dc1ad8"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03aeaed7e005a5e7e6b3a"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03aea0e54af78f50c038d"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ab03af073b1b01331f942a5"
-        }
-      ],
-      "external_id": "22000030890000001127:1",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 5657009,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001127",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-09-20T19:59:34.422000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001127",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:03:0080280:2172",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская",
           "area_m2": 840.0,
           "cadastral_number": "50:03:0080280:2173",
           "external_id": "22000030890000001128:1:50:03:0080280:2173",
@@ -122947,6 +121834,694 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001175",
       "status": "accepting",
       "title": "Земельный участок с кадастровым номером 50:03:0080280:2248",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 1037.0,
+          "cadastral_number": "50:03:0070280:2380",
+          "external_id": "22000030890000001176:1:50:03:0070280:2380",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2835288,
+      "description": "Земельный участок с кадастровым номером 50:03:0070280:2380 площадь 1037 по адресу Московская область, р-н Клинский, д Третьяково",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab9450273b1b01331feff24"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab945025a5878659a424e78"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab9450377e1f17c1ae89b7b"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab945020cb6881d30331b2f"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab945020cb6881d30331b30"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab9451477e1f17c1ae89be7"
+        }
+      ],
+      "external_id": "22000030890000001176:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 5670575,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001176",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T16:33:24.329000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001176",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0070280:2380",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 824.0,
+          "cadastral_number": "50:03:0070280:2390",
+          "external_id": "22000030890000001182:1:50:03:0070280:2390",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2254711,
+      "description": "Земельный участок с кадастровым номером 50:03:0070280:2390 площадь 824 по адресу Московская область, р-н Клинский, д Третьяково",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab949cd73b1b01331ff0141"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab949cc5a5878659a4250e8"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab949cc77e1f17c1ae89cff"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab949cd0cb6881d30331d7f"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab949cd5a5878659a4250eb"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab949e177e1f17c1ae89d77"
+        }
+      ],
+      "external_id": "22000030890000001182:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 4509422,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001182",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T16:53:40.731000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001182",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0070280:2390",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 1009.0,
+          "cadastral_number": "50:03:0070280:2394",
+          "external_id": "22000030890000001184:1:50:03:0070280:2394",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2759035,
+      "description": "Земельный участок с кадастровым номером 50:03:0070280:2394 площадь 1009 по адресу Московская область, р-н Клинский, д Третьяково",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94b510cb6881d30331e1a"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94b5173b1b01331ff0222"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94b515a5878659a42512a"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94b5173b1b01331ff021f"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94b515a5878659a42512d"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94b535a5878659a425137"
+        }
+      ],
+      "external_id": "22000030890000001184:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 5518070,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001184",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T17:00:00.628000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001184",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0070280:2394",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 1067.0,
+          "cadastral_number": "50:03:0070280:2427",
+          "external_id": "22000030890000001186:1:50:03:0070280:2427",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2916991,
+      "description": "Земельный участок с кадастровым номером 50:03:0070280:2427 площадь 1067 по адресу Московская область, р-н Клинский, д Третьяково",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94cd673b1b01331ff02dc"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94cd677e1f17c1ae89ec7"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94cd673b1b01331ff02d9"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94cd60cb6881d30331f1e"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94cd673b1b01331ff02df"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94ce173b1b01331ff0321"
+        }
+      ],
+      "external_id": "22000030890000001186:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 5833983,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001186",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T17:06:28.140000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001186",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0070280:2427",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 835.0,
+          "cadastral_number": "50:03:0070280:2432",
+          "external_id": "22000030890000001187:1:50:03:0070280:2432",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2284685,
+      "description": "Земельный участок с кадастровым номером 50:03:0070280:2432 площадь 835 по адресу Московская область, р-н Клинский, д Третьяково",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94d920cb6881d30331f4e"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94d9273b1b01331ff0386"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94d920cb6881d30331f4f"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94d9273b1b01331ff0383"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94d9277e1f17c1ae89f06"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94da573b1b01331ff03f1"
+        }
+      ],
+      "external_id": "22000030890000001187:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 4569371,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001187",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T17:09:43.897000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001187",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0070280:2432",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 1307.0,
+          "cadastral_number": "50:03:0080280:2154",
+          "external_id": "22000030890000001188:1:50:03:0080280:2154",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 4302121,
+      "description": "Земельный участок с кадастровым номером 50:03:0080280:2154 площадь 1307 по адресу Московская область, р-н Клинский, тер городское поселение Высоковск, д Назарьево",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94e5d73b1b01331ff042a"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94e5d5a5878659a4251da"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94e5d73b1b01331ff042d"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94e5d0cb6881d30331f5e"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94e5d5a5878659a4251dd"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94e710cb6881d30331fd0"
+        }
+      ],
+      "external_id": "22000030890000001188:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 8604242,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001188",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T17:13:19.156000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001188",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0080280:2154",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 871.0,
+          "cadastral_number": "50:03:0080280:2176",
+          "external_id": "22000030890000001189:1:50:03:0080280:2176",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2871230,
+      "description": "Земельный участок с кадастровым номером 50:03:0080280:2176 площадь 871 по адресу Московская область, р-н. Клинский, тер. городское поселение Высоковск, д. Назарьево",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94f2473b1b01331ff0494"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94f245a5878659a4251eb"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94f240cb6881d30331fff"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94f245a5878659a4251e8"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94f2477e1f17c1ae89f23"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94f295a5878659a425201"
+        }
+      ],
+      "external_id": "22000030890000001189:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 5742459,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001189",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T17:16:05.311000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001189",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0080280:2176",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 736.0,
+          "cadastral_number": "50:03:0080280:2208",
+          "external_id": "22000030890000001190:1:50:03:0080280:2208",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-10-14T15:00:00Z",
+      "deposit_minor": 2427530,
+      "description": "Земельный участок с кадастровым номером 50:03:0080280:2208 площадь 736 по адресу Московская область, р-н. Клинский, тер. городское поселение Высоковск, д. Назарьево",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94fca5a5878659a425232"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94fca5a5878659a425231"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94fca5a5878659a425235"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94fca73b1b01331ff049d"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94fca77e1f17c1ae89f5e"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab94fe15a5878659a4252a8"
+        }
+      ],
+      "external_id": "22000030890000001190:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 4855061,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001190",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-09-27T17:19:16.124000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001190",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0080280:2208",
       "transaction": "rent_unspecified"
     },
     {

@@ -247,6 +247,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "21000004710000024345",
+      "source_updated_at": "2026-10-08T14:38:21.882000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "21000004710000024363",
       "source_updated_at": "2026-10-08T14:39:21.680000Z"
     },
@@ -292,6 +297,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "21000004710000025358",
+      "source_updated_at": "2026-10-08T14:43:22.912000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "21000004710000025594",
       "source_updated_at": "2026-10-08T14:43:42.708000Z"
     },
@@ -327,6 +337,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "21000004710000025912",
+      "source_updated_at": "2026-10-08T14:45:56.889000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "21000004710000025916",
       "source_updated_at": "2026-10-08T14:46:15.291000Z"
     },
@@ -339,6 +354,11 @@
       "external_id": null,
       "procedure_id": "21000004710000026019",
       "source_updated_at": "2026-10-08T14:47:20.159000Z"
+    },
+    {
+      "external_id": null,
+      "procedure_id": "21000004710000026021",
+      "source_updated_at": "2026-10-08T14:47:38.091000Z"
     },
     {
       "external_id": null,
@@ -377,11 +397,16 @@
     },
     {
       "external_id": null,
+      "procedure_id": "26000013000000000918",
+      "source_updated_at": "2026-10-08T17:44:22.201000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "26000013000000000920",
       "source_updated_at": "2026-10-08T18:03:54.100000Z"
     }
   ],
-  "generated_at": "2026-10-09T06:41:22.186546Z",
+  "generated_at": "2026-10-09T13:27:47.679664Z",
   "lots": [
     {
       "assets": [
@@ -61425,6 +61450,112 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028173",
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:17:0011017:592",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Павлово-Посадский Российская Федерация, Московская область, г.о. Павлово-Посадский, д. Тарасово",
+          "area_m2": 1497.0,
+          "cadastral_number": "50:17:0011017:593",
+          "external_id": "21000004710000028174:1:50:17:0011017:593",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-12T15:00:00Z",
+      "deposit_minor": 114749541,
+      "description": "Аукцион в отношении земельного участка с КН 50:17:0011017:593",
+      "documents": [
+        {
+          "title": "7. Акт  осмотра з-у.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20ef42b04d7772db5045"
+        },
+        {
+          "title": "5. Сводная информация.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20eded7e005a5e7da8bc"
+        },
+        {
+          "title": "4. Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20ec42b04d7772db5039"
+        },
+        {
+          "title": "3. Проект договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20ec0e54af78f50b299d"
+        },
+        {
+          "title": "1. Письмо Администрация.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20ec0e54af78f50b299a"
+        },
+        {
+          "title": "9. ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20eb0e54af78f50b2993"
+        },
+        {
+          "title": "1969 18.09.26 торги продажа д. Тарасово 1497 кв.м 0011017-593.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20e942b04d7772db5036"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20d60e54af78f50b2976"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20d573b1b01331f87d38"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20d4ed7e005a5e7da892"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-ПП_26-5508.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad20d2ed7e005a5e7da882"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ПП/26-5508 от 08/10/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ac75a39aa2d6f382e81912f"
+        }
+      ],
+      "external_id": "21000004710000028174:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 114749541,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000028174",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-10-08T11:35:44.229000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028174",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:17:0011017:593",
       "transaction": "sale"
     },
     {

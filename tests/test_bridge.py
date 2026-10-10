@@ -60,6 +60,39 @@ class BridgeTests(unittest.TestCase):
         self.assertEqual(lot["price_minor"], 100000050)
         self.assertEqual(lot["assets"][0]["cadastral_number"], "50:28:0000000:123")
 
+    def test_revision_two_preserves_repeated_identifiers_and_source_category(self):
+        row, detail = self.fixture()
+        info = detail["exportObject"]["structuredObject"]["notice"]["lots"][0]["biddingObjectInfo"]
+        info["estateAddress"] = "Вымышленный адрес теста"
+        info["category"] = {"name": "Земельные участки"}
+        info["characteristics"] = [
+            {"code": "CadastralNumber", "characteristicValue": "50:28:0000000:123"},
+            {"code": "kadastrNumber", "characteristicValue": "50:28:0000000:456"},
+            {"code": "CadastralNumber", "characteristicValue": "50:28:0000000:123"},
+        ]
+        feed, _ = bridge.build_feed([row], {row["href"]: detail}, current=datetime(2026, 9, 11, tzinfo=timezone.utc))
+        self.assertEqual(feed["normalization_revision"], 2)
+        lot = feed["lots"][0]
+        self.assertEqual([a["cadastral_number"] for a in lot["assets"]], ["50:28:0000000:123", "50:28:0000000:456"])
+        self.assertTrue(all(a["area_m2"] is None for a in lot["assets"]))
+        self.assertIn({"title": "Категория объекта источника", "value": "Земельные участки"}, lot["attributes"])
+        self.assertEqual(lot["source_updated_at"], "2026-09-10T10:00:00Z")
+        self.assertEqual(lot["external_id"], "21000000010000000001:1")
+
+    def test_single_parcel_area_stays_attached_to_its_object(self):
+        row, detail = self.fixture()
+        feed, _ = bridge.build_feed([row], {row["href"]: detail}, current=datetime(2026, 9, 11, tzinfo=timezone.utc))
+        self.assertEqual(feed["lots"][0]["assets"][0]["area_m2"], 1200)
+
+    def test_oversized_parcel_composition_is_withheld_not_truncated(self):
+        row, detail = self.fixture()
+        info = detail["exportObject"]["structuredObject"]["notice"]["lots"][0]["biddingObjectInfo"]
+        info["estateAddress"] = "Вымышленный адрес теста"
+        info["characteristics"] = [{"code": "CadastralNumber", "characteristicValue": f"50:28:0000000:{n}"} for n in range(101)]
+        feed, counts = bridge.build_feed([row], {row["href"]: detail}, current=datetime(2026, 9, 11, tzinfo=timezone.utc))
+        self.assertEqual(feed["lots"], [])
+        self.assertEqual(counts["assets_over_budget"], 1)
+
     def test_discovery_uses_recent_data_only(self):
         meta = {"data": [
             {"source": "data-20260908.json", "created": "2026-09-08"},

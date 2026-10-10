@@ -33,8 +33,18 @@ This project is not affiliated with GIS Torgi. Source records remain authoritati
 
 Обновление сначала проверяется тестами. Загрузка использует кэш исходных документов по версии: лимит одного запуска не обрезает каталог навсегда, следующий запуск продолжает недостающие документы. Окно — 7 файлов выгрузки, до 1 200 новых документов за запуск, 8 работников с 15-секундным лимитом детали. Статус указывает `cached_documents`, `pending_documents` и `partial`. Это не заявление о полноте всех торгов региона.
 
-`normalization_revision=1` требует совместимого API РеестрСкан из PR «Муниципальные торги недвижимостью Москвы и Подмосковья». Сначала выпускается API, затем этот импортёр. Источники времени не подменяются текущей датой. Отмена публикуется отдельным событием, применимым к ранее сохранённым лотам.
+`normalization_revision=2` требует совместимого API РеестрСкан из уже выпущенного PR #72. Сначала выпускается API, затем этот импортёр. Источники времени не подменяются текущей датой. Отмена публикуется отдельным событием, применимым к ранее сохранённым лотам.
 
 Структурированная категория важнее слов в описании: машино-места — недвижимость, права водопользования — иные права. Вид аренды не определяется из общего названия «Аренда и продажа»: неизвестный период платы отмечается `rent_unspecified`. Документы связываются с официальными вложениями по ID. Координаты не вычисляются из кадастрового номера или адреса.
 
 Each refresh bounds detail downloading to 10 minutes. Responses are checkpointed individually in the source cache, so interrupted batches retain completed documents and later runs continue pending work. The published feed still changes only after candidate validation.
+
+## Normalization revision 2
+
+The producer preserves every repeated cadastral characteristic and deduplicates
+identical numbers. Lots with more than 100 identifiers are withheld rather than
+silently truncated. A lot-wide area is not copied to each asset of a multi-parcel
+lot. The exact structured source category is retained as
+`Категория объекта источника`. Source dates, identifiers, rights, network targets
+and geometry handling are unchanged. Revision 2 requires the matching deployed
+ReestrScan API; the producer never creates parcel geometry or authorizes its use.

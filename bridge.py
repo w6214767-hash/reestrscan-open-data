@@ -394,20 +394,23 @@ def _notice(payload: Any) -> dict[str, Any] | None:
     return payload if isinstance(payload, dict) and isinstance(payload.get("lots"), list) else None
 
 
-def _characteristic(info: dict[str, Any], *codes: str) -> Any:
+def _characteristic_values(info: dict[str, Any], *codes: str) -> Iterable[Any]:
     wanted = {code.casefold() for code in codes}
     for node in _walk(info):
         if not isinstance(node, dict) or not isinstance(node.get("characteristics"), list):
             continue
         for item in node["characteristics"]:
             if isinstance(item, dict) and str(item.get("code", "")).casefold() in wanted:
-                return item.get("characteristicValue")
-    return None
+                yield item.get("characteristicValue")
+
+
+def _characteristic(info: dict[str, Any], *codes: str) -> Any:
+    return next(_characteristic_values(info, *codes), None)
 
 
 def _cadastres(info: dict[str, Any]) -> list[str]:
     chunks = [
-        _characteristic(info, "CadastralNumber", "kadastrNumber"),
+        *_characteristic_values(info, "CadastralNumber", "kadastrNumber"),
         info.get("cadastralNumbers"),
         info.get("estateAddress"),
     ]
@@ -523,7 +526,9 @@ def _documents(payload: Any, notice: dict, lot: dict) -> list[dict]:
 
 
 def _attributes(notice: dict, lot: dict, info: dict) -> list[dict]:
-    output = []
+    source_category = _text(info.get("category"))
+    output = ([{"title": "Категория объекта источника", "value": source_category[:3000]}]
+              if source_category else [])
     for item in _items(info, "characteristics"):
         if item.get("code") in ("PermittedUse", "generalPurpose"):
             value = _text(item.get("characteristicValue"))
@@ -733,6 +738,9 @@ def build_feed(
             external_id = f"{reg_num}:{number}"
             category = _category(lot, info)
             cadastral = _cadastres(info)
+            if len(cadastral) > 100:
+                counts["assets_over_budget"] = counts.get("assets_over_budget", 0) + 1
+                continue
             ids = cadastral or [external_id]
             href_ui = _text(common.get("href"))
             source_url = (
@@ -777,9 +785,9 @@ def build_feed(
                     "kind": category,
                     "cadastral_number": ident if ident in cadastral else None,
                     "address": address,
-                    "area_m2": _area(info),
+                    "area_m2": _area(info) if len(cadastral) <= 1 else None,
                     **_coordinates(info),
-                } for ident in ids[:100]],
+                } for ident in ids],
                 "documents": _documents(payload, notice, lot),
                 "attributes": _attributes(notice, lot, info),
             })
@@ -789,7 +797,7 @@ def build_feed(
     feed = {
         "generated_at": _iso(current),
         "version": 1,
-        "normalization_revision": 1,
+        "normalization_revision": 2,
         "source_id": SOURCE_ID,
         "lots": sorted(deduplicated.values(), key=lambda lot: lot["external_id"]),
     }

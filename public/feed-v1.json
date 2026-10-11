@@ -552,6 +552,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "21000004710000025432",
+      "source_updated_at": "2026-10-09T14:06:00.530000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "21000004710000025433",
       "source_updated_at": "2026-10-09T14:06:17.471000Z"
     },
@@ -579,6 +584,11 @@
       "external_id": null,
       "procedure_id": "21000004710000024771",
       "source_updated_at": "2026-10-09T14:08:56.868000Z"
+    },
+    {
+      "external_id": null,
+      "procedure_id": "21000004710000024765",
+      "source_updated_at": "2026-10-09T14:09:14.868000Z"
     },
     {
       "external_id": null,
@@ -766,7 +776,7 @@
       "source_updated_at": "2026-10-09T14:41:09.290000Z"
     }
   ],
-  "generated_at": "2026-10-10T06:13:33.013340Z",
+  "generated_at": "2026-10-11T21:57:03.498966Z",
   "lots": [
     {
       "assets": [

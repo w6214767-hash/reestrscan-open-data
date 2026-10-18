@@ -606,7 +606,7 @@
       "source_updated_at": "2026-10-16T15:12:44.160000Z"
     }
   ],
-  "generated_at": "2026-10-18T06:19:01.213431Z",
+  "generated_at": "2026-10-18T11:02:17.972570Z",
   "lots": [
     {
       "assets": [
@@ -90072,6 +90072,96 @@
       "assets": [
         {
           "address": "обл. Московская",
+          "area_m2": 1228.0,
+          "cadastral_number": "50:32:0020205:1490",
+          "external_id": "22000030890000001355:1:50:32:0020205:1490",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 5831956,
+      "description": "Земельный участок с кадастровым номером 50:32:0020205:1490 площадь 1228 по адресу Московская область, р-н Серпуховский, д. Судимля",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b1532967cf5fa598f12d"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b153752d564520b51647"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b1532967cf5fa598f12a"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b1532f02a207b6a40de3"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b1532f02a207b6a40de6"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b158ebd81576d9c7ace1"
+        }
+      ],
+      "external_id": "22000030890000001355:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 11663912,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001355",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T17:34:39.119000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001355",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0020205:1490",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
           "area_m2": 1325.0,
           "cadastral_number": "50:32:0020205:1491",
           "external_id": "22000030890000001356:1:50:32:0020205:1491",
@@ -90521,6 +90611,456 @@
     {
       "assets": [
         {
+          "address": "обл. Московская",
+          "area_m2": 1460.0,
+          "cadastral_number": "50:32:0020205:1502",
+          "external_id": "22000030890000001361:1:50:32:0020205:1502",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 6929051,
+      "description": "Земельный участок с кадастровым номером 50:32:0020205:1502 площадь 1460 по адресу Московская область, р-н Серпуховский, д. Судимля",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b8b52f02a207b6a40fca"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b8b5752d564520b517ed"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b8b5752d564520b517f0"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b8b52967cf5fa598f2cc"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b8b5ebd81576d9c7ae14"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b8b92f02a207b6a40fd9"
+        }
+      ],
+      "external_id": "22000030890000001361:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 13858101,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001361",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:05:40.861000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001361",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0020205:1502",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/4",
+          "area_m2": 2500.0,
+          "cadastral_number": "50:32:0030118:1991",
+          "external_id": "22000030890000001362:1:50:32:0030118:1991",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 10521937,
+      "description": "Земельный участок с кадастровым номером 50:32:0030118:1991 площадь 2500 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/4",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b9ad752d564520b51823"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b9ad752d564520b51822"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b9ad2967cf5fa598f2d1"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b9ad752d564520b51826"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b9ad2967cf5fa598f2d4"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3b9b02967cf5fa598f2e1"
+        }
+      ],
+      "external_id": "22000030890000001362:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 21043875,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001362",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:11:53.520000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001362",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0030118:1991",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/3",
+          "area_m2": 2496.0,
+          "cadastral_number": "50:32:0030118:1992",
+          "external_id": "22000030890000001363:1:50:32:0030118:1992",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 10505102,
+      "description": "Земельный участок с кадастровым номером 50:32:0030118:1992 площадь 2496 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/3",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bad0752d564520b51881"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bad0752d564520b5187d"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bad02f02a207b6a41048"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bad0ebd81576d9c7af02"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bad0752d564520b5187e"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bad4ebd81576d9c7af0f"
+        }
+      ],
+      "external_id": "22000030890000001363:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 21010205,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001363",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:15:41.956000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001363",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0030118:1992",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/1",
+          "area_m2": 1831.0,
+          "cadastral_number": "50:32:0030118:1993",
+          "external_id": "22000030890000001364:1:50:32:0030118:1993",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 7717390,
+      "description": "Земельный участок с кадастровым номером 50:32:0030118:1993 площадь 1831 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/1",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bbed2f02a207b6a410a8"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bbedebd81576d9c7af1b"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bbed2f02a207b6a410a5"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bbed2967cf5fa598f33b"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bbed2967cf5fa598f33e"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bbf1ebd81576d9c7af29"
+        }
+      ],
+      "external_id": "22000030890000001364:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 15434781,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001364",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:19:17.996000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001364",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0030118:1993",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/2",
+          "area_m2": 1009.0,
+          "cadastral_number": "50:32:0030118:1994",
+          "external_id": "22000030890000001365:1:50:32:0030118:1994",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 4262924,
+      "description": "Земельный участок с кадастровым номером 50:32:0030118:1994 площадь 1009 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/2",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bc9a752d564520b518e2"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bc9a2f02a207b6a410d5"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bc9aebd81576d9c7af3d"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bc9aebd81576d9c7af3a"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bc9a752d564520b518e5"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3bc9debd81576d9c7af4b"
+        }
+      ],
+      "external_id": "22000030890000001365:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 8525848,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001365",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:22:08.190000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001365",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0030118:1994",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/20",
           "area_m2": 900.0,
           "cadastral_number": "50:32:0030118:1997",
@@ -90606,6 +91146,96 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001366",
       "status": "accepting",
       "title": "Земельный участок с кадастровым номером 50:32:0030118:1997",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/18",
+          "area_m2": 900.0,
+          "cadastral_number": "50:32:0030118:1999",
+          "external_id": "22000030890000001367:1:50:32:0030118:1999",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 3803963,
+      "description": "Земельный участок с кадастровым номером 50:32:0030118:1999 площадь 900 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/18",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3be54ebd81576d9c7afbf"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3be54752d564520b5195b"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3be54752d564520b5195a"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3be542f02a207b6a41103"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3be54ebd81576d9c7afc2"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3be57ebd81576d9c7afcf"
+        }
+      ],
+      "external_id": "22000030890000001367:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 7607925,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001367",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:29:32.104000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001367",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0030118:1999",
       "transaction": "rent_unspecified"
     },
     {
@@ -90786,6 +91416,96 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001369",
       "status": "accepting",
       "title": "Земельный участок с кадастровым номером 50:32:0050112:899",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": 1005.0,
+          "cadastral_number": "50:32:0050112:906",
+          "external_id": "22000030890000001370:1:50:32:0050112:906",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-03T15:00:00Z",
+      "deposit_minor": 4667446,
+      "description": "Земельный участок с кадастровым номером 50:32:0050112:906 площадь 1005 по адресу Московская область, Серпуховский район, в районе д.Мартьяново",
+      "documents": [
+        {
+          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3c3ddebd81576d9c7b137"
+        },
+        {
+          "title": "01_извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3c3dd2f02a207b6a411a8"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3c3dd752d564520b51a1d"
+        },
+        {
+          "title": "03_проект договора аренды.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3c3dd2967cf5fa598f52b"
+        },
+        {
+          "title": "выписка егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3c3dd2f02a207b6a411ab"
+        },
+        {
+          "title": "гпзу.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad3c3e0752d564520b51a2a"
+        }
+      ],
+      "external_id": "22000030890000001370:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 9334892,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001370",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-17T18:55:53.517000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001370",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0050112:906",
       "transaction": "rent_unspecified"
     },
     {

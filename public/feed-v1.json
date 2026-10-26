@@ -506,7 +506,7 @@
       "source_updated_at": "2026-10-23T16:24:53.251000Z"
     }
   ],
-  "generated_at": "2026-10-25T17:53:36.550495Z",
+  "generated_at": "2026-10-26T06:40:21.222119Z",
   "lots": [
     {
       "assets": [
@@ -28899,6 +28899,124 @@
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:26:0010901:330",
       "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Щёлково, д. Медвежьи Озёра Российская Федерация, Московская область, городской округ Щёлково, деревня Медвежьи Озёра",
+          "area_m2": 1569.0,
+          "cadastral_number": "50:14:0040104:2342",
+          "external_id": "21000004710000027746:1:50:14:0040104:2342",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-20T15:00:00Z",
+      "deposit_minor": 137004766,
+      "description": "Аукцион в отношении земельного участка с КН 50:14:0040104:2342",
+      "documents": [
+        {
+          "title": "Письмо Администрации от 24.08.2026 № 158Исх-12594.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d22c9dea7a6862407aaf"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d22c7b5f61549ad4b8a4"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d22a7b5f61549ad4b89e"
+        },
+        {
+          "title": "АвтоСИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d2279ae4a26bdc61c216"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d2279ae4a26bdc61c212"
+        },
+        {
+          "title": "Проект договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d2267d8acd58833e7ef4"
+        },
+        {
+          "title": "Минприроды по Лосиному острову.PDF",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d2269dea7a6862407a95"
+        },
+        {
+          "title": "Постановление о проведении аукциона.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d2257b5f61549ad4b88f"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d1f97b5f61549ad4b831"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d1f89dea7a6862407a5c"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d1f79ae4a26bdc61c1af"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-ЩЕЛК_26-5076.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a97d1f49ae4a26bdc61c199"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ЩЕЛК/26-5076 от 18/09/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aad0b2bed7e005a5e7d8632"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ЩЕЛК/26-5076 от 19.10.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad63857ebd81576d9c9628f"
+        }
+      ],
+      "external_id": "21000004710000027746:1",
+      "municipality": "g-o-schelkovo",
+      "municipality_name": "г.о. Щёлково",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 456682554,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000027746",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-10-19T15:46:18.730000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027746",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:14:0040104:2342",
+      "transaction": "sale"
     },
     {
       "assets": [
@@ -80899,822 +81017,6 @@
     {
       "assets": [
         {
-          "address": "г. Москва",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:1:22000013540000000321:1",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 2100000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: LADA GRANTA VIN: XTA219010Н0490620 (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ № 1 Лада Гранта 90620.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9455e6753ef0c024c82e0"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:1",
-      "municipality": "region-wide",
-      "municipality_name": "Москва",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 21000000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskva",
-      "region_name": "Москва",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Балашиха",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:10:22000013540000000321:10",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 9080000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: Форд Мондео VIN: Z6FDXXEECDGK18251 (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ №10 Форд Мондео 18251.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94c13a444182532aaee88"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:10",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 90800000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "cancelled",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Балашиха",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:11:22000013540000000321:11",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 6530000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: ГАЗ-3302 VIN: X96330200F2622882 (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ №11 ГАЗ-3302 22882.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94d57da94f77e24488354"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:11",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 65300000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Балашиха",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:12:22000013540000000321:12",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 4190000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: ГАЗ 32213 VIN: X96322130C073625 (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ №12 ГАЗ-32213 13625.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94d45a444182532aaf05d"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:12",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 41900000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "г. Москва",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:2:22000013540000000321:2",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 2060000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: LADA GRANTA VIN: XTA219010Н0486031   (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ № 2 Лада Гранта 86031.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa945d8a444182532aae5f3"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:2",
-      "municipality": "region-wide",
-      "municipality_name": "Москва",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 20600000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskva",
-      "region_name": "Москва",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "г. Москва",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:3:22000013540000000321:3",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 2490000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: LADA GRANTA VIN: XTA219010Н0485688  (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ № 3 Лада Гранта 85688.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94646a444182532aae715"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:3",
-      "municipality": "region-wide",
-      "municipality_name": "Москва",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 24900000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskva",
-      "region_name": "Москва",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Балашиха",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:8:22000013540000000321:8",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 4290000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: Форд Фокус  VIN: X9FMXXEEBMBJ21470 (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ № 8 Форд Фокус 21470.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94ac4da94f77e24487f48"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:8",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 42900000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Балашиха",
-          "area_m2": null,
-          "cadastral_number": null,
-          "external_id": "22000013540000000321:9:22000013540000000321:9",
-          "kind": "transport",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Легковые автомобили"
-        },
-        {
-          "title": "Назначение",
-          "value": "Прямое"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор купли-продажи"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "В соответствии со статьей 5 ФЗ от 21.12.2001 \n№ 178-ФЗ «О приватизации государственного или муниципального имущества» и информационным сообщением"
-        }
-      ],
-      "category": "transport",
-      "deadline": "2026-10-21T15:00:00Z",
-      "deposit_minor": 6620000,
-      "description": "Высвобождаемое движимое военное имущество, автомобиль: ГАС-19524 (на базе Форд Транзит) VIN: X89195240D0CK6078 (приложение №1)",
-      "documents": [
-        {
-          "title": "ЛОТ № 9 ГАС-19524 К6078.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94b70a444182532aaedf5"
-        },
-        {
-          "title": "Форма заявки.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449b6753ef0c024c818a"
-        },
-        {
-          "title": "Согласие на ОПД.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449ba444182532aae4ce"
-        },
-        {
-          "title": "Проекты ДКП.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa9449bb0d6660810035414"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+5 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aa94dd5b0d66608100360b2"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30f6b0d666081003a7d7"
-        },
-        {
-          "title": "Решение по внесению изменений извещение №22000013540000000321 Отмена Лота №10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa30fea444182532ab37fd"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b272f02a207b6a37100"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad25b2febd81576d9c730dd"
-        },
-        {
-          "title": "Решение по внесению изменений аукцион изв 321 от 18-10.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a592f02a207b6a4ce53"
-        },
-        {
-          "title": "Информационное сообщение о продаже АТ на аукционе 7 ед ЦО+4 ед ОДОН ИЗВ 321.doc",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad51a63ebd81576d9c8392b"
-        }
-      ],
-      "external_id": "22000013540000000321:9",
-      "municipality": "region-wide",
-      "municipality_name": "Московская область",
-      "organizer": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ \"МОСКОВСКИЙ ЦЕНТР МАТЕРИАЛЬНО-ТЕХНИЧЕСКОГО ОБЕСПЕЧЕНИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ ВОЙСК НАЦИОНАЛЬНОЙ ГВАРДИИ РОССИЙСКОЙ ФЕДЕРАЦИИ\"",
-      "platform_url": null,
-      "price_minor": 66200000,
-      "procedure": "municipal",
-      "procedure_id": "22000013540000000321",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Продажа имущества",
-      "source_updated_at": "2026-10-18T19:19:47.984000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000013540000000321",
-      "status": "accepting",
-      "title": "Высвобождаемое движимое военное имущество (автомобиль)",
-      "transaction": "sale"
-    },
-    {
-      "assets": [
-        {
           "address": "г. Москва, вн.тер.г. муниципальный округ Тверской, ул. Селезневская, дом 11А стр. 1",
           "area_m2": 27.7,
           "cadastral_number": null,
@@ -82375,1266 +81677,6 @@
       "status": "accepting",
       "title": "Передаваемые в аренду здания расположены по адресу: город Москва, внутренний тер.г. муниципальный округ Отрадное, шоссе Алтуфьевское, дом 3, стр. 1, 2, 5, 6, 7. Общей площадью 11174,20 кв.м. Цель аренды для размещения и эксплуатации центра обработки ",
       "transaction": "annual_rent"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/15",
-          "area_m2": 900.0,
-          "cadastral_number": "50:32:0030118:2002",
-          "external_id": "22000030890000001375:1:50:32:0030118:2002",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3803963,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2002 площадь 900 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/15",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a4cf2f02a207b6a48e27"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a4d02f02a207b6a48e2a"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a4d0ebd81576d9c80688"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a4d02967cf5fa5994f91"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a4d02f02a207b6a48e2d"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a4d42f02a207b6a48e40"
-        }
-      ],
-      "external_id": "22000030890000001375:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7607925,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001375",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T10:55:48.810000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001375",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2002",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/9",
-          "area_m2": 1306.0,
-          "cadastral_number": "50:32:0030118:2008",
-          "external_id": "22000030890000001376:1:50:32:0030118:2008",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 5512430,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2008 площадь 1306 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/9",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a72d752d564520b57523"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a72debd81576d9c807f6"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a72d752d564520b57520"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a72debd81576d9c807f3"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a72d2f02a207b6a48ffe"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a730ebd81576d9c80804"
-        }
-      ],
-      "external_id": "22000030890000001376:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 11024860,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001376",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:03:03.224000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001376",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2008",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/24",
-          "area_m2": 890.0,
-          "cadastral_number": "50:32:0030118:2010",
-          "external_id": "22000030890000001377:1:50:32:0030118:2010",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3761830,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2010 площадь 890 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/24",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a86f2f02a207b6a49115"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a86f752d564520b57663"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a86febd81576d9c80821"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a86f2967cf5fa5995233"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a86f752d564520b57666"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a8722f02a207b6a49125"
-        }
-      ],
-      "external_id": "22000030890000001377:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7523660,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001377",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:08:27.571000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001377",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2010",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/25",
-          "area_m2": 901.0,
-          "cadastral_number": "50:32:0030118:2011",
-          "external_id": "22000030890000001378:1:50:32:0030118:2011",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3808189,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2011 площадь 901 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/25",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a99a752d564520b57720"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a99a752d564520b5771f"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a99a2f02a207b6a491b1"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a99a752d564520b57723"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a99a752d564520b57726"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4a99d2f02a207b6a491bf"
-        }
-      ],
-      "external_id": "22000030890000001378:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7616378,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001378",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:13:29.991000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001378",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2011",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/26",
-          "area_m2": 902.0,
-          "cadastral_number": "50:32:0030118:2012",
-          "external_id": "22000030890000001379:1:50:32:0030118:2012",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3812348,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2012 площадь 902 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/26",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aad02f02a207b6a492fc"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aad02f02a207b6a49303"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aad02f02a207b6a49302"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aad02f02a207b6a492fd"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aad0752d564520b577df"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aad42f02a207b6a49310"
-        }
-      ],
-      "external_id": "22000030890000001379:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7624696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001379",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:18:30.379000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001379",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2012",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/27",
-          "area_m2": 903.0,
-          "cadastral_number": "50:32:0030118:2013",
-          "external_id": "22000030890000001380:1:50:32:0030118:2013",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3816575,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2013 площадь 903 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/27",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4abf42f02a207b6a49360"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4abf4ebd81576d9c80a2e"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4abf42f02a207b6a4935d"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4abf4ebd81576d9c80a31"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4abf42f02a207b6a49363"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4abf8ebd81576d9c80a68"
-        }
-      ],
-      "external_id": "22000030890000001380:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7633149,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001380",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:25:47.901000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001380",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2013",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/29",
-          "area_m2": 902.0,
-          "cadastral_number": "50:32:0030118:2015",
-          "external_id": "22000030890000001381:1:50:32:0030118:2015",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3812348,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2015 площадь 902 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/29",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4adb6752d564520b57920"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4adb62967cf5fa599549c"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4adb62967cf5fa599549b"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4adb6752d564520b5791f"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4adb62f02a207b6a49512"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4adb82967cf5fa59954aa"
-        }
-      ],
-      "external_id": "22000030890000001381:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7624696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001381",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:31:03.602000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001381",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2015",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/30",
-          "area_m2": 902.0,
-          "cadastral_number": "50:32:0030118:2016",
-          "external_id": "22000030890000001382:1:50:32:0030118:2016",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3812348,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2016 площадь 902 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/30",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aed7ebd81576d9c80cd8"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aed72f02a207b6a496a9"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aed72f02a207b6a496a6"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aed72967cf5fa5995528"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aed7ebd81576d9c80cd5"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4aed92967cf5fa5995535"
-        }
-      ],
-      "external_id": "22000030890000001382:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7624696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001382",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:35:51.979000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001382",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2016",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/31",
-          "area_m2": 902.0,
-          "cadastral_number": "50:32:0030118:2017",
-          "external_id": "22000030890000001383:1:50:32:0030118:2017",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3812348,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2017 площадь 902 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/31",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b004ebd81576d9c80d45"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b0042f02a207b6a496f8"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b0042f02a207b6a496f5"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b004ebd81576d9c80d42"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b0042967cf5fa59955b3"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b0072f02a207b6a49708"
-        }
-      ],
-      "external_id": "22000030890000001383:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7624696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001383",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:40:39.057000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001383",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2017",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/32",
-          "area_m2": 902.0,
-          "cadastral_number": "50:32:0030118:2018",
-          "external_id": "22000030890000001384:1:50:32:0030118:2018",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3812348,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2018 площадь 902 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/32",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b156752d564520b57b61"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b156752d564520b57b5e"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b1562967cf5fa5995708"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b156752d564520b57b5b"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b1562967cf5fa599570b"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b15aebd81576d9c80e3e"
-        }
-      ],
-      "external_id": "22000030890000001384:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7624696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001384",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:46:47.344000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001384",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2018",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/33",
-          "area_m2": 903.0,
-          "cadastral_number": "50:32:0030118:2019",
-          "external_id": "22000030890000001385:1:50:32:0030118:2019",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3816575,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2019 площадь 903 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/33",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b28b2f02a207b6a49964"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b28bebd81576d9c80e97"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b28b752d564520b57c10"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b28b2f02a207b6a49961"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b28b752d564520b57c13"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b28e752d564520b57c22"
-        }
-      ],
-      "external_id": "22000030890000001385:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7633149,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001385",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:51:13.956000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001385",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2019",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/34",
-          "area_m2": 902.0,
-          "cadastral_number": "50:32:0030118:2020",
-          "external_id": "22000030890000001386:1:50:32:0030118:2020",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 3812348,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2020 площадь 902 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/34",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b3852f02a207b6a49ae1"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b385ebd81576d9c80f7b"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b3852967cf5fa5995894"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b3852967cf5fa5995897"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b388752d564520b57c80"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b39d2967cf5fa59958b5"
-        }
-      ],
-      "external_id": "22000030890000001386:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 7624696,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001386",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T11:55:40.588000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001386",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2020",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/35",
-          "area_m2": 1336.0,
-          "cadastral_number": "50:32:0030118:2021",
-          "external_id": "22000030890000001387:1:50:32:0030118:2021",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 5638555,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2021 площадь 1336 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/35",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b4b7ebd81576d9c8112b"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b4b7752d564520b57d2a"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b4b7ebd81576d9c81128"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b4b7ebd81576d9c81127"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b4b72967cf5fa5995a00"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b4ba2967cf5fa5995a0e"
-        }
-      ],
-      "external_id": "22000030890000001387:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 11277109,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001387",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T12:05:11.537000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001387",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2021",
-      "transaction": "rent_unspecified"
-    },
-    {
-      "assets": [
-        {
-          "address": "обл. Московская, г.о. Серпухов, тер. Тверитино-1, з/у 11/37",
-          "area_m2": 1202.0,
-          "cadastral_number": "50:32:0030118:2032",
-          "external_id": "22000030890000001388:1:50:32:0030118:2032",
-          "kind": "zemlya",
-          "latitude": null,
-          "location_accuracy": "unknown",
-          "longitude": null
-        }
-      ],
-      "attributes": [
-        {
-          "title": "Форма собственности",
-          "value": "Федеральная собственность"
-        },
-        {
-          "title": "Категория объекта источника",
-          "value": "Земли сельскохозяйственного назначения"
-        },
-        {
-          "title": "Основной вид разрешенного использования",
-          "value": "Ведение садоводства"
-        },
-        {
-          "title": "Вид договора",
-          "value": "Договор аренды земельного участка"
-        },
-        {
-          "title": "Срок аренды земельного участка - лет",
-          "value": "20"
-        },
-        {
-          "title": "Ограничения прав на земельный участок",
-          "value": "Согласно ГПЗУ"
-        },
-        {
-          "title": "Требования к участникам",
-          "value": "Согласно документации"
-        }
-      ],
-      "category": "zemlya",
-      "deadline": "2026-11-03T15:00:00Z",
-      "deposit_minor": 5075084,
-      "description": "Земельный участок с кадастровым номером 50:32:0030118:2032 площадь 1202 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Тверитино-1, з/у 11/37",
-      "documents": [
-        {
-          "title": "00_Распоряжение об аукционе_общее_4_(файл отображения).pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b6e3ebd81576d9c8122e"
-        },
-        {
-          "title": "01_извещение.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b6e22f02a207b6a49eff"
-        },
-        {
-          "title": "02_Форма заявки.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b6e22f02a207b6a49f02"
-        },
-        {
-          "title": "03_проект договора аренды.docx",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b6e32967cf5fa5995b7e"
-        },
-        {
-          "title": "выписка егрн.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b6e32f02a207b6a49f05"
-        },
-        {
-          "title": "гпзу.pdf",
-          "url": "https://torgi.gov.ru/new/file-store/v1/6ad4b6e6752d564520b57e83"
-        }
-      ],
-      "external_id": "22000030890000001388:1",
-      "municipality": "g-o-serpuhov",
-      "municipality_name": "г.о. Серпухов",
-      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
-      "platform_url": null,
-      "price_minor": 10150169,
-      "procedure": "municipal",
-      "procedure_id": "22000030890000001388",
-      "region": "moskovskaya-oblast",
-      "region_name": "Московская область",
-      "right_description": "Аренда — период начальной платы уточняется в извещении",
-      "source_updated_at": "2026-10-18T12:11:46.260000Z",
-      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001388",
-      "status": "accepting",
-      "title": "Земельный участок с кадастровым номером 50:32:0030118:2032",
-      "transaction": "rent_unspecified"
     },
     {
       "assets": [
@@ -87934,6 +85976,80 @@
           "address": "обл. Московская, г.о. Серпухов, д. Балково",
           "area_m2": null,
           "cadastral_number": null,
+          "external_id": "22000036140000000784:1:22000036140000000784:1",
+          "kind": "other",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Иное"
+        },
+        {
+          "title": "Назначение",
+          "value": "Прямое"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи"
+        }
+      ],
+      "category": "other",
+      "deadline": "2026-11-16T14:00:00Z",
+      "deposit_minor": 65560,
+      "description": "Набор в бордовом футляре, в который входят: - подстаканник из недрагоценного металла серебристого цвета со стеклянным стаканом с надписью «Пенза» и гербами РФ и Пензенской области, - ложка с гербом РФ из недрагоценного металла серебристо-желтого цвета",
+      "documents": [
+        {
+          "title": "11.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad60442ebd81576d9c918a4"
+        },
+        {
+          "title": "Приложение _ 2 согласие пд (1).docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad6081d752d564520b683a4"
+        },
+        {
+          "title": "Приложение 1 ПП (заявка) (1) (1).docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad608202967cf5fa59a718a"
+        },
+        {
+          "title": "Проект ДКП движимое имущество конф (автомобиль) (1).docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad608242967cf5fa59a7190"
+        },
+        {
+          "title": "ИС 11.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad60841ebd81576d9c92069"
+        }
+      ],
+      "external_id": "22000036140000000784:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В ГОРОДЕ МОСКВЕ",
+      "platform_url": null,
+      "price_minor": 655600,
+      "procedure": "municipal",
+      "procedure_id": "22000036140000000784",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-10-19T15:11:33.098000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000036140000000784",
+      "status": "accepting",
+      "title": "Набор в бордовом футляре, в который входят: - подстаканник из недрагоценного металла серебристого цвета со стеклянным стаканом с надписью «Пенза» и гербами РФ и Пензенской области, - ложка с гербом РФ из недрагоценного металла серебристо-желтого цвет",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, д. Балково",
+          "area_m2": null,
+          "cadastral_number": null,
           "external_id": "22000036140000000785:1:22000036140000000785:1",
           "kind": "other",
           "latitude": null,
@@ -90793,6 +88909,84 @@
     {
       "assets": [
         {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Якиманка, ул. Донская, дом 17, кв. 70",
+          "area_m2": 37.0,
+          "cadastral_number": null,
+          "external_id": "23000054780000002576:1:23000054780000002576:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Иная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Жилые помещения"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "К участию в торгах допускаются любые лица (за исключением лиц в соответствии с п.5 ст.449.1 ГК РФ), зарегистрированные на электронной торговой площадке (ЭТП), оплатившие сумму задатка на ЭТП и предоставившие заявку на участие в торгах подписанную электронно-цифровой подписью с необходимыми документами. Подача заявки осуществляется в установленные сроки через ЭТП в соответствии с регламентом электронной торговой площадки и Аукционной документацией Организатора торгов."
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2026-10-01T13:00:00Z",
+      "deposit_minor": 55000000,
+      "description": "квартира пл.37кв.м по адресу: Российская Федерация, город Москва, вн.тер.г. муниципальный округ Якиманка, улица Донская, дом 17, квартира 70, к/н 77:01:0006005:1266, должник (собственник): Абраамян Р.А. Фотографии имущества судебным приставом-исполнителем не предоставлены",
+      "documents": [
+        {
+          "title": "Л2 26 22 Дан-24.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabd8c142b04d7772da75dc"
+        },
+        {
+          "title": "Абраамян Рузанна Ашотовна.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabd8d30e54af78f50a44fa"
+        },
+        {
+          "title": "Документы участника.rar",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabd8ff0e54af78f50a4542"
+        },
+        {
+          "title": "Проект ДКП.rar",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabd8ff0e54af78f50a4541"
+        },
+        {
+          "title": "Абраамян Р.А. Аукционная документация (Извещение) 21.09.2026 РАД.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabd90873b1b01331f7afbe"
+        },
+        {
+          "title": "Абраамян Р.А. Аукционная документация (Извещение) 19.10.2026 РАД.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad5efe12f02a207b6a5a7e6"
+        },
+        {
+          "title": "отложение Донская 05.10.26 (гис).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad5efeb2967cf5fa59a46b7"
+        }
+      ],
+      "external_id": "23000054780000002576:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-yakimanka",
+      "municipality_name": "вн.тер.г. муниципальный округ Якиманка",
+      "organizer": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ВОСТОЧНЫЙ МОСТ\"",
+      "platform_url": null,
+      "price_minor": 1136800000,
+      "procedure": "seized",
+      "procedure_id": "23000054780000002576",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-10-19T10:27:15.205000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/23000054780000002576",
+      "status": "accepting",
+      "title": "квартира пл.37кв.м по адресу: Российская Федерация, город Москва, вн.тер.г. муниципальный округ Якиманка, улица Донская, дом 17, квартира 70, к/н 77:01:0006005:1266",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
           "address": "г. Москва, вн.тер.г. муниципальный округ Дорогомилово, пр-кт Кутузовский, дом 15, кв. 97",
           "area_m2": 56.9,
           "cadastral_number": null,
@@ -93525,6 +91719,84 @@
     {
       "assets": [
         {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Северное Бутово, ул. Старобитцевская, дом 17 к. 1, кв. 114",
+          "area_m2": 58.7,
+          "cadastral_number": null,
+          "external_id": "23000054780000002742:1:23000054780000002742:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Иная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Жилые помещения"
+        },
+        {
+          "title": "Вид предмета торгов по 229-ФЗ",
+          "value": "Продажа"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "К участию в торгах допускаются любые лица (за исключением лиц в соответствии с п.5 ст.449.1 ГК РФ), зарегистрированные на электронной торговой площадке (ЭТП), оплатившие сумму задатка на ЭТП и предоставившие заявку на участие в торгах подписанную электронно-цифровой подписью с необходимыми документами. Подача заявки осуществляется в установленные сроки через ЭТП в соответствии с регламентом электронной торговой площадки и Аукционной документацией Организатора торгов."
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2026-11-13T13:00:00Z",
+      "deposit_minor": 95000000,
+      "description": "1/2 доля в праве общей долевой собственности на квартиру пл.58,7кв.м по адресу: Российская Федерация, город Москва, вн.тер.г. муниципальный округ Северное Бутово, улица Старобитцевская, дом 17, корпус 1, квартира 114, к/н 77:06:0011001:4807, должник (собственник) Скудин М.А. Фотографии имущества судебным приставом-исполнителем не предоставлены",
+      "documents": [
+        {
+          "title": "снижение Скудин Зюз-84 (гис).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad631d32f02a207b6a62040"
+        },
+        {
+          "title": "Скудин МА Старобитцевская доля (гис).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad631e22967cf5fa59aad19"
+        },
+        {
+          "title": "Л2 26 12 Зюз-84.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad631eb2f02a207b6a62048"
+        },
+        {
+          "title": "Документы участника 19.10.26.rar",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad21eb0752d564520b45fa9"
+        },
+        {
+          "title": "ДКП, инструкция заключения ДКП.rar",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad21eb3752d564520b45fba"
+        },
+        {
+          "title": "Скудин М.А. Аукционная документация (Извещение) 19.10.2026 РТС.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad21ed0752d564520b45ff9"
+        }
+      ],
+      "external_id": "23000054780000002742:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-severnoe-butovo",
+      "municipality_name": "вн.тер.г. муниципальный округ Северное Бутово",
+      "organizer": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ВОСТОЧНЫЙ МОСТ\"",
+      "platform_url": null,
+      "price_minor": 608855000,
+      "procedure": "seized",
+      "procedure_id": "23000054780000002742",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-19T15:10:01.461000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/23000054780000002742",
+      "status": "accepting",
+      "title": "1/2 доля в праве общей долевой собственности на квартиру пл.58,7кв.м по адресу: Российская Федерация, город Москва, вн.тер.г. муниципальный округ Северное Бутово, улица Старобитцевская, дом 17, корпус 1, квартира 114, к/н 77:06:0011001:4807",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "г. Москва, вн.тер.г. муниципальный округ Богородское, пр-д 6-й Подбельского, дом 16 стр. 3, помещ. 48",
           "area_m2": 20.4,
           "cadastral_number": null,
@@ -93938,6 +92210,84 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/23000054780000002745",
       "status": "accepting",
       "title": "АМТС ИНФИНИТИ QХ60, 2014гв, г/н M923MT777, VIN 5N1CL0MM4EC522343",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Коммунарка, д. Саларьево",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "23000054780000002746:1:23000054780000002746:1",
+          "kind": "transport",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Иная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Легковые автомобили"
+        },
+        {
+          "title": "Назначение",
+          "value": "Прямое"
+        },
+        {
+          "title": "Вид предмета торгов по 229-ФЗ",
+          "value": "Продажа"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "К участию в торгах допускаются любые лица (за исключением лиц в соответствии с п.5 ст.449.1 ГК РФ), зарегистрированные на электронной торговой площадке (ЭТП), оплатившие сумму задатка на ЭТП и предоставившие заявку на участие в торгах подписанную электронно-цифровой подписью с необходимыми документами. Подача заявки осуществляется в установленные сроки через ЭТП в соответствии с регламентом электронной торговой площадки и Аукционной документацией Организатора торгов."
+        }
+      ],
+      "category": "transport",
+      "deadline": "2026-11-18T13:00:00Z",
+      "deposit_minor": 7000000,
+      "description": "АМТС BRILLIANCE V3, 2019 г.в., г/н C360KC797, цвет серый, VIN LSYYDBCB0KC012229, должник (собственник) Золотов Д.А.",
+      "documents": [
+        {
+          "title": "Л2 26 26 ТрАО-19.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad63b172967cf5fa59ab3e1"
+        },
+        {
+          "title": "ЗОЛОТОВ ДМИТРИЙ АЛЕКСЕЕВИЧ тг.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad63b33752d564520b6c9fb"
+        },
+        {
+          "title": "Документы участника 19.10.26.rar",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad227e92f02a207b6a34a99"
+        },
+        {
+          "title": "ДКП, инструкция заключения ДКП.rar",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad227ed752d564520b46932"
+        },
+        {
+          "title": "Золотов Д.А. Аукционная документация (Извещение) 19.10.2026 РТС.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad227f12967cf5fa5984e3e"
+        }
+      ],
+      "external_id": "23000054780000002746:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-kommunarka",
+      "municipality_name": "вн.тер.г. муниципальный округ Коммунарка",
+      "organizer": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ВОСТОЧНЫЙ МОСТ\"",
+      "platform_url": null,
+      "price_minor": 45700000,
+      "procedure": "seized",
+      "procedure_id": "23000054780000002746",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-19T15:48:05.109000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/23000054780000002746",
+      "status": "accepting",
+      "title": "АМТС BRILLIANCE V3, 2019 г.в., г/н C360KC797, цвет серый, VIN LSYYDBCB0KC012229",
       "transaction": "rent_unspecified"
     },
     {
@@ -125280,6 +123630,84 @@
           "address": "обл. Московская",
           "area_m2": null,
           "cadastral_number": null,
+          "external_id": "26000030410000000011:1:26000030410000000011:1",
+          "kind": "other",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Муниципальная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Иное"
+        },
+        {
+          "title": "Назначение",
+          "value": "Прямое"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды НТО и некапитальных объектов"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "3"
+        }
+      ],
+      "category": "other",
+      "deadline": "2026-11-09T07:00:00Z",
+      "deposit_minor": 45221000,
+      "description": "Нестационарный торговый объект (павильон) №16",
+      "documents": [
+        {
+          "title": "Аукционная документация НТО 16 (инв 0984).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad61afa752d564520b6a27d"
+        },
+        {
+          "title": "Приложение №3 Отчет об оценке.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad61afaebd81576d9c941f0"
+        },
+        {
+          "title": "форма договора НТО 16.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad61af92f02a207b6a5fdf1"
+        },
+        {
+          "title": "форма заявки НТО 16.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad61af82967cf5fa59a909b"
+        },
+        {
+          "title": "извещени НТО 16.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad61a4cebd81576d9c940e5"
+        }
+      ],
+      "external_id": "26000030410000000011:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "МУНИЦИПАЛЬНОЕ УЧРЕЖДЕНИЕ \"ДИРЕКЦИЯ ПАРКОВ\" ГОРОДСКОГО ОКРУГА ЛЮБЕРЦЫ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 45221000,
+      "procedure": "municipal",
+      "procedure_id": "26000030410000000011",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Годовая арендная плата",
+      "source_updated_at": "2026-10-19T13:31:57.080000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/26000030410000000011",
+      "status": "accepting",
+      "title": "право заключения договора аренды движимого имущества",
+      "transaction": "annual_rent"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": null,
+          "cadastral_number": null,
           "external_id": "26000030410000000012:1:26000030410000000012:1",
           "kind": "other",
           "latitude": null,
@@ -125426,6 +123854,84 @@
       "right_description": "Годовая арендная плата",
       "source_updated_at": "2026-10-19T13:49:39.764000Z",
       "source_url": "https://torgi.gov.ru/new/public/notices/view/26000030410000000013",
+      "status": "accepting",
+      "title": "право заключения договора аренды движимого имущества",
+      "transaction": "annual_rent"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "26000030410000000014:1:26000030410000000014:1",
+          "kind": "other",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Муниципальная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Иное"
+        },
+        {
+          "title": "Назначение",
+          "value": "Прямое"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды НТО и некапитальных объектов"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "3"
+        }
+      ],
+      "category": "other",
+      "deadline": "2026-11-09T07:00:00Z",
+      "deposit_minor": 45221000,
+      "description": "Нестационарный торговый объект (павильон) №19",
+      "documents": [
+        {
+          "title": "Аукционная документация НТО 19 (инв 0981).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad6225c752d564520b6ac4d"
+        },
+        {
+          "title": "Приложение №3 Отчет об оценке.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad6225d2967cf5fa59a9a85"
+        },
+        {
+          "title": "форма договора НТО 19.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad6225cebd81576d9c94ae6"
+        },
+        {
+          "title": "форма заявки НТО 19.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad6225aebd81576d9c94ade"
+        },
+        {
+          "title": "извещение НТО 19.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad6211f2f02a207b6a60668"
+        }
+      ],
+      "external_id": "26000030410000000014:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "МУНИЦИПАЛЬНОЕ УЧРЕЖДЕНИЕ \"ДИРЕКЦИЯ ПАРКОВ\" ГОРОДСКОГО ОКРУГА ЛЮБЕРЦЫ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 45221000,
+      "procedure": "municipal",
+      "procedure_id": "26000030410000000014",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Годовая арендная плата",
+      "source_updated_at": "2026-10-19T14:02:03.967000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/26000030410000000014",
       "status": "accepting",
       "title": "право заключения договора аренды движимого имущества",
       "transaction": "annual_rent"

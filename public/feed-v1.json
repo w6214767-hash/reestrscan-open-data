@@ -12,6 +12,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "21000005000000034410",
+      "source_updated_at": "2026-10-19T07:18:13.491000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "21000005000000034409",
       "source_updated_at": "2026-10-19T07:20:02.722000Z"
     },
@@ -407,6 +412,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "21000004710000026147",
+      "source_updated_at": "2026-10-21T16:00:42.413000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "21000004710000026171",
       "source_updated_at": "2026-10-21T16:01:10.939000Z"
     },
@@ -506,7 +516,7 @@
       "source_updated_at": "2026-10-23T16:24:53.251000Z"
     }
   ],
-  "generated_at": "2026-10-26T06:40:21.222119Z",
+  "generated_at": "2026-10-26T12:57:54.954763Z",
   "lots": [
     {
       "assets": [
@@ -47783,6 +47793,120 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, м.о. Дмитровский, д. Попадьино Российская Федерация, Московская область, муниципальный округ Дмитровский, деревня Попадьино",
+          "area_m2": 1649.0,
+          "cadastral_number": "50:04:0230501:1028",
+          "external_id": "21000004710000029018:1:50:04:0230501:1028",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-19T15:00:00Z",
+      "deposit_minor": 26258676,
+      "description": "Аукцион в отношении земельного участка с КН: 50:04:0230501:1028",
+      "documents": [
+        {
+          "title": "акт осмотра (10).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e402967cf5fa59b7810"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e3f2967cf5fa59b7807"
+        },
+        {
+          "title": "автоси.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e382f02a207b6a6f517"
+        },
+        {
+          "title": "договор.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e38752d564520b78be0"
+        },
+        {
+          "title": "егрн.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e372f02a207b6a6f513"
+        },
+        {
+          "title": "письмо администрации окс.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e372967cf5fa59b77ed"
+        },
+        {
+          "title": "рещение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e36752d564520b78bdd"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e352f02a207b6a6f50f"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e34752d564520b78bd9"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e32752d564520b78bd0"
+        },
+        {
+          "title": "Извещение+№+АЗГЭ-ДМ_26-6392.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad73e322967cf5fa59b77e9"
+        }
+      ],
+      "external_id": "21000004710000029018:1",
+      "municipality": "m-o-dmitrovskiy",
+      "municipality_name": "м.о. Дмитровский",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 26258676,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000029018",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-20T10:59:07.227000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000029018",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН: 50:04:0230501:1028",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, м.о. Дмитровский, д. Сбоево Российская Федерация, Московская область, м.о. Дмитровский, д. Сбоево",
           "area_m2": 716.0,
           "cadastral_number": "50:04:0120507:398",
@@ -81904,6 +82028,96 @@
       "assets": [
         {
           "address": "обл. Московская",
+          "area_m2": 706.0,
+          "cadastral_number": "50:03:0020180:970",
+          "external_id": "22000030890000001390:1:50:03:0020180:970",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-05T15:00:00Z",
+      "deposit_minor": 2278227,
+      "description": "Земельный участок с кадастровым номером 50:03:0020180:970 площадь 706 по адресу Московская область, Клинский район, городское поселение Клин, д. Селевино",
+      "documents": [
+        {
+          "title": "Распоряжение_торги.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad76a8c752d564520b7d5e8"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad76a8c752d564520b7d5e5"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad76a8c2f02a207b6a749fc"
+        },
+        {
+          "title": "Извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad76a8bebd81576d9ca7a92"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad76a952967cf5fa59bc4f2"
+        },
+        {
+          "title": "Проект Договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad76a8c2f02a207b6a749ff"
+        }
+      ],
+      "external_id": "22000030890000001390:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 4556453,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001390",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-20T13:21:22.566000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001390",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:03:0020180:970",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская",
           "area_m2": 640.0,
           "cadastral_number": "50:03:0020180:992",
           "external_id": "22000030890000001391:1:50:03:0020180:992",
@@ -84058,6 +84272,96 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001414",
       "status": "accepting",
       "title": "Земельный участок с кадастровым номером 50:32:0020121:1601",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Серпухов, тер. Терехунь-1, з/у 37",
+          "area_m2": 933.0,
+          "cadastral_number": "50:32:0020121:1602",
+          "external_id": "22000030890000001415:1:50:32:0020121:1602",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Ведение садоводства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно ГПЗУ"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-11-06T17:00:00Z",
+      "deposit_minor": 4248812,
+      "description": "Земельный участок с кадастровым номером 50:32:0020121:1602 площадь 933 по адресу Российская Федерация, Московская область, г.о. Серпухов, тер. Терехунь-1, з/у 37",
+      "documents": [
+        {
+          "title": "Извещение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad8e6cb5ecf397a3d289bee"
+        },
+        {
+          "title": "Распоряжение_торги.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad8e6cb9776506daa47820f"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad8e6cd2695d554b68fb1bd"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad8e6cc2695d554b68fb1b0"
+        },
+        {
+          "title": "02_Форма заявки.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad8e6cb9776506daa47820c"
+        },
+        {
+          "title": "Проект Договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad8e6cb5ecf397a3d289bef"
+        }
+      ],
+      "external_id": "22000030890000001415:1",
+      "municipality": "g-o-serpuhov",
+      "municipality_name": "г.о. Серпухов",
+      "organizer": "ТЕРРИТОРИАЛЬНОЕ УПРАВЛЕНИЕ ФЕДЕРАЛЬНОГО АГЕНТСТВА ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ В МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 8497624,
+      "procedure": "municipal",
+      "procedure_id": "22000030890000001415",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-10-21T16:23:16.425000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000030890000001415",
+      "status": "accepting",
+      "title": "Земельный участок с кадастровым номером 50:32:0020121:1602",
       "transaction": "rent_unspecified"
     },
     {
@@ -94877,6 +95181,104 @@
       "status": "accepting",
       "title": "нежилое помещение (Этаж № 5) пл.54,3кв.м по адресу: Российская Федерация, город Москва, вн.тер.г. муниципальный округ Коньково, улица Бутлерова, дом 17, помещение 229/5, к/н 77:06:0008001:3728",
       "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Хамовники, ул. Бурденко, дом 22",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "24000030990000000321:1:24000030990000000321:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Акции АО"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи акций"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "В соответствии с разделом 7 Информационного сообщения"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-10-22T14:00:00Z",
+      "deposit_minor": 57086600000,
+      "description": "Доли в размере 100% уставного капитала обществ с ограниченной ответственностью «Дэнсиборг», «Блаусент» и акции в размере 50% уставного капитала акционерного общества КОММЕРЧЕСКИЙ БАНК «АГРОПРОМКРЕДИТ»",
+      "documents": [
+        {
+          "title": "Документы лота_ООО Блаусент.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e5972f02a207b6a1e1eb"
+        },
+        {
+          "title": "Документы лота_АО КБ Агропромкредит.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e598c4cdeb46deabbd1a"
+        },
+        {
+          "title": "Документы лота_ООО Дэнсиборг.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e598ebd81576d9c5cf48"
+        },
+        {
+          "title": "Информационное сообщение_ПП_ ГК КБ АГРОПРОМКРЕДИТ.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e599fc3223099b047f88"
+        },
+        {
+          "title": "Приложение 1_Заявка_эл. форма_Публичное предложение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e59ac4cdeb46deabbd1d"
+        },
+        {
+          "title": "Приложение 2_Проект договора купли-продажи (Доли).docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e599ebd81576d9c5cf4b"
+        },
+        {
+          "title": "Приложение 3_Форма описи.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e59a2f02a207b6a1e1ee"
+        },
+        {
+          "title": "Выписка 85П-3 от 15.10.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0e5a2ebd81576d9c5cf4e"
+        },
+        {
+          "title": "Справка о внесении изменений в извещение_24000030990000000321.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad2016febd81576d9c6ca00"
+        },
+        {
+          "title": "Справка о внесении изменений в извещение_24000030990000000321_2.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad600402967cf5fa59a5e4e"
+        },
+        {
+          "title": "Информационное сообщение_ПП_ ГК КБ АГРОПРОМКРЕДИТ.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad60057752d564520b671cd"
+        }
+      ],
+      "external_id": "24000030990000000321:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-hamovniki",
+      "municipality_name": "вн.тер.г. муниципальный округ Хамовники",
+      "organizer": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"БАНК ПСБ\"",
+      "platform_url": null,
+      "price_minor": 285433000000,
+      "procedure": "municipal",
+      "procedure_id": "24000030990000000321",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-10-19T11:36:03.239000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/24000030990000000321",
+      "status": "accepting",
+      "title": "Аукцион в электронной форме по продаже долей в размере 100% уставного капитала обществ с ограниченной ответственностью «Дэнсиборг», «Блаусент» и акций в размере 50% уставного капитала акционерного общества КОММЕРЧЕСКИЙ БАНК «АГРОПРОМКРЕДИТ»",
+      "transaction": "sale"
     },
     {
       "assets": [

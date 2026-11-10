@@ -60,7 +60,7 @@ class BridgeTests(unittest.TestCase):
         self.assertEqual(lot["price_minor"], 100000050)
         self.assertEqual(lot["assets"][0]["cadastral_number"], "50:28:0000000:123")
 
-    def test_revision_two_preserves_repeated_identifiers_and_source_category(self):
+    def test_revision_three_preserves_repeated_identifiers_and_source_category(self):
         row, detail = self.fixture()
         info = detail["exportObject"]["structuredObject"]["notice"]["lots"][0]["biddingObjectInfo"]
         info["estateAddress"] = "Вымышленный адрес теста"
@@ -71,7 +71,7 @@ class BridgeTests(unittest.TestCase):
             {"code": "CadastralNumber", "characteristicValue": "50:28:0000000:123"},
         ]
         feed, _ = bridge.build_feed([row], {row["href"]: detail}, current=datetime(2026, 9, 11, tzinfo=timezone.utc))
-        self.assertEqual(feed["normalization_revision"], 2)
+        self.assertEqual(feed["normalization_revision"], 3)
         lot = feed["lots"][0]
         self.assertEqual([a["cadastral_number"] for a in lot["assets"]], ["50:28:0000000:123", "50:28:0000000:456"])
         self.assertTrue(all(a["area_m2"] is None for a in lot["assets"]))
@@ -159,6 +159,23 @@ class PropertyTests(unittest.TestCase):
         self.assertEqual(bridge._transaction(notice, {'lotName':'Земельный участок','additionalDetails':[{'value':{'name':'Договор аренды'}}]})[0], 'rent_unspecified')
         self.assertEqual(bridge._transaction(notice, {'lotDescription':'Ежегодная арендная плата'})[0], 'annual_rent')
         self.assertEqual(bridge._procedure({'commonInfo':{'biddType':{'code':'229FZ'}}}, {}), 'seized')
+
+    def test_explicit_sale_outranks_incidental_rental_conditions(self):
+        notice = {'commonInfo': {'biddType': {'code': '229FZ'}}}
+        lot = {'lotName': 'Нежилое здание', 'additionalDetails': [
+            {'code': '229FZ_contractType', 'name': 'Вид предмета торгов по 229-ФЗ',
+             'value': {'name': 'Продажа'}},
+            {'code': 'participantsRequirements', 'value': 'Сведения об аренде и годовой арендной плате'},
+        ]}
+        self.assertEqual(bridge._transaction(notice, lot), ('sale', 'Продажа имущества'))
+        lot['additionalDetails'].reverse()
+        self.assertEqual(bridge._transaction(notice, lot)[0], 'sale')
+
+    def test_unrelated_sale_word_is_not_a_structured_contract(self):
+        lot = {'lotName': 'Договор аренды', 'additionalDetails': [
+            {'code': 'participantsRequirements', 'value': {'name': 'Продажа'}},
+        ]}
+        self.assertEqual(bridge._transaction({}, lot)[0], 'rent_unspecified')
 
     def test_only_document_ids_bound_to_official_attachments_are_exposed(self):
         payload={'exportObject':{'attachments':[{'contentId':'a','URL':'https://torgi.gov.ru/new/file-store/v1/a'}, {'contentId':'b','URL':'https://evil.example/x'}]}}

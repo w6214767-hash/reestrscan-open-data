@@ -469,6 +469,14 @@ def _transaction(notice: dict[str, Any], lot: dict[str, Any]) -> tuple[str, str]
     common = notice.get("commonInfo", {})
     bidd = common.get("biddType", {})
     code = bidd.get("code", "") if isinstance(bidd, dict) else ""
+    # The lot's explicit contract type outranks incidental words in long
+    # participant requirements (e.g. a sale mentioning existing lease rights).
+    # Do not use the notice-wide procedure name: it may cover sale AND lease.
+    for item in _items(lot, "additionalDetails"):
+        if "contracttype" in str(item.get("code", "")).casefold():
+            value = (_text(item.get("value")) or "").casefold()
+            if value in {"продажа", "купля-продажа", "договор купли-продажи"}:
+                return "sale", "Продажа имущества"
     details = " ".join(filter(None, (_text(x.get("value")) for x in _items(lot, "additionalDetails"))))
     text = " ".join(filter(None, [details, _text(lot.get("lotName")), _text(lot.get("lotDescription"))])).casefold()
     if any(x in text for x in ("водопользован", "акватори", "рыболов", "недропользован")):
@@ -797,7 +805,7 @@ def build_feed(
     feed = {
         "generated_at": _iso(current),
         "version": 1,
-        "normalization_revision": 2,
+        "normalization_revision": 3,
         "source_id": SOURCE_ID,
         "lots": sorted(deduplicated.values(), key=lambda lot: lot["external_id"]),
     }

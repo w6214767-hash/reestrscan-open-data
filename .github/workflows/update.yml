@@ -46,10 +46,11 @@ jobs:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+      # Cache entries are immutable: reruns must save progress under a new key.
       - uses: actions/cache/restore@v4
         with:
           path: .source-cache
-          key: gis-property-v1-${{ github.run_id }}
+          key: gis-property-v1-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: gis-property-v1-
       - name: Download and normalize official OpenData
         run: python3 -u bridge.py --days 7 --max-details 1200 --workers 8 --cache-dir .source-cache --output out/feed-v1.json --status out/status.json
@@ -57,7 +58,7 @@ jobs:
         if: always()
         with:
           path: .source-cache
-          key: gis-property-v1-${{ github.run_id }}
+          key: gis-property-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Upload candidate feed
         uses: actions/upload-artifact@v4
         with:

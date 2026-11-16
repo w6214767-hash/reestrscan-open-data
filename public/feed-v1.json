@@ -1,11 +1,6 @@
 {
   "cancellations": [
     {
-      "external_id": "22000160280000000033:2",
-      "procedure_id": "22000160280000000033",
-      "source_updated_at": "2026-11-07T14:22:46.083000Z"
-    },
-    {
       "external_id": null,
       "procedure_id": "21000005000000034965",
       "source_updated_at": "2026-11-09T09:23:05.668000Z"
@@ -502,6 +497,11 @@
     },
     {
       "external_id": null,
+      "procedure_id": "23000054780000002735",
+      "source_updated_at": "2026-11-13T08:50:21.052000Z"
+    },
+    {
+      "external_id": null,
       "procedure_id": "23000054780000002612",
       "source_updated_at": "2026-11-13T08:53:47.806000Z"
     },
@@ -589,10 +589,131 @@
       "external_id": null,
       "procedure_id": "21000004710000027163",
       "source_updated_at": "2026-11-13T14:02:40.169000Z"
+    },
+    {
+      "external_id": null,
+      "procedure_id": "21000004710000027164",
+      "source_updated_at": "2026-11-13T14:02:59.110000Z"
+    },
+    {
+      "external_id": null,
+      "procedure_id": "21000004710000027165",
+      "source_updated_at": "2026-11-13T14:03:40.113000Z"
+    },
+    {
+      "external_id": null,
+      "procedure_id": "21000003370000000430",
+      "source_updated_at": "2026-11-14T14:06:23.879000Z"
     }
   ],
-  "generated_at": "2026-11-14T06:23:04.693896Z",
+  "generated_at": "2026-11-16T06:38:33.228326Z",
   "lots": [
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Люберцы, г. Дзержинский, ул. Угрешская, дом 20 помещ. 1011",
+          "area_m2": 106.9,
+          "cadastral_number": null,
+          "external_id": "21000002210000010057:1:21000002210000010057:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Нежилые помещения"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно информационному сообщению"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-12-14T14:00:00Z",
+      "deposit_minor": 156020000,
+      "description": "Помещение, наименование: нежилое помещение, назначение: нежилое, площадь 106,9 кв. м, этаж № 01, кадастровый номер: 50:64:0000000:16264, адрес: Российская Федерация, Московская область, г.о. Люберцы, г. Дзержинский, ул. Угрешская, д. 20, помещ. 1011, находящееся в собственности Московской области, о чем в Едином государственном реестре недвижимости 27.02.2008 года сделана запись о регистрации № 50-50-64/001/2008-199.",
+      "documents": [
+        {
+          "title": "50.64.0000000.16264.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabb6340e54af78f50a08ea"
+        },
+        {
+          "title": "Техпаспорт Дзержинский.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabb63542b04d7772da3f1d"
+        },
+        {
+          "title": "Информационное сообщение МО, Дзержинский, Угрешская.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabb6a50e54af78f50a0af0"
+        },
+        {
+          "title": "Приложение № 1 Форма заявки на участие в аукционе.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabb6a573b1b01331f76c11"
+        },
+        {
+          "title": "Приложение № 2 Проект договора купли-продажи недвижимого имущества.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabbaef73b1b01331f77405"
+        },
+        {
+          "title": "Приложение № 3 Образец письма о соответствии юр лица положениям абз. 3 ч. 1 ...акона.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabbaef42b04d7772da47a9"
+        },
+        {
+          "title": "Распоряжение от 11.09.2026 № 15ВР-2615.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabbaf073b1b01331f7740b"
+        },
+        {
+          "title": "Распоряжение от 09.09.2026 № 15ВР-2592 .pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6abbc2253c27c35700a1505c"
+        },
+        {
+          "title": "Замена ошибочно прикрепленного документа.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6abbc291d1f61c5495b611ec"
+        },
+        {
+          "title": "Информационное сообщение МО, Дзержинский, Угрешская.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace1ee1c4cdeb46dea91057"
+        },
+        {
+          "title": "Информация о продлении сроков и переносе даты проведения аукциона на 20.11.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace1ee1fc3223099b01dd68"
+        },
+        {
+          "title": "Информационное сообщение МО, Дзержинский, Угрешская.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70da6f55f77353da1ef25"
+        },
+        {
+          "title": "Информация о продлении сроков и переносе даты проведения аукциона на 21.12.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70da5f55f77353da1ef21"
+        }
+      ],
+      "external_id": "21000002210000010057:1",
+      "municipality": "g-o-lyubertsy",
+      "municipality_name": "г.о. Люберцы",
+      "organizer": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"РОССИЙСКИЙ АУКЦИОННЫЙ ДОМ\"",
+      "platform_url": null,
+      "price_minor": 1560200000,
+      "procedure": "municipal",
+      "procedure_id": "21000002210000010057",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T13:19:14.561000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000002210000010057",
+      "status": "accepting",
+      "title": "Помещение 106,9 кв.м, распложенное по адресу: Российская Федерация, Московская область, г.о. Люберцы, г. Дзержинский, ул. Угрешская, д. 20, помещ. 1011",
+      "transaction": "sale"
+    },
     {
       "assets": [
         {
@@ -3765,6 +3886,96 @@
           "address": "г. Москва, вн.тер.г. муниципальный округ Бескудниковский, б-р Бескудниковский, дом 19 стр. 1",
           "area_m2": 16.5,
           "cadastral_number": null,
+          "external_id": "21000002970000000968:1:21000002970000000968:1",
+          "kind": "parking",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Гаражи и машиноместа"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации об аукционе"
+        }
+      ],
+      "category": "parking",
+      "deadline": "2027-01-13T12:00:00Z",
+      "deposit_minor": 28655560,
+      "description": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,5 кв.м, подвал 2, машино-место 224. Кадастровый номер 77:09:0002026:1992",
+      "documents": [
+        {
+          "title": "Машино-место.Лотовая документация.16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a30c71e81676cf24494b"
+        },
+        {
+          "title": "Машино-место.Проект договора.16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a30d0a20e814f54e8874"
+        },
+        {
+          "title": "Машино-место.Распоряжение Департамента городского имущества города Москвы.16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a30e0a20e814f54e8877"
+        },
+        {
+          "title": "Машино-место.Форма заявки на участие.16958758.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a30ef55f77353da02cf9"
+        },
+        {
+          "title": "Машино-место.Памятка победителя.16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a30fbbadc91d62768a7f"
+        },
+        {
+          "title": "Нежилое помещение.Поэтажный план БТИ.16958758_2.jpg",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a30fbbadc91d62768a82"
+        },
+        {
+          "title": "Машино-место.Список помещений объекта по БТИ (экспликация).16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a310bbadc91d62768a88"
+        },
+        {
+          "title": "Машино-место.Выписка ЕГРН.16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a311bbadc91d62768a90"
+        },
+        {
+          "title": "Машино-место.Отчет об оценке.16958758.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a31c0a20e814f54e88f4"
+        },
+        {
+          "title": "Машино-место.Фото объекта.16958758.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a31dbbadc91d62768a9c"
+        }
+      ],
+      "external_id": "21000002970000000968:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-beskudnikovskiy",
+      "municipality_name": "вн.тер.г. муниципальный округ Бескудниковский",
+      "organizer": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ \"ЖИЛИЩНИК БЕСКУДНИКОВСКОГО РАЙОНА\"",
+      "platform_url": null,
+      "price_minor": 143277800,
+      "procedure": "municipal",
+      "procedure_id": "21000002970000000968",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-12T11:47:10.633000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000002970000000968",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,5 кв.м, подвал 2, машино-место 224. Кадастровый номер 77:09:0002026:1992",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Бескудниковский, б-р Бескудниковский, дом 19 стр. 1",
+          "area_m2": 16.5,
+          "cadastral_number": null,
           "external_id": "21000002970000000969:1:21000002970000000969:1",
           "kind": "parking",
           "latitude": null,
@@ -5017,6 +5228,186 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000002970000000982",
       "status": "accepting",
       "title": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,7 кв.м, подвал 2, машино-место 232. Кадастровый номер 77:09:0002026:2000",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Бескудниковский, б-р Бескудниковский, дом 19 стр. 1",
+          "area_m2": 16.8,
+          "cadastral_number": null,
+          "external_id": "21000002970000000983:1:21000002970000000983:1",
+          "kind": "parking",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Гаражи и машиноместа"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации об аукционе"
+        }
+      ],
+      "category": "parking",
+      "deadline": "2027-01-13T12:00:00Z",
+      "deposit_minor": 29176560,
+      "description": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,8 кв.м, подвал 2, машино-место 231. Кадастровый номер 77:09:0002026:1999",
+      "documents": [
+        {
+          "title": "Машино-место.Лотовая документация.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf22bbadc91d62778ea1"
+        },
+        {
+          "title": "Машино-место.Проект договора.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf22f55f77353da14b25"
+        },
+        {
+          "title": "Машино-место.Распоряжение Департамента городского имущества города Москвы.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf2271e81676cf255ff1"
+        },
+        {
+          "title": "Машино-место.Форма заявки на участие.16969561.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf23f55f77353da14b28"
+        },
+        {
+          "title": "Машино-место.Памятка победителя.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf240a20e814f54fa56a"
+        },
+        {
+          "title": "Машино-место.Поэтажный план БТИ.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf24bbadc91d62778ea4"
+        },
+        {
+          "title": "Машино-место.Список помещений объекта по БТИ (экспликация).16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf25bbadc91d62778ea7"
+        },
+        {
+          "title": "Машино-место.Выписка ЕГРН.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf2671e81676cf255fff"
+        },
+        {
+          "title": "Машино-место.Отчет об оценке.16969561.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf31f55f77353da14bb3"
+        },
+        {
+          "title": "Машино-место.Фото объекта.16969561.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bf33bbadc91d62778ebf"
+        }
+      ],
+      "external_id": "21000002970000000983:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-beskudnikovskiy",
+      "municipality_name": "вн.тер.г. муниципальный округ Бескудниковский",
+      "organizer": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ \"ЖИЛИЩНИК БЕСКУДНИКОВСКОГО РАЙОНА\"",
+      "platform_url": null,
+      "price_minor": 145882800,
+      "procedure": "municipal",
+      "procedure_id": "21000002970000000983",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T10:27:45.246000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000002970000000983",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,8 кв.м, подвал 2, машино-место 231. Кадастровый номер 77:09:0002026:1999",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Бескудниковский, б-р Бескудниковский, дом 19 стр. 1",
+          "area_m2": 16.4,
+          "cadastral_number": null,
+          "external_id": "21000002970000000985:1:21000002970000000985:1",
+          "kind": "parking",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Гаражи и машиноместа"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно документации об аукционе"
+        }
+      ],
+      "category": "parking",
+      "deadline": "2027-01-13T12:00:00Z",
+      "deposit_minor": 28481880,
+      "description": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,4 кв.м, подвал 2, машино-место 234. Кадастровый номер 77:09:0002026:2002",
+      "documents": [
+        {
+          "title": "Машино-место.Лотовая документация.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6beab71e81676cf255ee5"
+        },
+        {
+          "title": "Машино-место.Проект договора.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6beac71e81676cf255ee8"
+        },
+        {
+          "title": "Машино-место.Распоряжение Департамента городского имущества города Москвы.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6beacbbadc91d62778d63"
+        },
+        {
+          "title": "Машино-место.Форма заявки на участие.16971536.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bead0a20e814f54fa3c6"
+        },
+        {
+          "title": "Машино-место.Памятка победителя.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6beadf55f77353da14a3b"
+        },
+        {
+          "title": "Машино-место.Поэтажный план БТИ.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bead71e81676cf255eef"
+        },
+        {
+          "title": "Машино-место.Список помещений объекта по БТИ (экспликация).16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6beaef55f77353da14a3e"
+        },
+        {
+          "title": "Машино-место.Выписка ЕГРН.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6beafbbadc91d62778d72"
+        },
+        {
+          "title": "Машино-место.Отчет об оценке.16971536.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bebdbbadc91d62778df5"
+        },
+        {
+          "title": "Машино-место.Фото объекта.16971536.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6bec00a20e814f54fa3fc"
+        }
+      ],
+      "external_id": "21000002970000000985:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-beskudnikovskiy",
+      "municipality_name": "вн.тер.г. муниципальный округ Бескудниковский",
+      "organizer": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ \"ЖИЛИЩНИК БЕСКУДНИКОВСКОГО РАЙОНА\"",
+      "platform_url": null,
+      "price_minor": 142409400,
+      "procedure": "municipal",
+      "procedure_id": "21000002970000000985",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T10:29:13.670000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000002970000000985",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в оперативном управлении ГБУ «Жилищник Бескудниковского района», по адресу: г. Москва, Бескудниковский бульвар, дом 19, строение 1, площадь 16,4 кв.м, подвал 2, машино-место 234. Кадастровый номер 77:09:0002026:2002",
       "transaction": "sale"
     },
     {
@@ -17892,6 +18283,140 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, м.о. Чехов Российская Федерация, Московская область, м.о. Чехов, д Сенино",
+          "area_m2": 702.0,
+          "cadastral_number": "50:31:0050301:6987",
+          "external_id": "21000004710000026399:1:50:31:0050301:6987",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 10677139,
+      "description": "Аукцион в отношении земельного участка с КН 50:31:0050301:6987",
+      "documents": [
+        {
+          "title": "ГПЗУ 6987.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a5734a21ff47f5590884382"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57349fa0f456669d7b9440"
+        },
+        {
+          "title": "20624425921_auto_si.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57349e1ff47f5590884363"
+        },
+        {
+          "title": "доп. письмо от ОМСУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57349df4fed970e8def238"
+        },
+        {
+          "title": "ЕГРН 6987.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57349d834549475415bae8"
+        },
+        {
+          "title": "Договор аренды  6987.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57349c834549475415bae5"
+        },
+        {
+          "title": "13.07.2026_1831-ПА_Собакин_М.Н._Овчинникова_А.В..pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57349c834549475415badf"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57346fa0f456669d7b934b"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57346ea0f456669d7b9341"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57346da0f456669d7b9338"
+        },
+        {
+          "title": "Извещение+№+АЗГЭ-ЧЕХ_26-3716.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a57346ca0f456669d7b9328"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-3716 от 31/07/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a6c789493205024c0ebd07a"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-3716 от 25/08/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a8d5a5ce096f456f84c7773"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-3716 от 16/09/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa5b65b0d666081003dbb5"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-3716 от 13.10.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace1815fc3223099b01cec9"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-3716 от 13/11/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c2ecbbadc91d62779966"
+        }
+      ],
+      "external_id": "21000004710000026399:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 10677139,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000026399",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T09:23:05.931000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000026399",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:31:0050301:6987",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Ступино, д. Коледино Российская Федерация, Московская область, г.о. Ступино, д. Коледино",
           "area_m2": 1200.0,
           "cadastral_number": "50:33:0030429:748",
@@ -18147,6 +18672,136 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000026411",
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:06:0020202:2742",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, м.о. Шаховская, с. Раменье Российская Федерация, Московская область, м.о. Шаховская, с Раменье",
+          "area_m2": 1293.0,
+          "cadastral_number": "50:06:0020202:2741",
+          "external_id": "21000004710000026412:1:50:06:0020202:2741",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-17T15:00:00Z",
+      "deposit_minor": 7805065,
+      "description": "Аукцион в отношении земельного участка с КН 50:06:0020202:2741",
+      "documents": [
+        {
+          "title": "Проект договора купли-продажи.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578aeaa0f456669d7c085f"
+        },
+        {
+          "title": "Регламент Ж-2 ПЗЗ Шаховская.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578aea8345494754163dc5"
+        },
+        {
+          "title": "Письмо от 07.07.2026 Администрация.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae91ff47f559088c09c"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae91ff47f559088c096"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae78345494754163dc1"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae68345494754163dbe"
+        },
+        {
+          "title": "20243099221_auto_si.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae51ff47f559088c082"
+        },
+        {
+          "title": "Решение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae5f4fed970e8df8117"
+        },
+        {
+          "title": "Инструкция ЛКА 2025.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae41ff47f559088c075"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae31ff47f559088c071"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae2a0f456669d7c0848"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-ШАХ_26-3739.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a578ae08345494754163db1"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ШАХ/26-3739 от 31/07/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a6c637c5ff0f122a6094f57"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ШАХ/26-3739 от 25/08/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a8d6164e096f456f84c8017"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ШАХ/26-3739 от 16/09/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa68f2b0d666081003f034"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ШАХ/26-3739 от 12.10.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6acccd694a1e5b116335fd45"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ШАХ/26-3739 от 12/11/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5a43d0a20e814f54e8c98"
+        }
+      ],
+      "external_id": "21000004710000026412:1",
+      "municipality": "m-o-shahovskaya",
+      "municipality_name": "м.о. Шаховская",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 39025326,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000026412",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-12T13:31:13.914000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000026412",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:06:0020202:2741",
       "transaction": "sale"
     },
     {
@@ -18679,6 +19334,140 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000026421",
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:33:0040217:652",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Ступино, с. Колычево Российская Федерация, Московская область, городской округ Ступино, с. Колычево",
+          "area_m2": 1063.0,
+          "cadastral_number": "50:33:0030461:1114",
+          "external_id": "21000004710000026422:1:50:33:0030461:1114",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 8141942,
+      "description": "Аукцион в отношении земельного участка с КН 50:33:0030461:1114",
+      "documents": [
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e1af4fed970e8df53f3"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e191ff47f559088972f"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e1883454947541617f7"
+        },
+        {
+          "title": "АвтоСИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e1683454947541617ea"
+        },
+        {
+          "title": "Письмо администрации.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e14f4fed970e8df53df"
+        },
+        {
+          "title": "проект ДА.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e1383454947541617e3"
+        },
+        {
+          "title": "Решение о проведении торгов № 2760-п от 14.07.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e13a0f456669d7be410"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e121ff47f5590889721"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e1183454947541617dc"
+        },
+        {
+          "title": "Извещение+№+АЗГЭ-СТУ_26-3726.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e12a0f456669d7be40b"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a576e10a0f456669d7be3ee"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-СТУ/26-3726 от 31.07.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a6c77e05ff0f122a6096d61"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-СТУ/26-3726 от 25/08/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a8d578b57a2662b552a2dde"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-СТУ/26-3726 от 16/09/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa87aded7e005a5e7bc3cd"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-СТУ/26-3726 от 13/10/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace17f6c4cdeb46dea901a3"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-СТУ/26-3726 от 13/11/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6d69e71e81676cf2596fd"
+        }
+      ],
+      "external_id": "21000004710000026422:1",
+      "municipality": "g-o-stupino",
+      "municipality_name": "г.о. Ступино",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 8141942,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000026422",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T09:39:22.976000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000026422",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:33:0030461:1114",
       "transaction": "rent_unspecified"
     },
     {
@@ -24454,6 +25243,136 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, м.о. Чехов Российская Федерация, Московская область, м.о. Чехов, с Новый Быт",
+          "area_m2": 821.0,
+          "cadastral_number": "50:31:0060381:583",
+          "external_id": "21000004710000027011:1:50:31:0060381:583",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 22082847,
+      "description": "Аукцион в отношении земельного участка с КН 50:31:0060381:583",
+      "documents": [
+        {
+          "title": "доп. письмо от ОМСУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af1d3e9cdb4e8d493333"
+        },
+        {
+          "title": "ГПЗУ 583.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af143e9cdb4e8d4932c2"
+        },
+        {
+          "title": "Акт осмотра 583.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af105ff0f122a60d7bd0"
+        },
+        {
+          "title": "20976595121_auto_si.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0f5ff0f122a60d7bc6"
+        },
+        {
+          "title": "Договор аренды 583.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0f93205024c0efce1d"
+        },
+        {
+          "title": "ЕГРН 583.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0e93205024c0efce1a"
+        },
+        {
+          "title": "06.08.2026_2084-ПА_Собакин_М.Н._Овчинникова_А.В..pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0e5ff0f122a60d7bc2"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0d46e63b6e2e3716b6"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0c5ff0f122a60d7bbd"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0c3e9cdb4e8d493298"
+        },
+        {
+          "title": "Извещение+№+АЗГЭ-ЧЕХ_26-4351.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75af0a46e63b6e2e3716a9"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4351 от 25/08/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a8d5bc457a2662b552a355c"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4351 от 16.09.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa5c0ca444182532ab67e5"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4351 от 13/10/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace189febd81576d9c30e0b"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4351 от 13/11/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c3170a20e814f54fb288"
+        }
+      ],
+      "external_id": "21000004710000027011:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 22082847,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000027011",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T09:24:05.469000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027011",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:31:0060381:583",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Талдомский, пгт. Запрудня Российская Федерация, Московская область, Талдомский городской округ, пгт Запрудня",
           "area_m2": 1230.0,
           "cadastral_number": "50:01:0050242:927",
@@ -24579,6 +25498,262 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027013",
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:01:0050242:927",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Ступино, с. Большое Скрябино Российская Федерация, Московская область, городской округ Ступино, село Большое Скрябино",
+          "area_m2": 1999.0,
+          "cadastral_number": "50:33:0020450:631",
+          "external_id": "21000004710000027017:1:50:33:0020450:631",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 110316814,
+      "description": "Аукцион в отношении земельного участка с КН 50:33:0020450:631",
+      "documents": [
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae573e9cdb4e8d4931a7"
+        },
+        {
+          "title": "АвтоСИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae565ff0f122a60d7b42"
+        },
+        {
+          "title": "проект ДКП.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae555ff0f122a60d7b3d"
+        },
+        {
+          "title": "112538584 АДМИНИСТРАЦИЯ 631.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae553e9cdb4e8d4931a0"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae523e9cdb4e8d49318d"
+        },
+        {
+          "title": "Письмо администрации.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae515ff0f122a60d7b3a"
+        },
+        {
+          "title": "Решение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae513e9cdb4e8d493189"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae505ff0f122a60d7b36"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae4f46e63b6e2e3714f6"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-СТУ_26-4355.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae4d3e9cdb4e8d493184"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75ae4e5ff0f122a60d7b2d"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-СТУ/26-4355 от 25/08/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a8d583fe096f456f84c75f9"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-СТУ/26-4355 от 16.09.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa885942b04d7772d97207"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-СТУ/26-4355 от 13/10/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace19252f02a207b69ea977"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-СТУ/26-4355 от 13.11.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6d69dbbadc91d6277c410"
+        }
+      ],
+      "external_id": "21000004710000027017:1",
+      "municipality": "g-o-stupino",
+      "municipality_name": "г.о. Ступино",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 110316814,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000027017",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T09:39:58.276000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027017",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:33:0020450:631",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, м.о. Чехов Российская Федерация, Московская область, м.о. Чехов, д Березенки",
+          "area_m2": 1459.0,
+          "cadastral_number": "50:31:0050213:642",
+          "external_id": "21000004710000027026:1:50:31:0050213:642",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 20672279,
+      "description": "Аукцион в отношении земельного участка с КН 50:31:0050213:642",
+      "documents": [
+        {
+          "title": "ГПЗУ 642.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75dec2ac85246d2d7bde81"
+        },
+        {
+          "title": "Акт осм 642.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debe93205024c0f001ac"
+        },
+        {
+          "title": "доп. письмо от ОМСУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debd46e63b6e2e376aeb"
+        },
+        {
+          "title": "20976586581_auto_si.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debd93205024c0f001a5"
+        },
+        {
+          "title": "Договор аренды 642.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debc93205024c0f001a1"
+        },
+        {
+          "title": "ЕГРН 642.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debc46e63b6e2e376ae8"
+        },
+        {
+          "title": "07.08.2026_2090-ПА_Собакин_М.Н._Овчинникова_А.В. (1).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debc3e9cdb4e8d496a45"
+        },
+        {
+          "title": "04.08.2026_2076-ПА_Собакин_М.Н._Овчинникова_А.В. (2) (1).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75debbac85246d2d7bde54"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75dec793205024c0f001bf"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75dec693205024c0f001b6"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75dec5ac85246d2d7bde91"
+        },
+        {
+          "title": "Извещение+№+АЗГЭ-ЧЕХ_26-4281.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a75dec346e63b6e2e376af2"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4281 от 25/08/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a8d5b2fe096f456f84c78e7"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4281 от 16.09.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa5b7b6753ef0c024d092a"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4281 от 13/10/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace187b2f02a207b69ea866"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ЧЕХ/26-4281 от 13.11.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c2edf55f77353da156ca"
+        }
+      ],
+      "external_id": "21000004710000027026:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 20672279,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000027026",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T09:23:34.154000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027026",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:31:0050213:642",
       "transaction": "rent_unspecified"
     },
     {
@@ -34800,6 +35975,136 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, г.о. Домодедово, д. Острожки Московская область, г.о. Домодедово, д Острожки",
+          "area_m2": 810.0,
+          "cadastral_number": "50:28:0000000:58881",
+          "external_id": "21000004710000027664:1:50:28:0000000:58881",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "13"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "2"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно Извещению о проведении аукциона"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-17T15:00:00Z",
+      "deposit_minor": 20184592,
+      "description": "Аукцион в отношении земельного участка с КН 50:28:0000000:58881",
+      "documents": [
+        {
+          "title": "Проект ДА 58881.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a557b5f61549ad3962c"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a547d8acd58833d4069"
+        },
+        {
+          "title": "ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a519dea7a68623f4814"
+        },
+        {
+          "title": "Письмо Администрации.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a509dea7a68623f4811"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a509dea7a68623f480e"
+        },
+        {
+          "title": "Сводная информация.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a4f7b5f61549ad3961f"
+        },
+        {
+          "title": "Решение о проведение аукциона от 25.08.2026 № 2345.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a4e7d8acd58833d4057"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a437b5f61549ad39601"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a429dea7a68623f47fc"
+        },
+        {
+          "title": "Инструкция_по_регистрации_юр_лицо_и_ИП (4).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a407d8acd58833d403d"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a3f7d8acd58833d4034"
+        },
+        {
+          "title": "Извещение+№+АЗЭ-ДО_26-5004.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a956a3c9ae4a26bdc602eef"
+        },
+        {
+          "title": "Изменения в Извещение № АЗЭ-ДО/26-5004 от 16.09.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aaa60fd6378cb5ef6e8e110"
+        },
+        {
+          "title": "Изменения в Извещение № АЗЭ-ДО/26-5004 от 12.10.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6accce41f0ae127e1975621c"
+        },
+        {
+          "title": "Изменения в Извещение № АЗЭ-ДО/26-5004 от 12.11.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5b4eb71e81676cf2471c6"
+        }
+      ],
+      "external_id": "21000004710000027664:1",
+      "municipality": "g-o-domodedovo",
+      "municipality_name": "г.о. Домодедово",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 20184592,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000027664",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-12T13:26:44.253000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000027664",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:28:0000000:58881",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Домодедово, п. станции Повадино, ул. Беседа Московская область, г.о Домодедово, п станции Повадино, ул Беседа",
           "area_m2": 1244.0,
           "cadastral_number": "50:28:0110305:472",
@@ -37983,6 +39288,104 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028125",
       "status": "accepting",
       "title": "Публичные торги по продаже земельного участка с КН 50:36:0020214:80",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Коломна Московская область, р-н Озерский, вблизи д. Доношово (в 500 м к западу)",
+          "area_m2": 21201.0,
+          "cadastral_number": "50:36:0020214:88",
+          "external_id": "21000004710000028127:1:50:36:0020214:88",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Иная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли сельскохозяйственного назначения"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Обеспечение сельскохозяйственного производства"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно Извещению о проведении публичных торгов"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 18809527,
+      "description": "Публичные торги по продаже земельного участка с КН 50:36:0020214:88",
+      "documents": [
+        {
+          "title": "Проект договора 50 36 0020214 88.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabcecf42b04d7772da665c"
+        },
+        {
+          "title": "15ВР-2667.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabced10e54af78f50a3592"
+        },
+        {
+          "title": "19824003741_auto_si.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabcecf73b1b01331f79e70"
+        },
+        {
+          "title": "Акт обследования 0020214-88 (2).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabced442b04d7772da6678"
+        },
+        {
+          "title": "Выписка (0020214-88).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabced0ed7e005a5e7cbf38"
+        },
+        {
+          "title": "Заявка.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabcecf73b1b01331f79e6c"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabcf44ed7e005a5e7cbf85"
+        },
+        {
+          "title": "Инструкция_по_регистрации_юр_лицо_и_ИП.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabcf450e54af78f50a360f"
+        },
+        {
+          "title": "Извещение ПУБ-МИО_26-5464.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6aabd0d673b1b01331f7a2a1"
+        },
+        {
+          "title": "Изменения в Извещение № ПУБ-МИО_26-5464 от 15.10.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0d085c4cdeb46deab9edb"
+        },
+        {
+          "title": "Изменения в Извещение № ПУБ-МИО_26-5464 от 13.11.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f36d71e81676cf25cbba"
+        }
+      ],
+      "external_id": "21000004710000028127:1",
+      "municipality": "region-wide",
+      "municipality_name": "Московская область",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 18809527,
+      "procedure": "other",
+      "procedure_id": "21000004710000028127",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T11:28:17.922000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028127",
+      "status": "accepting",
+      "title": "Публичные торги по продаже земельного участка с КН 50:36:0020214:88",
       "transaction": "sale"
     },
     {
@@ -41218,6 +42621,128 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, г.о. Орехово-Зуевский, д. Степановка Российская Федерация, Московская область, Орехово-Зуевский городской округ, деревня Степановка",
+          "area_m2": 624.0,
+          "cadastral_number": "50:24:0090316:1672",
+          "external_id": "21000004710000028192:1:50:24:0090316:1672",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "20"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "0"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-17T15:00:00Z",
+      "deposit_minor": 7066176,
+      "description": "Аукцион в отношении земельного участка с КН 50:24:0090316:1672",
+      "documents": [
+        {
+          "title": "Письмо администрации.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e7ed7e005a5e7ec72f"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e6ed7e005a5e7ec72b"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e473b1b01331f9a1e3"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e3ed7e005a5e7ec719"
+        },
+        {
+          "title": "СИ Мособлархитектуры.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e2ed7e005a5e7ec710"
+        },
+        {
+          "title": "Проект ДА.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e173b1b01331f9a1e0"
+        },
+        {
+          "title": "Решение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0e142b04d7772dc7bac"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0df0e54af78f50c6578"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0deed7e005a5e7ec709"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0dd73b1b01331f9a1d0"
+        },
+        {
+          "title": "Извещение+№+АЗГЭ-ОЗГО_26-5526.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab0f0db73b1b01331f9a1b7"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ОЗГО/26-5526 от 12/10/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6acccecbb460354f7d1fd670"
+        },
+        {
+          "title": "Изменения в Извещение № АЗГЭ-ОЗГО/26-5526 от 12.11.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5b652f55f77353da05dfd"
+        }
+      ],
+      "external_id": "21000004710000028192:1",
+      "municipality": "g-o-orehovo-zuevskiy",
+      "municipality_name": "г.о. Орехово-Зуевский",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 7066176,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000028192",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-12T13:28:20.906000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028192",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:24:0090316:1672",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Орехово-Зуевский, д. Губино Московская область, Орехово-Зуевский городской округ, деревня Губино",
           "area_m2": 1009.0,
           "cadastral_number": "50:24:0060103:1638",
@@ -42417,6 +43942,132 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028210",
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:08:0090208:782",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, м.о. Истра, г. Истра Российская Федерация, Московская область, м.о. Истра, д Кореньки",
+          "area_m2": 1477.0,
+          "cadastral_number": "50:08:0090208:775",
+          "external_id": "21000004710000028211:1:50:08:0090208:775",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "13"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "2"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно Извещению о проведении аукциона"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 45000000,
+      "description": "Аукцион в отношении земельного участка с КН 50:08:0090208:775",
+      "documents": [
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133bb9f00001edb54bec9"
+        },
+        {
+          "title": "Письмо Администрации от 08.09.2026_117ИСХ-19515.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133babdb1b03a533dd47e"
+        },
+        {
+          "title": "Сводная информация Мособлархитектуры.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133ba42b04d7772dcef43"
+        },
+        {
+          "title": "Проект договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133b473b1b01331fa21b3"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133b49f00001edb54bebe"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133b242b04d7772dcef2d"
+        },
+        {
+          "title": "Решение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133b1bdb1b03a533dd45d"
+        },
+        {
+          "title": "Извещение+№+АЗЭ-ИСТР_26-5546.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab133a073b1b01331fa2168"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab1339f9f00001edb54bea3"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab1339e9f00001edb54be9a"
+        },
+        {
+          "title": "Инструкция_по_регистрации_юр_лицо_и_ИП.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab1339ebdb1b03a533dd436"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ab1339b73b1b01331fa2164"
+        },
+        {
+          "title": "Изменения в Извещение № АЗЭ-ИСТР/26-5546 от 13.10.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ace197f2f02a207b69eaa5a"
+        },
+        {
+          "title": "Изменения в Извещение № АЗЭ-ИСТР/26-5546 от 13.11.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6d69df55f77353da1838b"
+        }
+      ],
+      "external_id": "21000004710000028211:1",
+      "municipality": "m-o-istra",
+      "municipality_name": "м.о. Истра",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 45000000,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000028211",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T09:40:43.127000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028211",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:08:0090208:775",
       "transaction": "rent_unspecified"
     },
     {
@@ -56806,6 +58457,226 @@
       "status": "accepting",
       "title": "Аукцион в отношении земельного участка с КН 50:08:0050221:752",
       "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Щёлково, с. Душоново Российская Федерация, Московская область, городской округ Щёлково, д. Душоново",
+          "area_m2": 2035.0,
+          "cadastral_number": "50:14:0020315:2998",
+          "external_id": "21000004710000028944:1:50:14:0020315:2998",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 23755369,
+      "description": "Аукцион в отношении земельного участка с КН 50:14:0020315:2998",
+      "documents": [
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c25e2f02a207b6a1923e"
+        },
+        {
+          "title": "Проект договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c25dc4cdeb46deab840d"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c25dfc3223099b0440ac"
+        },
+        {
+          "title": "Письмо Администрации от 30.09.2026 № 158Исх-14824.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c25c2f02a207b6a1923a"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c25b2f02a207b6a19236"
+        },
+        {
+          "title": "АвтоСИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c258ebd81576d9c58d82"
+        },
+        {
+          "title": "Решение о проведении аукциона.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c257c4cdeb46deab83fc"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c257ebd81576d9c58d7d"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c2552f02a207b6a19216"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-ЩЕЛК_26-6311.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c252c4cdeb46deab83ec"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c254ebd81576d9c58d4d"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ЩЕЛК/26-6311 от 13/11/2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f967bbadc91d6277faf4"
+        }
+      ],
+      "external_id": "21000004710000028944:1",
+      "municipality": "g-o-schelkovo",
+      "municipality_name": "г.о. Щёлково",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 237553690,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000028944",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T12:03:11.601000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028944",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:14:0020315:2998",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Щёлково, с. Душоново Российская Федерация, Московская область, г.о Щёлково, с Душоново",
+          "area_m2": 1048.0,
+          "cadastral_number": "50:14:0020315:2994",
+          "external_id": "21000004710000028945:1:50:14:0020315:2994",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для индивидуального жилищного строительства"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-18T15:00:00Z",
+      "deposit_minor": 10251221,
+      "description": "Аукцион в отношении земельного участка с КН 50:14:0020315:2994",
+      "documents": [
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6bfc4cdeb46deab8d28"
+        },
+        {
+          "title": "Проект договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6be2f02a207b6a19c67"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6be2f02a207b6a19c64"
+        },
+        {
+          "title": "Письмо Администрации от 30.09.2026 № 158Исх-14757.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6bd2f02a207b6a19c5f"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6bdc4cdeb46deab8d25"
+        },
+        {
+          "title": "АвтоСИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6bbfc3223099b0448db"
+        },
+        {
+          "title": "Решение о проведении аукциона.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6bafc3223099b0448d7"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6b9ebd81576d9c59510"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6b82f02a207b6a19c51"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6b7ebd81576d9c59507"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-ЩЕЛК_26-6312.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6ad0c6b5c4cdeb46deab8d0e"
+        },
+        {
+          "title": "Изменения в Извещение № ПЗЭ-ЩЕЛК/26-6312 от 13.11.2026.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f9c5f55f77353da1c3cb"
+        }
+      ],
+      "external_id": "21000004710000028945:1",
+      "municipality": "g-o-schelkovo",
+      "municipality_name": "г.о. Щёлково",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 102512216,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000028945",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T12:03:43.391000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000028945",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:14:0020315:2994",
+      "transaction": "sale"
     },
     {
       "assets": [
@@ -74158,6 +76029,116 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, г.о. Богородский, д. Новое Подвязново Московская область, г.о Богородский, д Новое Подвязново",
+          "area_m2": 1185.0,
+          "cadastral_number": "50:16:0502053:760",
+          "external_id": "21000004710000029660:1:50:16:0502053:760",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-14T15:00:00Z",
+      "deposit_minor": 178756065,
+      "description": "Аукцион в отношении земельного участка с КН 50:16:0502053:760",
+      "documents": [
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f91c0a20e814f5502493"
+        },
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f917f55f77353da1c27f"
+        },
+        {
+          "title": "Акт осмотра.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f917f55f77353da1c27c"
+        },
+        {
+          "title": "АВТО СИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f916f55f77353da1c276"
+        },
+        {
+          "title": "Информация о возможности подключения_21201209721.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f9160a20e814f550247c"
+        },
+        {
+          "title": "Письмо администрации от 03.11.2026_102-01Исх-10813.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f9150a20e814f5502479"
+        },
+        {
+          "title": "Проект договора купли-продажи.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f915bbadc91d6277fa3c"
+        },
+        {
+          "title": "Решение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f91471e81676cf25d8e3"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f913bbadc91d6277fa39"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f913bbadc91d6277fa30"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f9120a20e814f5502475"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-БГР_26-7053.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f911f55f77353da1c26f"
+        }
+      ],
+      "external_id": "21000004710000029660:1",
+      "municipality": "g-o-bogorodskiy",
+      "municipality_name": "г.о. Богородский",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 178756065,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000029660",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T12:47:43.320000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000029660",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:16:0502053:760",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, г.о. Одинцовский, с. Каринское Российская Федерация, Московская область, городской округ Одинцовский, село Каринское",
           "area_m2": 928.0,
           "cadastral_number": "50:20:0080803:1185",
@@ -75242,6 +77223,132 @@
     {
       "assets": [
         {
+          "address": "обл. Московская, м.о. Серебряные Пруды, пгт. Серебряные Пруды Российская Федерация, Московская область, м.о. Серебряные Пруды, пгт. Серебряные Пруды",
+          "area_m2": 96.0,
+          "cadastral_number": "50:39:0050404:1502",
+          "external_id": "21000004710000029675:1:50:39:0050404:1502",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Хранение автотранспорта"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды земельного участка"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "В соответствии с решением о проведении аукциона"
+        },
+        {
+          "title": "Срок аренды земельного участка - лет",
+          "value": "13"
+        },
+        {
+          "title": "Срок аренды земельного участка - месяцев",
+          "value": "2"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Согласно Извещению о проведении аукциона"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-14T15:00:00Z",
+      "deposit_minor": 775934,
+      "description": "Аукцион в отношении земельного участка с КН 50:39:0050404:1502",
+      "documents": [
+        {
+          "title": "Проект договора.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712b371e81676cf260d10"
+        },
+        {
+          "title": "Акт_осмотра зу .pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712b2bbadc91d62782a14"
+        },
+        {
+          "title": "АвтоСИ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712b1f55f77353da1f7ef"
+        },
+        {
+          "title": "Письмо Администрации 6467 от 09.11.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712b00a20e814f55056f6"
+        },
+        {
+          "title": "Выписка ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712af71e81676cf260d0d"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712aff55f77353da1f7eb"
+        },
+        {
+          "title": "5946.117756941  Серебряные Пруды.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712ad0a20e814f55056ec"
+        },
+        {
+          "title": "Решение о проведении аукциона 1905.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712ac71e81676cf260d0a"
+        },
+        {
+          "title": "Инструкция ЛКА 2025 (13).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712ab71e81676cf260d01"
+        },
+        {
+          "title": "Инструкция_по_регистрации_физ_лица (13).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712aaf55f77353da1f7e4"
+        },
+        {
+          "title": "Инструкция_по_регистрации_юр_лицо_и_ИП (4).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712a9f55f77353da1f7dd"
+        },
+        {
+          "title": "Информация о ЦСС.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712a671e81676cf260cfd"
+        },
+        {
+          "title": "ПАМЯТКА (13).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712a6f55f77353da1f7d1"
+        },
+        {
+          "title": "Извещение+№+АЗЭ-СЕР_26-7062.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af712a40a20e814f55056e8"
+        }
+      ],
+      "external_id": "21000004710000029675:1",
+      "municipality": "m-o-serebryanye-prudy",
+      "municipality_name": "м.о. Серебряные Пруды",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 775934,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000029675",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T14:19:11.967000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000029675",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:39:0050404:1502",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
           "address": "обл. Московская, м.о. Волоколамский, д. Муромцево, ул. Зеленая Российская Федерация, Московская область, м.о. Волоколамский, д. Муромцево",
           "area_m2": 1254.0,
           "cadastral_number": "50:07:0060201:990",
@@ -75477,6 +77584,214 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000029678",
       "status": "accepting",
       "title": "Продажа нежилого здания 369,5 кв.м с земельным участком 1 051 кв.м. в м.о. Дмитровский",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, м.о. Дмитровский, пгт. Деденево, ш. Московское, дом 5 Российская Федерация, Московская область, м.о. Дмитровский, пгт. Деденево, ш Московское, д. 5, помещ. 56",
+          "area_m2": 61.5,
+          "cadastral_number": null,
+          "external_id": "21000004710000029679:1:21000004710000029679:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Муниципальная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Нежилые помещения"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "В соответствии с Информационным сообщением"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2027-01-11T15:00:00Z",
+      "deposit_minor": 5734000,
+      "description": "Продажа нежилого помещения 61,5 кв.м. в м.о. Дмитровский",
+      "documents": [
+        {
+          "title": "Проект договора купли-продажи+АКТ.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a02dd5cf93023622000f9f0"
+        },
+        {
+          "title": "Тех.документ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a02dd5bf93023622000f9ed"
+        },
+        {
+          "title": "28.08.2026_14439_06-63_Гудзь_С.М._Юридические_лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a96ae3f7b5f61549ad433fa"
+        },
+        {
+          "title": "report-7d9f6052-f319-4b17-8fe5-4f7d95e91390-OfSite-2026-08-27-685694-50-01[0] ЭП.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a96ae3e7d8acd58833df36a"
+        },
+        {
+          "title": "Постановление МДЦ Деденево Московское шоссе.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e56ef55f77353da19f66"
+        },
+        {
+          "title": "Заявка.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e56b71e81676cf25b289"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e56bbbadc91d6277d96c"
+        },
+        {
+          "title": "Инструкция по регистрации физ.лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e56af55f77353da19f55"
+        },
+        {
+          "title": "Инструкция по регистрации юр.лицо и ИП.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e56af55f77353da19f4e"
+        },
+        {
+          "title": "Памятка.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e568f55f77353da19f45"
+        },
+        {
+          "title": "Форма письма_сведения о доле РФ.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e5660a20e814f550018f"
+        },
+        {
+          "title": "Информационно сообщение № МДЦ-ДМ_26-7052.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6e565f55f77353da19f20"
+        }
+      ],
+      "external_id": "21000004710000029679:1",
+      "municipality": "m-o-dmitrovskiy",
+      "municipality_name": "м.о. Дмитровский",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 28670000,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000029679",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T14:30:02.191000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000029679",
+      "status": "accepting",
+      "title": "Продажа нежилого помещения 61,5 кв.м. в м.о. Дмитровский",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл. Московская, г.о. Воскресенск, д. Ёлкино, ул. Совхозная Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, г/пос Хорлово, д. Елкино, ул. Совхозная, уч-к 54.",
+          "area_m2": 1507.0,
+          "cadastral_number": "50:29:0040405:673",
+          "external_id": "21000004710000029680:1:50:29:0040405:673",
+          "kind": "zemlya",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Государственная собственность (неразграниченная)"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Земли населенных пунктов"
+        },
+        {
+          "title": "Основной вид разрешенного использования",
+          "value": "Для ведения личного подсобного хозяйства (приусадебный земельный участок)"
+        },
+        {
+          "title": "Ограничения прав на земельный участок",
+          "value": "Согласно Извещению о проведении аукциона"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи земельного участка"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "ТОЛЬКО ДЛЯ ГРАЖДАН - ФИЗИЧЕСКИХ ЛИЦ (НЕ ИНДИВИДУАЛЬНЫХ ПРЕДПРИНИМАТЕЛЕЙ)"
+        }
+      ],
+      "category": "zemlya",
+      "deadline": "2026-12-14T15:00:00Z",
+      "deposit_minor": 16620100,
+      "description": "Аукцион в отношении земельного участка с КН 50:29:0040405:673",
+      "documents": [
+        {
+          "title": "Выписка из ЕГРН.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70513bbadc91d62781042"
+        },
+        {
+          "title": "Акт осмотра .pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af705130a20e814f550414a"
+        },
+        {
+          "title": "Письмо Администрации от 10.11.2026 №3297.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70511bbadc91d62781034"
+        },
+        {
+          "title": "договор.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70510f55f77353da1dc56"
+        },
+        {
+          "title": "Письмо филиала АО «Мособлгаз» «Юго-Восток» от 06.11.2026_N_18567_ЮВ_01.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7051071e81676cf25f2fa"
+        },
+        {
+          "title": "СИ Мособлархитектура.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7050ff55f77353da1dc53"
+        },
+        {
+          "title": "ГПЗУ.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7050e0a20e814f5504129"
+        },
+        {
+          "title": "Решение о проведении торгов.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7050c0a20e814f5504120"
+        },
+        {
+          "title": "Инструкция ЛКА 2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7050971e81676cf25f2e7"
+        },
+        {
+          "title": "Инструкция по регистрации физ.лица.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7050871e81676cf25f2db"
+        },
+        {
+          "title": "ПАМЯТКА.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af7050771e81676cf25f2d4"
+        },
+        {
+          "title": "Извещение+№+ПЗЭ-ВОС_26-7057.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af709f1f55f77353da1e7a6"
+        }
+      ],
+      "external_id": "21000004710000029680:1",
+      "municipality": "g-o-voskresensk",
+      "municipality_name": "г.о. Воскресенск",
+      "organizer": "КОМИТЕТ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ МОСКОВСКОЙ ОБЛАСТИ",
+      "platform_url": null,
+      "price_minor": 83100501,
+      "procedure": "municipal",
+      "procedure_id": "21000004710000029680",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T14:33:43.888000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000004710000029680",
+      "status": "accepting",
+      "title": "Аукцион в отношении земельного участка с КН 50:29:0040405:673",
       "transaction": "sale"
     },
     {
@@ -87073,6 +89388,218 @@
       "assets": [
         {
           "address": "г. Москва, вн.тер.г. муниципальный округ Бирюлево Западное, пр-д Востряковский, дом 9",
+          "area_m2": 57.8,
+          "cadastral_number": null,
+          "external_id": "21000005000000035085:1:21000005000000035085:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Жилые помещения"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно информационному сообщению"
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2027-01-14T12:00:00Z",
+      "deposit_minor": 26054000,
+      "description": "Продажа имущества, находящегося в собственности города Москвы: жилое помещение по адресу: г. Москва, пр-д Востряковский, д. 9, кв. 104, \nобщей площадью 57,8 кв. м. (Этаж № 3), кадастровый номер: 77:05:0009003:7526",
+      "documents": [
+        {
+          "title": "Квартира.Лотовая документация.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49bf55f77353da15a01"
+        },
+        {
+          "title": "Квартира.Проект договора.17002695.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49cf55f77353da15a05"
+        },
+        {
+          "title": "Квартира.Распоряжение Департамента городского имущества города Москвы.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49cf55f77353da15a09"
+        },
+        {
+          "title": "Квартира.Форма заявки на участие.17002695.doc",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49d0a20e814f54fb58a"
+        },
+        {
+          "title": "Квартира.Памятка победителя.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49d0a20e814f54fb597"
+        },
+        {
+          "title": "Квартира.Иное.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49d71e81676cf256cf5"
+        },
+        {
+          "title": "Квартира.Поэтажный план БТИ.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a21dbbcea789bee4728"
+        },
+        {
+          "title": "Квартира.Список помещений объекта по БТИ (экспликация).17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a222e39753d02a8a0f4"
+        },
+        {
+          "title": "Квартира.Выписка ЕГРН.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c49fbbadc91d62779c19"
+        },
+        {
+          "title": "Квартира.Отчет об оценке.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a312e39753d02a8a179"
+        },
+        {
+          "title": "Квартира.Экспертное заключение СРО.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a32cd3ab072ed08ebd5"
+        },
+        {
+          "title": "Квартира.Выписка из тех паспорта БТИ.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a32cd3ab072ed08ebd8"
+        },
+        {
+          "title": "Квартира.Выписка из домовой книги.17002695.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a3399446c1a6f8e6ab3"
+        },
+        {
+          "title": "Квартира.Фото объекта.17002695.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e7a412e39753d02a8a1df"
+        }
+      ],
+      "external_id": "21000005000000035085:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-biryulevo-zapadnoe",
+      "municipality_name": "вн.тер.г. муниципальный округ Бирюлево Западное",
+      "organizer": "ДЕПАРТАМЕНТ ГОРОДА МОСКВЫ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ",
+      "platform_url": null,
+      "price_minor": 1302700000,
+      "procedure": "municipal",
+      "procedure_id": "21000005000000035085",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T08:21:38.881000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000035085",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в собственности города Москвы: жилое помещение по адресу: г. Москва, пр-д Востряковский, д. 9, кв. 104,  общей площадью 57,8 кв. м. (Этаж № 3), кадастровый номер: 77:05:0009003:7526",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Бирюлево Западное, пр-д Востряковский, дом 9",
+          "area_m2": 57.8,
+          "cadastral_number": null,
+          "external_id": "21000005000000035086:1:21000005000000035086:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Жилые помещения"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно информационному сообщению"
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2027-01-14T12:00:00Z",
+      "deposit_minor": 26436000,
+      "description": "Продажа имущества, находящегося в собственности города Москвы: жилое помещение по адресу: г. Москва, пр-д Востряковский, д. 9, кв. 128, \nобщей площадью 57,8 кв. м. (Этаж № 9), кадастровый номер: 77:05:0009003:7550",
+      "documents": [
+        {
+          "title": "Квартира.Лотовая документация.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca2df55f77353da16758"
+        },
+        {
+          "title": "Квартира.Проект договора.17002696.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca2ef55f77353da1675c"
+        },
+        {
+          "title": "Квартира.Распоряжение Департамента городского имущества города Москвы.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca2e71e81676cf257894"
+        },
+        {
+          "title": "Квартира.Форма заявки на участие.17002696.doc",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca2f71e81676cf257897"
+        },
+        {
+          "title": "Квартира.Памятка победителя.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca2ff55f77353da16766"
+        },
+        {
+          "title": "Квартира.Иное.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca3071e81676cf25789a"
+        },
+        {
+          "title": "Квартира.Поэтажный план БТИ.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e94c52e39753d02a8c606"
+        },
+        {
+          "title": "Квартира.Список помещений объекта по БТИ (экспликация).17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e94c5cd3ab072ed090ae5"
+        },
+        {
+          "title": "Квартира.Выписка ЕГРН.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6ca3171e81676cf2578cd"
+        },
+        {
+          "title": "Квартира.Отчет об оценке.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e94cfdbbcea789bee6fbe"
+        },
+        {
+          "title": "Квартира.Экспертное заключение СРО.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e94d12e39753d02a8c63f"
+        },
+        {
+          "title": "Квартира.Выписка из тех паспорта БТИ.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e94d1cd3ab072ed090aec"
+        },
+        {
+          "title": "Квартира.Выписка из домовой книги.17002696.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e94d299446c1a6f8e8deb"
+        },
+        {
+          "title": "Квартира.Фото объекта.17002696.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6a9e9648dbbcea789bee714d"
+        }
+      ],
+      "external_id": "21000005000000035086:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-biryulevo-zapadnoe",
+      "municipality_name": "вн.тер.г. муниципальный округ Бирюлево Западное",
+      "organizer": "ДЕПАРТАМЕНТ ГОРОДА МОСКВЫ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ",
+      "platform_url": null,
+      "price_minor": 1321800000,
+      "procedure": "municipal",
+      "procedure_id": "21000005000000035086",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T08:37:55.584000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000035086",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в собственности города Москвы: жилое помещение по адресу: г. Москва, пр-д Востряковский, д. 9, кв. 128,  общей площадью 57,8 кв. м. (Этаж № 9), кадастровый номер: 77:05:0009003:7550",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Бирюлево Западное, пр-д Востряковский, дом 9",
           "area_m2": 58.1,
           "cadastral_number": null,
           "external_id": "21000005000000035087:1:21000005000000035087:1",
@@ -87508,6 +90035,116 @@
     {
       "assets": [
         {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Сокольники, ул. Короленко, дом 2 к. 1",
+          "area_m2": 89.2,
+          "cadastral_number": null,
+          "external_id": "21000005000000035092:1:21000005000000035092:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Нежилые помещения"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно информационному сообщению"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2027-01-19T12:00:00Z",
+      "deposit_minor": 79820000,
+      "description": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Короленко, д. 2, корп. 1, \nплощадью 89,2 кв. м. (Подвал № 0), кадастровый номер: 77:03:0003010:5071",
+      "documents": [
+        {
+          "title": "Нежилое помещение.Памятка победителя.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3c9bbadc91d6277ee93"
+        },
+        {
+          "title": "Нежилое помещение.Памятка победителя.17006340_2.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3ca0a20e814f5501a4d"
+        },
+        {
+          "title": "Нежилое помещение.Лотовая документация.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3cb71e81676cf25ccc9"
+        },
+        {
+          "title": "Нежилое помещение.Проект договора.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3cb71e81676cf25cccd"
+        },
+        {
+          "title": "Нежилое помещение.Распоряжение Департамента городского имущества города Москвы.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3ccbbadc91d6277ee96"
+        },
+        {
+          "title": "Нежилое помещение.Форма заявки на участие.17006340.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3cdf55f77353da1b6f0"
+        },
+        {
+          "title": "Нежилое помещение.Акт приема-передачи.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3cd71e81676cf25ccd0"
+        },
+        {
+          "title": "Нежилое помещение.Поэтажный план БТИ.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3bf92695d554b69229b3"
+        },
+        {
+          "title": "Нежилое помещение.Список помещений объекта по БТИ (экспликация).17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3bf99776506daa49a967"
+        },
+        {
+          "title": "Нежилое помещение.Иное.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3bfa9776506daa49a96a"
+        },
+        {
+          "title": "Нежилое помещение.Выписка ЕГРН.17006340.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3bfa5ecf397a3d2ac2c2"
+        },
+        {
+          "title": "Нежилое помещение.Отчет об оценке.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3c0a9776506daa49a9ee"
+        },
+        {
+          "title": "Нежилое помещение.Экспертное заключение СРО.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3c0b2695d554b69229d3"
+        },
+        {
+          "title": "Нежилое помещение.Справка БТИ о состоянии здания.17006340.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6adb3c0b5ecf397a3d2ac2ce"
+        },
+        {
+          "title": "Нежилое помещение.Фото объекта.17006340.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f3d4f55f77353da1b740"
+        }
+      ],
+      "external_id": "21000005000000035092:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-sokolniki",
+      "municipality_name": "вн.тер.г. муниципальный округ Сокольники",
+      "organizer": "ДЕПАРТАМЕНТ ГОРОДА МОСКВЫ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ",
+      "platform_url": null,
+      "price_minor": 798200000,
+      "procedure": "municipal",
+      "procedure_id": "21000005000000035092",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T11:30:31.938000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000035092",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Короленко, д. 2, корп. 1,  площадью 89,2 кв. м. (Подвал № 0), кадастровый номер: 77:03:0003010:5071",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
           "address": "г. Москва, вн.тер.г. муниципальный округ Измайлово, пр-д Измайловский, дом 10 к. 3",
           "area_m2": 26.0,
           "cadastral_number": null,
@@ -87715,6 +90352,108 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000035094",
       "status": "accepting",
       "title": "Продажа имущества, находящегося в собственности города Москвы, жилое помещение по адресу: г. Москва, ул. Вавилова, д. 53, корп. 3, жилое помещение 51, площадью 32,6 кв. м (Этаж № 4), кадастровый номер: 77:06:0002006:1379",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Академический, ул. Вавилова, дом 53 к. 3",
+          "area_m2": 15.4,
+          "cadastral_number": null,
+          "external_id": "21000005000000035095:1:21000005000000035095:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Жилые помещения"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "согласно информационному сообщению"
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2027-01-14T12:00:00Z",
+      "deposit_minor": 10000000,
+      "description": "Продажа имущества, находящегося в собственности города Москвы, жилое помещение по адресу: г. Москва, ул. Вавилова, д. 53, корп. 3, жилое помещение 47, площадью 15,4 кв. м (Этаж № 4), кадастровый номер: 77:06:0002006:1375",
+      "documents": [
+        {
+          "title": "Квартира.Памятка победителя.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a00a20e814f55022f3"
+        },
+        {
+          "title": "Квартира.Памятка победителя.17007265_2.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a10a20e814f55022f6"
+        },
+        {
+          "title": "Квартира.Лотовая документация.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a171e81676cf25d815"
+        },
+        {
+          "title": "Квартира.Проект договора.17007265.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a20a20e814f55022fa"
+        },
+        {
+          "title": "Квартира.Распоряжение Департамента городского имущества города Москвы.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a30a20e814f55022fd"
+        },
+        {
+          "title": "Квартира.Форма заявки на участие.17007265.doc",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a371e81676cf25d819"
+        },
+        {
+          "title": "Квартира.Поэтажный план БТИ.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a4bbadc91d6277f925"
+        },
+        {
+          "title": "Квартира.Выписка ЕГРН.17007265.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8a4f55f77353da1c146"
+        },
+        {
+          "title": "Квартира.Отчет об оценке.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8b1f55f77353da1c1c2"
+        },
+        {
+          "title": "Квартира.Экспертное заключение СРО.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8b271e81676cf25d83b"
+        },
+        {
+          "title": "Квартира.Выписка из тех паспорта БТИ.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8b271e81676cf25d83e"
+        },
+        {
+          "title": "Квартира.Выписка из домовой книги.17007265.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8b30a20e814f5502319"
+        },
+        {
+          "title": "Квартира.Фото объекта.17007265.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6f8bc0a20e814f5502371"
+        }
+      ],
+      "external_id": "21000005000000035095:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-akademicheskiy",
+      "municipality_name": "вн.тер.г. муниципальный округ Академический",
+      "organizer": "ДЕПАРТАМЕНТ ГОРОДА МОСКВЫ ПО КОНКУРЕНТНОЙ ПОЛИТИКЕ",
+      "platform_url": null,
+      "price_minor": 455500000,
+      "procedure": "municipal",
+      "procedure_id": "21000005000000035095",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T11:58:26.652000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000005000000035095",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в собственности города Москвы, жилое помещение по адресу: г. Москва, ул. Вавилова, д. 53, корп. 3, жилое помещение 47, площадью 15,4 кв. м (Этаж № 4), кадастровый номер: 77:06:0002006:1375",
       "transaction": "sale"
     },
     {
@@ -91834,6 +94573,84 @@
     {
       "assets": [
         {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Хамовники, пер. Новоконюшенный, дом 14, кв. 49 кв. 49",
+          "area_m2": 94.6,
+          "cadastral_number": null,
+          "external_id": "21000030950000002158:1:21000030950000002158:1",
+          "kind": "kvartiry",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Жилые помещения"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор купли-продажи"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "В соответствии с Информационным сообщением"
+        }
+      ],
+      "category": "kvartiry",
+      "deadline": "2026-11-20T13:00:00Z",
+      "deposit_minor": 491853475,
+      "description": "Содержится в Информационном сообщении",
+      "documents": [
+        {
+          "title": "Выписка ЕГРН. 770100050033060.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70ad7f55f77353da1e9ce"
+        },
+        {
+          "title": "Распоряжение.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70ad6f55f77353da1e9c7"
+        },
+        {
+          "title": "Приложение 1_Заявка_эл форма_НИ_Аукцион.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70af6bbadc91d62781d8d"
+        },
+        {
+          "title": "Проект ДКП НИ аукцион (менее 100 млн. руб.) без ЗУ.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70af6f55f77353da1ea46"
+        },
+        {
+          "title": "Форма описи.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70af671e81676cf26021c"
+        },
+        {
+          "title": "Информационное сообщение (3).docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af70b6771e81676cf260253"
+        }
+      ],
+      "external_id": "21000030950000002158:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-hamovniki",
+      "municipality_name": "вн.тер.г. муниципальный округ Хамовники",
+      "organizer": "ФЕДЕРАЛЬНОЕ АГЕНТСТВО ПО УПРАВЛЕНИЮ ГОСУДАРСТВЕННЫМ ИМУЩЕСТВОМ",
+      "platform_url": null,
+      "price_minor": 4918534750,
+      "procedure": "municipal",
+      "procedure_id": "21000030950000002158",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-13T13:07:49.062000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/21000030950000002158",
+      "status": "accepting",
+      "title": "Аукцион в электронной форме по продаже помещения (квартиры) с кадастровым номером 77:01:0005003:3060, расположенного по адресу: г. Москва, вн.тер.г. муниципальный округ Хамовники, пер. Новоконюшенный, д. 14, кв. 49",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
           "address": "г. Москва, вн.тер.г. муниципальный округ Сокольники, ул. 4-я Сокольническая, дом 1 к. 1 кв. 31",
           "area_m2": 97.4,
           "cadastral_number": null,
@@ -92600,6 +95417,228 @@
       "status": "accepting",
       "title": "Высвобождаемое движимое военное имущество (автомобиль)",
       "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Выхино-Жулебино, пр-д Сормовский, з/у 6 , Бокс № 5, 1 эт., ком. 1, 2",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "22000015760000000263:1:22000015760000000263:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Иное"
+        },
+        {
+          "title": "Назначение",
+          "value": "Годные остатки"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "3"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-11-29T14:00:00Z",
+      "deposit_minor": 3559950,
+      "description": "Движимое имущество, расположенное по адресу: 109444, г. Москва, внутриг. тер. муницип. округ Выхино-Жулебино, Сормовский пр-д, зу 6, Бокс № 5, 1 эт.,  ком. 1, 2",
+      "documents": [
+        {
+          "title": "Извещение_лот 1.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2cc60606d984ced91e662"
+        },
+        {
+          "title": "Проект договора аренды_лот 1.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2cc68f55f77353d9d249a"
+        },
+        {
+          "title": "Аукционная документация 1_26-27 от 13.11.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2c48f606d984ced91d50d"
+        },
+        {
+          "title": "Образцы форм и документов для заполнения заявителем.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2c498f55f77353d9d1633"
+        }
+      ],
+      "external_id": "22000015760000000263:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-vyhino-zhulebino",
+      "municipality_name": "вн.тер.г. муниципальный округ Выхино-Жулебино",
+      "organizer": "ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ НАУЧНОЕ УЧРЕЖДЕНИЕ \"ФЕДЕРАЛЬНЫЙ НАУЧНЫЙ АГРОИНЖЕНЕРНЫЙ ЦЕНТР ВИМ\"",
+      "platform_url": null,
+      "price_minor": 3559950,
+      "procedure": "municipal",
+      "procedure_id": "22000015760000000263",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T08:19:10.583000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000015760000000263",
+      "status": "accepting",
+      "title": "Право на заключение договора аренды нежилых помещений, 72,9 кв.м",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Выхино-Жулебино, пр-д Сормовский, з/у 6 , Бокс № 6, 1 эт., ком. 1",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "22000015760000000263:2:22000015760000000263:2",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Иное"
+        },
+        {
+          "title": "Назначение",
+          "value": "Годные остатки"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "3"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-11-29T14:00:00Z",
+      "deposit_minor": 3589250,
+      "description": "Движимое имущество, расположенное по адресу: 109444, г. Москва, внутриг. тер. муницип. округ Выхино-Жулебино, Сормовский пр-д, зу 6, Бокс № 6, 1 эт., ком. 1",
+      "documents": [
+        {
+          "title": "Извещение_лот 2.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2cea9f55f77353d9d2871"
+        },
+        {
+          "title": "Проект договора аренды_лот 2.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2ced42c4c500c90754d77"
+        },
+        {
+          "title": "Аукционная документация 1_26-27 от 13.11.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2c48f606d984ced91d50d"
+        },
+        {
+          "title": "Образцы форм и документов для заполнения заявителем.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2c498f55f77353d9d1633"
+        }
+      ],
+      "external_id": "22000015760000000263:2",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-vyhino-zhulebino",
+      "municipality_name": "вн.тер.г. муниципальный округ Выхино-Жулебино",
+      "organizer": "ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ НАУЧНОЕ УЧРЕЖДЕНИЕ \"ФЕДЕРАЛЬНЫЙ НАУЧНЫЙ АГРОИНЖЕНЕРНЫЙ ЦЕНТР ВИМ\"",
+      "platform_url": null,
+      "price_minor": 3589250,
+      "procedure": "municipal",
+      "procedure_id": "22000015760000000263",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T08:19:10.583000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000015760000000263",
+      "status": "accepting",
+      "title": "Право на заключение договора аренды нежилых помещений, 73,5 кв.м",
+      "transaction": "rent_unspecified"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Выхино-Жулебино, пр-д Сормовский, з/у 6 , Бокс № 7, 1 эт., ком. 1",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "22000015760000000263:3:22000015760000000263:3",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Федеральная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Иное"
+        },
+        {
+          "title": "Назначение",
+          "value": "Годные остатки"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "3"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-11-29T14:00:00Z",
+      "deposit_minor": 2158434,
+      "description": "Движимое имущество, расположенное по адресу: 109444, г. Москва, внутриг. тер. муницип. округ Выхино-Жулебино, Сормовский пр-д, зу 6, Бокс № 7, 1 эт., ком. 1",
+      "documents": [
+        {
+          "title": "Извещение_лот 3.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2d10df55f77353d9d2eea"
+        },
+        {
+          "title": "Проект договора аренды_лот 3.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2d12c606d984ced91f1c5"
+        },
+        {
+          "title": "Аукционная документация 1_26-27 от 13.11.2026.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2c48f606d984ced91d50d"
+        },
+        {
+          "title": "Образцы форм и документов для заполнения заявителем.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af2c498f55f77353d9d1633"
+        }
+      ],
+      "external_id": "22000015760000000263:3",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-vyhino-zhulebino",
+      "municipality_name": "вн.тер.г. муниципальный округ Выхино-Жулебино",
+      "organizer": "ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ НАУЧНОЕ УЧРЕЖДЕНИЕ \"ФЕДЕРАЛЬНЫЙ НАУЧНЫЙ АГРОИНЖЕНЕРНЫЙ ЦЕНТР ВИМ\"",
+      "platform_url": null,
+      "price_minor": 2158434,
+      "procedure": "municipal",
+      "procedure_id": "22000015760000000263",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Аренда — период начальной платы уточняется в извещении",
+      "source_updated_at": "2026-11-13T08:19:10.583000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000015760000000263",
+      "status": "accepting",
+      "title": "Право на заключение договора аренды нежилых помещений, 44,2 кв.м",
+      "transaction": "rent_unspecified"
     },
     {
       "assets": [
@@ -98977,6 +102016,96 @@
           "address": "г. Москва, вн.тер.г. муниципальный округ Северный, ш. Дмитровское, дом 165Е к. 6",
           "area_m2": 11.6,
           "cadastral_number": null,
+          "external_id": "22000085440000001549:1:22000085440000001549:1",
+          "kind": "parking",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Собственность субъектов РФ"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Гаражи и машиноместа"
+        },
+        {
+          "title": "Требования к участникам",
+          "value": "Для участия в торгах необходимо прикрепить заявку на участие в торгах по форме Приложения 1 к информационному сообщению (документации об аукционе) и иные документы в соответствии с требованиями информационного сообщения (документации об аукционе)"
+        }
+      ],
+      "category": "parking",
+      "deadline": "2027-01-12T12:00:00Z",
+      "deposit_minor": 26448000,
+      "description": "Продажа имущества, находящегося в оперативном управлении ГБУ \"Жилищник района Северный\", по адресу: город Москва, вн.тер.г. муниципальный округ Северный, шоссе Дмитровское, дом 165Е, корпус 6, машино-место 14, площадью 11,6 кв. м, кадастровый номер 77:02:0025013:6833",
+      "documents": [
+        {
+          "title": "Машино-место.Проект договора.16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce14bbadc91d6276e9a1"
+        },
+        {
+          "title": "Машино-место.Распоряжение Департамента городского имущества города Москвы.16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce14bbadc91d6276e9a4"
+        },
+        {
+          "title": "Машино-место.Форма заявки на участие.16961528.docx",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce1571e81676cf24b0ae"
+        },
+        {
+          "title": "Машино-место.Лотовая документация.16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce150a20e814f54eee46"
+        },
+        {
+          "title": "Машино-место.Памятка победителя.16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce16f55f77353da092cb"
+        },
+        {
+          "title": "Машино-место.Поэтажный план БТИ.16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/698c81e59dbd2f061ec93c2c"
+        },
+        {
+          "title": "Машино-место.Список помещений объекта по БТИ (экспликация).16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/698c81e55bac0f52a2becc3b"
+        },
+        {
+          "title": "Машино-место.Выписка ЕГРН.16961528.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce1871e81676cf24b0b7"
+        },
+        {
+          "title": "Машино-место.Отчет об оценке.16961528.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af5ce1c71e81676cf24b0dd"
+        },
+        {
+          "title": "Машино-место.Фото объекта.16961528.zip",
+          "url": "https://torgi.gov.ru/new/file-store/v1/698c81e85bac0f52a2becc48"
+        }
+      ],
+      "external_id": "22000085440000001549:1",
+      "municipality": "vn-ter-g-munitsipalnyy-okrug-severnyy",
+      "municipality_name": "вн.тер.г. муниципальный округ Северный",
+      "organizer": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ \"ЖИЛИЩНИК РАЙОНА СЕВЕРНЫЙ\"",
+      "platform_url": null,
+      "price_minor": 132240000,
+      "procedure": "municipal",
+      "procedure_id": "22000085440000001549",
+      "region": "moskva",
+      "region_name": "Москва",
+      "right_description": "Продажа имущества",
+      "source_updated_at": "2026-11-12T15:28:42.471000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/22000085440000001549",
+      "status": "accepting",
+      "title": "Продажа имущества, находящегося в оперативном управлении ГБУ \"Жилищник района Северный\", по адресу: город Москва, вн.тер.г. муниципальный округ Северный, шоссе Дмитровское, дом 165Е, корпус 6, машино-место 14, площадью 11,6 кв. м, кадастровый номер 7",
+      "transaction": "sale"
+    },
+    {
+      "assets": [
+        {
+          "address": "г. Москва, вн.тер.г. муниципальный округ Северный, ш. Дмитровское, дом 165Е к. 6",
+          "area_m2": 11.6,
+          "cadastral_number": null,
           "external_id": "22000085440000001550:1:22000085440000001550:1",
           "kind": "parking",
           "latitude": null,
@@ -104671,6 +107800,84 @@
       "source_url": "https://torgi.gov.ru/new/public/notices/view/23000024270000000854",
       "status": "accepting",
       "title": "Объект аренды, площадь 170,3 кв. м, номера на поэтажном плане: этаж 1, пом. I, ком. 9 - 16, 21а, адрес (местонахождение) объекта:  Российская Федерация, город Москва, вн.тер.г. муниципальный округ  Новокосино, улица Салтыковская, дом 27",
+      "transaction": "annual_rent"
+    },
+    {
+      "assets": [
+        {
+          "address": "обл Московская, м.о. Чехов, г Чехов, ул Гагарина, дом 106",
+          "area_m2": null,
+          "cadastral_number": null,
+          "external_id": "23000024270000000855:1:23000024270000000855:1",
+          "kind": "commercial",
+          "latitude": null,
+          "location_accuracy": "unknown",
+          "longitude": null
+        }
+      ],
+      "attributes": [
+        {
+          "title": "Форма собственности",
+          "value": "Иная собственность"
+        },
+        {
+          "title": "Категория объекта источника",
+          "value": "Здания"
+        },
+        {
+          "title": "Вид договора",
+          "value": "Договор аренды"
+        },
+        {
+          "title": "Срок действия договора - лет",
+          "value": "5"
+        }
+      ],
+      "category": "commercial",
+      "deadline": "2026-12-21T15:00:00Z",
+      "deposit_minor": 4257600,
+      "description": "Объект аренды, площадь 242,4 кв. м, номера на поэтажном плане: этаж 1, пом. 1, ком. 9 - 15, 18, 23 - 33, адрес (местонахождение) объекта: Московская область, Чеховский район, городское поселение Чехов, г. Чехов, ул. Гагарина, 106",
+      "documents": [
+        {
+          "title": "АД_МО, Чеховский район, г. Чехов, ул. Гагарина, д. 106.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c6c90a20e814f54fbb30"
+        },
+        {
+          "title": "ИЗВЕЩЕНИЕ_МО, Чеховский район, г. Чехов, ул. Гагарина, д. 106, 24.12.2026 П.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c6c8bbadc91d6277a139"
+        },
+        {
+          "title": "ПД_Типовая форма договора 58-26-ТФДд.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c6c9bbadc91d6277a141"
+        },
+        {
+          "title": "Заявка на участие в аукционе..pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c6d471e81676cf257323"
+        },
+        {
+          "title": "Информационное письмо (Потенциальному участнику торгов).pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c6d471e81676cf257322"
+        },
+        {
+          "title": "выписка из ЕГРН - МО, г. Чехов, ул. Гагарина.pdf",
+          "url": "https://torgi.gov.ru/new/file-store/v1/6af6c7860a20e814f54fbcc4"
+        }
+      ],
+      "external_id": "23000024270000000855:1",
+      "municipality": "m-o-chehov",
+      "municipality_name": "м.о. Чехов",
+      "organizer": "УФПС Г.МОСКВЫ",
+      "platform_url": null,
+      "price_minor": 51091547,
+      "procedure": "other",
+      "procedure_id": "23000024270000000855",
+      "region": "moskovskaya-oblast",
+      "region_name": "Московская область",
+      "right_description": "Годовая арендная плата",
+      "source_updated_at": "2026-11-13T08:22:54.652000Z",
+      "source_url": "https://torgi.gov.ru/new/public/notices/view/23000024270000000855",
+      "status": "accepting",
+      "title": "Объект аренды, площадь 242,4 кв. м, номера на поэтажном плане: этаж 1, пом. 1, ком. 9 - 15, 18, 23 - 33, адрес (местонахождение) объекта: Московская область, Чеховский район, городское поселение Чехов, г. Чехов, ул. Гагарина, 106",
       "transaction": "annual_rent"
     },
     {
